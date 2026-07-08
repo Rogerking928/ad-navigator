@@ -131,6 +131,12 @@ def build_html():
                         "<script>\n" + content_js + "\n</script>")
     html = html.replace('<script src="data/research.js"></script>',
                         "<script>\n" + research_js + "\n</script>")
+    try:
+        refs_js = (ROOT / "data" / "references.js").read_text(encoding="utf-8")
+    except Exception:
+        refs_js = "window.AD_REFERENCES=null;"
+    html = html.replace('<script src="data/references.js"></script>',
+                        "<script>\n" + refs_js + "\n</script>")
     html = html.replace('<script src="assets/app.js"></script>',
                         "<script>\n" + app_js + "\n</script>")
     return html, research
