@@ -228,6 +228,7 @@
     $("#pathOverlay").classList.add("open");
     document.body.style.overflow = "hidden";
     panel.scrollTop = 0;
+    hideSuggest();
     if (window.location.hash !== "#/" + id) history.replaceState(null, "", "#/" + id);
   }
 
@@ -241,16 +242,31 @@
   }
 
   /* ---------------------- search ---------------------------- */
-  function filterScenarios(q) {
+  function matchList(q) {
     q = (q || "").trim().toLowerCase();
-    if (!q) { renderScenarios(SCENARIOS); return; }
+    if (!q) return SCENARIOS.slice();
     var terms = q.split(/\s+/);
-    var list = SCENARIOS.filter(function (s) {
+    return SCENARIOS.filter(function (s) {
       var hay = (t(s.title) + " " + t(s.sub) + " " + (s.keywords || []).join(" ") + " " + t(s.intro)).toLowerCase();
       return terms.some(function (x) { return hay.indexOf(x) !== -1; });
     });
-    renderScenarios(list);
   }
+  function filterScenarios(q) { renderScenarios(matchList(q)); buildSuggest(q); }
+
+  function buildSuggest(q) {
+    var box = $("#scnSuggest");
+    if (!box) return;
+    if (!(q || "").trim()) { box.classList.remove("open"); box.innerHTML = ""; return; }
+    var list = matchList(q).slice(0, 8);
+    if (!list.length) { box.classList.remove("open"); box.innerHTML = ""; return; }
+    box.innerHTML = list.map(function (s) {
+      return '<div class="suggest-item" data-id="' + esc(s.id) + '"><span class="si-ic">' + s.ic +
+        '</span><span class="si-t">' + esc(t(s.title)) + '</span><span class="si-g">' +
+        esc(t(GROUPS[s.group].name)) + "</span></div>";
+    }).join("");
+    box.classList.add("open");
+  }
+  function hideSuggest() { var b = $("#scnSuggest"); if (b) b.classList.remove("open"); }
 
   /* ---------------------- research feed --------------------- */
   function renderResearch() {
@@ -347,6 +363,7 @@
     if (e.target.closest(".js-home")) { window.scrollTo({ top: 0, behavior: "smooth" }); }
     var faq = e.target.closest(".faq-q");
     if (faq) { faq.parentElement.classList.toggle("open"); }
+    if (!e.target.closest(".finder")) hideSuggest();
   });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closePath(); });
   $("#scnSearch").addEventListener("input", function (e) { filterScenarios(e.target.value); });

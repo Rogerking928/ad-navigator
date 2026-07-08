@@ -32,22 +32,7 @@ window.AD_REFERENCES = {
         { title: "Eczema in babies and children", org: "Pregnancy, Birth & Baby (Australia, govt-funded)", url: "https://www.pregnancybirthbaby.org.au/eczema-babies-and-children" }
       ]
     },
-    {
-      label: { en: "Taiwan official & society sources", zh: "台灣官方與醫學會來源" },
-      items: [
-        { title: "異位性皮膚炎真的好難受—三大治療來改善", org: "衛生福利部 MOHW", url: "https://www.mohw.gov.tw/cp-5274-72611-1.html" },
-        { title: "2020 臺灣皮膚科醫學會 異位性皮膚炎診療共識手冊", org: "台灣皮膚科醫學會 TDA", url: "https://www.derma.org.tw/clinical/content.php?id=66" },
-        { title: "中度／重度異位性皮膚炎 醫病共享決策 (SDM)", org: "台灣皮膚科醫學會 TDA", url: "https://www.derma.org.tw/resources/content.php?id=105" },
-        { title: "臨床指引 — 異位性皮膚炎", org: "台灣皮膚科醫學會 TDA", url: "https://www.derma.org.tw/clinical/index.php?t=4" },
-        { title: "藥品仿單查詢平台（可查 Dupixent／JAK 官方仿單）", org: "衛福部食藥署 TFDA", url: "https://mcp.fda.gov.tw/" },
-        { title: "藥品給付規定 第13節 皮膚科製劑（異膚生物製劑／口服小分子）", org: "中央健康保險署 NHI", url: "https://www.nhi.gov.tw/ch/dl-71979-af58e0cc46b446dab2f86d4df129dba7-1.pdf" },
-        { title: "異位性皮膚炎 衛教資訊與醫病共享決策", org: "衛福部彰化醫院", url: "https://www.chhw.mohw.gov.tw/?aid=337&pid=0&page_name=detail&iid=675" },
-        { title: "兒童異位性皮膚炎治療新利器（生物製劑）", org: "臺大醫院新竹臺大分院", url: "https://www.hch.gov.tw/?aid=503&pid=0&page_name=detail&iid=294" },
-        { title: "台灣兒童異位性皮膚炎 診療及衛教指引手冊", org: "台灣兒童過敏氣喘免疫及風濕病醫學會 TAPAAIR", url: "https://www.air.org.tw/" },
-        { title: "淺談預防異位性皮膚炎的實證與迷思", org: "臺大醫院皮膚部", url: "https://epaper.ntuh.gov.tw/health/202111/child_1.html" },
-        { title: "小兒異位性皮膚炎", org: "臺大醫院小兒過敏免疫科", url: "https://epaper.ntuh.gov.tw/health/201702/child_2.html" }
-      ]
-    },
+    
     {
       label: { en: "Guidelines & key literature", zh: "指南與重要文獻" },
       items: [

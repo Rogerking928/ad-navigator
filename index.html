@@ -53,7 +53,10 @@
       <p data-i18n="hero_p">This isn't an encyclopedia.</p>
       <div class="finder">
         <label data-i18n="finder_label">🔎 What are you dealing with right now?</label>
-        <input id="scnSearch" type="text" placeholder="" autocomplete="off" />
+        <div class="search-wrap">
+          <input id="scnSearch" type="text" placeholder="" autocomplete="off" />
+          <div id="scnSuggest" class="suggest"></div>
+        </div>
         <div class="quick" id="quickChips"></div>
       </div>
     </div>

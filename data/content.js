@@ -60,7 +60,6 @@ window.AD_CONTENT = {
           { title: "Atopic dermatitis: Self-care", org: "American Academy of Dermatology", url: "https://www.aad.org/public/diseases/eczema/types/atopic-dermatitis/self-care" },
           { title: "Atopic eczema — Treatment", org: "NHS", url: "https://www.nhs.uk/conditions/atopic-eczema/treatment/" },
           { title: "Atopic dermatitis — self-care", org: "NIH / MedlinePlus", url: "https://medlineplus.gov/ency/patientinstructions/000418.htm" },
-          { title: "異位性皮膚炎—三大治療來改善", org: "衛生福利部 MOHW", url: "https://www.mohw.gov.tw/cp-5274-72611-1.html" },
           { title: "AAD guideline: topical therapies (2023)", org: "American Academy of Dermatology · JAAD", url: "https://doi.org/10.1016/j.jaad.2022.12.029" }
         ]
       },
@@ -148,8 +147,7 @@ window.AD_CONTENT = {
           { title: "Atopic dermatitis: Diagnosis and treatment", org: "American Academy of Dermatology", url: "https://www.aad.org/public/diseases/eczema/types/atopic-dermatitis/treatment" },
           { title: "Atopic eczema", org: "NHS", url: "https://www.nhs.uk/conditions/atopic-eczema/" },
           { title: "Atopic Dermatitis (Eczema) — overview", org: "NIH / NIAMS", url: "https://www.niams.nih.gov/health-topics/atopic-dermatitis" },
-          { title: "Atopic dermatitis — Medical Encyclopedia", org: "NIH / MedlinePlus", url: "https://medlineplus.gov/ency/article/000853.htm" },
-          { title: "2020 臺灣皮膚科醫學會 異位性皮膚炎診療共識", org: "台灣皮膚科醫學會 TDA", url: "https://www.derma.org.tw/clinical/content.php?id=66" }
+          { title: "Atopic dermatitis — Medical Encyclopedia", org: "NIH / MedlinePlus", url: "https://medlineplus.gov/ency/article/000853.htm" }
         ]
       },
       next: ["itch","steroid","daily","child"]
@@ -194,9 +192,7 @@ window.AD_CONTENT = {
           { title: "Biologics & Injectables for Eczema", org: "National Eczema Association", url: "https://nationaleczema.org/eczema/treatment/injectibles/" },
           { title: "Rinvoq (Upadacitinib) FAQ", org: "National Eczema Association", url: "https://nationaleczema.org/faq-upadacitinib/" },
           { title: "Dupilumab (Dupixent) — patient drug info", org: "NIH / MedlinePlus", url: "https://medlineplus.gov/druginfo/meds/a617021.html" },
-          { title: "Dupilumab for moderate-to-severe AD (TA534)", org: "NICE (UK)", url: "https://www.nice.org.uk/guidance/ta534" },
-          { title: "藥品給付規定 第13節（異膚生物製劑／JAK）", org: "中央健康保險署 NHI", url: "https://www.nhi.gov.tw/ch/dl-71979-af58e0cc46b446dab2f86d4df129dba7-1.pdf" },
-          { title: "中／重度異位性皮膚炎 醫病共享決策", org: "台灣皮膚科醫學會 TDA", url: "https://www.derma.org.tw/resources/content.php?id=105" }
+          { title: "Dupilumab for moderate-to-severe AD (TA534)", org: "NICE (UK)", url: "https://www.nice.org.uk/guidance/ta534" }
         ]
       },
       next: ["stopping","steroid","sleep","travel"]
@@ -240,7 +236,6 @@ window.AD_CONTENT = {
           { title: "Topical Steroid Withdrawal (TSW)", org: "National Eczema Association", url: "https://nationaleczema.org/treatments/topical-steroid-withdrawal/" },
           { title: "Updated guidelines: atopic dermatitis with topical therapies", org: "American Academy of Dermatology", url: "https://www.aad.org/news/updated-atopic-dermatitis-guidelines-topical-therapies" },
           { title: "Atopic dermatitis — self-care", org: "NIH / MedlinePlus", url: "https://medlineplus.gov/ency/patientinstructions/000418.htm" },
-          { title: "異位性皮膚炎—三大治療來改善", org: "衛生福利部 MOHW", url: "https://www.mohw.gov.tw/cp-5274-72611-1.html" },
           { title: "Topical anti-inflammatory treatments for eczema (network meta-analysis)", org: "Cochrane", url: "https://doi.org/10.1002/14651858.CD015064.pub2" }
         ]
       },
@@ -329,9 +324,7 @@ window.AD_CONTENT = {
           { title: "Severe eczema — should I eliminate certain foods?", org: "ACAAI", url: "https://acaai.org/resource/my-child-has-severe-eczema-should-i-eliminate-certain-foods-from-their-diet/" },
           { title: "Eczema in Children", org: "National Eczema Association", url: "https://nationaleczema.org/eczema/children/" },
           { title: "Atopic dermatitis in children — home care", org: "NIH / MedlinePlus", url: "https://medlineplus.gov/ency/patientinstructions/000939.htm" },
-          { title: "Atopic eczema in under-12s: diagnosis & management (CG57)", org: "NICE (UK)", url: "https://www.nice.org.uk/guidance/cg57" },
-          { title: "台灣兒童異位性皮膚炎 診療及衛教指引手冊", org: "兒童過敏氣喘免疫及風濕病醫學會 TAPAAIR", url: "https://www.air.org.tw/" },
-          { title: "小兒異位性皮膚炎", org: "臺大醫院小兒過敏免疫科", url: "https://epaper.ntuh.gov.tw/health/201702/child_2.html" }
+          { title: "Atopic eczema in under-12s: diagnosis & management (CG57)", org: "NICE (UK)", url: "https://www.nice.org.uk/guidance/cg57" }
         ]
       },
       next: ["itch","steroid","newly","seasonal"]
@@ -374,8 +367,7 @@ window.AD_CONTENT = {
           { title: "How to treat eczema during pregnancy", org: "American Academy of Dermatology", url: "https://www.aad.org/public/diseases/eczema/adult/pregnancy" },
           { title: "Pregnancy and eczema", org: "National Eczema Society (UK)", url: "https://www.eczema.org.uk/support/pregnancy-and-eczema" },
           { title: "Atopic dermatitis", org: "DermNet", url: "https://dermnetnz.org/topics/atopic-dermatitis" },
-          { title: "EuroGuiDerm guideline on atopic eczema — Part I (systemic; special populations)", org: "EADV / ETFAD · JEADV", url: "https://doi.org/10.1111/jdv.18345" },
-          { title: "淺談預防異位性皮膚炎的實證與迷思（含孕期）", org: "臺大醫院皮膚部", url: "https://epaper.ntuh.gov.tw/health/202111/child_1.html" }
+          { title: "EuroGuiDerm guideline on atopic eczema — Part I (systemic; special populations)", org: "EADV / ETFAD · JEADV", url: "https://doi.org/10.1111/jdv.18345" }
         ]
       },
       next: ["itch","steroid","stress","biologics"]
@@ -545,7 +537,6 @@ window.AD_CONTENT = {
           { title: "Atopic dermatitis: Tips for managing", org: "American Academy of Dermatology", url: "https://www.aad.org/public/diseases/eczema/types/atopic-dermatitis/atopic-dermatitis-coping" },
           { title: "Atopic eczema — Treatment", org: "NHS", url: "https://www.nhs.uk/conditions/atopic-eczema/treatment/" },
           { title: "Atopic dermatitis — self-care", org: "NIH / MedlinePlus", url: "https://medlineplus.gov/ency/patientinstructions/000418.htm" },
-          { title: "異位性皮膚炎 衛教與六大日常照護", org: "衛福部彰化醫院", url: "https://www.chhw.mohw.gov.tw/?aid=337&pid=0&page_name=detail&iid=675" },
           { title: "Emollients and moisturisers for eczema (systematic review)", org: "Cochrane", url: "https://doi.org/10.1002/14651858.CD012119.pub2" }
         ]
       },
