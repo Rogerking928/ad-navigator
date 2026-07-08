@@ -32,7 +32,7 @@
   // UI strings
   var STR = {
     tagline:      { en: "Atopic Dermatitis · by situation", zh: "異位性皮膚炎・情境導航" },
-    topbar:       { en: "AD Navigator — you don't have to read a whole dermatology textbook. Start with what you're facing right now.", zh: "AD Navigator — 不用讀完整本皮膚科，先從你此刻的狀況開始。" },
+    topbar:       { en: "AD Navigator — you don't need to figure out all of dermatology. Let's start with what you're facing right now.", zh: "AD Navigator — 別擔心，你不需要先讀懂整本皮膚科；我們從你眼前的狀況開始，陪你慢慢來。" },
     nav_scen:     { en: "Situations", zh: "情境" },
     nav_latest:   { en: "Latest research", zh: "最新研究" },
     nav_refs:     { en: "References", zh: "參考資料庫" },
@@ -40,7 +40,7 @@
     nav_about:    { en: "About", zh: "關於" },
     hero_eyebrow: { en: "Tell us where you are", zh: "告訴我你的狀況" },
     hero_h1:      { en: "Tell us your <span class='accent'>situation</span><br>we'll help you find the next step", zh: "告訴我你<span class='accent'>現在的狀況</span><br>我幫你找到下一步" },
-    hero_p:       { en: "This isn't an encyclopedia. You don't have to learn all of dermatology first — pick the situation closest to where you are, and we'll turn care advice, common questions, public-guideline sources, and real community links into one clear path, then point you to what to look at next.", zh: "這裡不是百科。你不必先學完整本皮膚科——選一個最貼近你現在處境的情境，我把照護建議、常見問題、公開指南出處與真實病友社群，整理成一條清楚的路徑，並告訴你「接下來可以看什麼」。" },
+    hero_p:       { en: "This isn't an encyclopedia. You don't need to figure out all of dermatology first — just pick the situation closest to where you are, and we'll gather the care advice, common questions, public-guideline sources, and real community support into one clear path, then walk you toward what to look at next.", zh: "這裡不是厚厚的百科。你不需要先讀懂整本皮膚科——只要選一個最貼近你現在處境的狀況，我們會把照護建議、常見的疑問、公開指南出處和真實病友社群，整理成一條清楚好走的路，再陪你看看下一步可以往哪裡走。" },
     finder_label: { en: "🔎 What are you dealing with right now?", zh: "🔎 你現在遇到什麼狀況？" },
     finder_ph:    { en: "e.g. really itchy, can't sleep, biologics, pregnant, travel, my child…", zh: "例如：一直很癢、睡不好、生物製劑、懷孕、旅行、小孩…" },
     disclaimer:   { en: "General education summarized from public guidelines & patient organizations — <b>not individual medical advice</b>. Discuss medication, dosage, and stopping treatment with your own doctor.", zh: "本站為公開指南與病友組織的一般衛教整理 — <b>非個別醫療建議</b>。用藥、劑量與停藥請與您的主治醫師討論。" },
@@ -65,7 +65,7 @@
     how_3p:       { en: "Every path ends by pointing you to the related situations worth reading next.", zh: "每條路徑結尾都會導向值得接著看的相關情境。" },
     about_eye:    { en: "About", zh: "關於" },
     about_h2:     { en: "Why a navigator, not an encyclopedia", zh: "為什麼是導航，不是百科" },
-    about_p:      { en: "Most people don't want to study all of dermatology — they want to solve the problem in front of them. Care content is summarized from public treatment guidelines and government/patient organizations (AAD, National Eczema Association, NHS, NICE, DermNet, NIH/NIAMS, ACAAI and official agencies), and every path lists its sources. The research feed updates automatically from PubMed and ClinicalTrials.gov. We do not publish fabricated patient stories — real community links are provided instead. Nothing here replaces diagnosis and treatment by your own clinician.", zh: "大多數人不想學完整本皮膚科，只想解決眼前的問題。照護內容整理自公開治療指南與政府／病友組織（AAD、國家濕疹協會、NHS、NICE、DermNet、NIH/NIAMS、ACAAI 及官方機關），每條路徑都列出出處。研究快訊自動更新自 PubMed 與 ClinicalTrials.gov。我們不刊登虛構的病友故事，改附真實社群連結。本站不能取代醫師的診斷與治療。" },
+    about_p:      { en: "When you're unwell, you usually don't want to study all of dermatology — you just want to gently sort out what's troubling you right now. That's what this is for. Care content is summarized from public treatment guidelines and government/patient organizations (AAD, National Eczema Association, NHS, NICE, DermNet, NIH/NIAMS, ACAAI and official agencies), and every path lists its sources. The research feed updates automatically from PubMed and ClinicalTrials.gov. We don't publish made-up patient stories — we link real communities instead. And nothing here replaces the care of your own doctor.", zh: "生病或不舒服的時候，多數人並不想從頭研究整個皮膚科，只想好好把眼前的困擾理清楚——這個網站就是為此而生。照護內容整理自公開治療指南與政府／病友組織（AAD、國家濕疹協會、NHS、NICE、DermNet、NIH/NIAMS、ACAAI 及官方機關），每一條路徑都會附上出處。研究快訊自動更新自 PubMed 與 ClinicalTrials.gov。我們不會刊登虛構的病友故事，而是連到真實的病友社群。當然，這裡的一切都不能取代你的醫師親自診斷與治療。" },
     foot_tag:     { en: "Starting from where you are, helping you find the next step. General education and community support — never a substitute for diagnosis and treatment.", zh: "從你此刻的處境出發，陪你找到下一步。一般衛教與社群支持，不能取代診斷與治療。" },
     foot_popular: { en: "Popular situations", zh: "熱門情境" },
     foot_site:    { en: "Site", zh: "網站" },
