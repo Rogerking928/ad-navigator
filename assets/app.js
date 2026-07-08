@@ -51,7 +51,7 @@
     latest_eye:   { en: "Today in AD", zh: "每日新知" },
     latest_h2:    { en: "Latest research & clinical trials", zh: "最新研究與臨床試驗" },
     latest_p:     { en: "Pulled automatically from PubMed and ClinicalTrials.gov so you always see what's new — while the care paths above stay clinician-reviewed.", zh: "自動從 PubMed 與 ClinicalTrials.gov 抓取，讓你隨時看到最新進展——上面的照護內容則維持醫師審閱。" },
-    latest_note:  { en: "ℹ️ These are technical research listings (titles shown in English, as published). They are not advice — discuss anything relevant with your doctor.", zh: "ℹ️ 以下是學術研究列表（標題為原文英文）。這些不是治療建議，若有相關請與醫師討論。" },
+    latest_note:  { en: "How to read this: below are the newest research papers and clinical trials, listed automatically. Titles are in the original English and are technical — we don't rewrite them into summaries, to avoid errors. These are NOT treatment advice; if something looks relevant, click through to read it or bring it to your doctor.", zh: "怎麼看這一區：以下是自動整理的「最新研究論文與臨床試驗」，標題是原文英文、屬專業內容。為避免出錯，我們不會自行改寫成摘要。這些不是治療建議——如果覺得跟你有關，點進去看原文，或截圖拿去問醫師。" },
     refs_eye:     { en: "Reference library", zh: "參考資料庫" },
     refs_h2:      { en: "Official & guideline sources", zh: "官方與指南來源" },
     refs_p:       { en: "Government health agencies, professional-society guidelines, and key literature — all public, all linked so you can read the originals.", zh: "政府衛生機關、專業醫學會指南與重要文獻——全部公開、附連結，讓你能讀原始資料。" },
@@ -92,6 +92,15 @@
     // community
     c_label:      { en: "Real communities & support", zh: "真實社群與支持" },
     c_intro:      { en: "We don't publish made-up patient stories. For real experiences and peer support, visit these patient organizations:", zh: "我們不刊登虛構的病友故事。想看真實經驗與同儕支持，可到這些病友組織：" }
+  };
+
+  // Faithful translation of ClinicalTrials.gov controlled-vocabulary statuses (not fabrication).
+  var STATUS_ZH = {
+    "Recruiting": "招募中", "Not Yet Recruiting": "尚未招募",
+    "Active Not Recruiting": "進行中（不再招募）", "Enrolling By Invitation": "邀請制招募",
+    "Completed": "已完成", "Terminated": "已終止", "Withdrawn": "已撤回",
+    "Suspended": "已暫停", "Unknown Status": "狀態不明",
+    "Available": "可取得", "No Longer Available": "不再提供"
   };
 
   var COMMUNITY_LINKS = [
@@ -261,8 +270,9 @@
         '<span class="res-go">' + t(STR.r_readpubmed) + "</span></a>";
     }
     function trialCard(x) {
+      var st = (LANG === "zh" && STATUS_ZH[x.status]) ? STATUS_ZH[x.status] : x.status;
       return '<a class="res-card" href="' + esc(x.url) + '" target="_blank" rel="noopener">' +
-        '<div class="res-meta">' + (x.status ? '<span class="res-badge">' + esc(x.status) + "</span>" : "") +
+        '<div class="res-meta">' + (st ? '<span class="res-badge">' + esc(st) + "</span>" : "") +
           (x.date ? " " + esc(x.date) : "") + "</div>" +
         '<div class="res-title">' + esc(x.title) + "</div>" +
         (x.conditions ? '<div class="res-auth">' + esc(x.conditions) + "</div>" : "") +

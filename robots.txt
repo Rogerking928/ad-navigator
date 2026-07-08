@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rogerking928.github.io/ad-navigator/sitemap.xml
