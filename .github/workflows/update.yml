@@ -1,0 +1,41 @@
+name: Update research feed
+
+# Refreshes data/research.js from PubMed + ClinicalTrials.gov.
+# Commits any change back to the repo, which triggers a GitHub Pages redeploy.
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # daily at 05:17 UTC
+  workflow_dispatch:        # allow manual "Run workflow" from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch latest research & trials
+        env:
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}   # optional; add in repo Settings > Secrets
+        run: python scripts/update_research.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "ad-navigator-bot"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain data/research.js)" ]; then
+            git add data/research.js
+            git commit -m "chore: auto-update research feed [skip ci]"
+            git push
+          else
+            echo "No changes to research.js."
+          fi

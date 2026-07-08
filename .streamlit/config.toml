@@ -1,0 +1,8 @@
+# AD Navigator theme — nude-rose palette to match the embedded site.
+[theme]
+base = "light"
+primaryColor = "#c79a6a"              # rose-gold accent
+backgroundColor = "#f8f1ec"           # nude cream
+secondaryBackgroundColor = "#f1e6df"
+textColor = "#3a2e2c"
+font = "sans serif"

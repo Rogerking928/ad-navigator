@@ -1,0 +1,98 @@
+AD Navigator — 異位性皮膚炎・情境導航（英文版．全球版）
+================================================================
+
+這是重做過的版本：內容全部改成英文、建立在網路上找得到的權威來源，
+而且設計成「資料與程式分開、可以自動更新、可以直接上 GitHub Pages 給全世界看」。
+
+（我們用中文溝通，網站本身給全球看所以是英文。）
+
+
+▍怎麼在自己電腦先看
+連點兩下資料夾裡的「index.html」→ 用瀏覽器開啟。
+完全本機、不用架站。（字型從 Google 載入，沒網路時字型會退回系統字，其餘照常。）
+
+
+▍網站在做什麼（和舊版一樣的核心概念，但更完整）
+不是百科，是「情境導航」：
+使用者選「我現在的狀況」→ 右側滑出一條路徑：
+  💡 What's going on（發生什麼事）
+  1  What you can do now（現在可以做的事）
+  ❓ Common questions（常見問題）
+  🚩 Red flags（紅旗警訊，部分情境才有）
+  📖 Guideline basis & sources（指南依據＋可點擊的真實出處連結）
+  💬 Community voice（病友心聲，已標註為示意）
+  🧭 Where to go next（下一步導航到相關情境）
+
+收錄 12 個情境，分四類（Right now / Treatment decisions / Life stages / Everyday life）。
+
+
+▍最重要的兩件事：真實出處 + 自動更新
+
+1) 真實出處（你要求的「網路上找得到的資料」+「出處」）
+   每條路徑最底下都有「Guideline basis & sources」，列出可點擊的真實連結，
+   來源都是權威機構：
+   - American Academy of Dermatology (AAD)
+   - National Eczema Association / National Eczema Society (UK)
+   - NHS、DermNet、NIH/NIAMS、ACAAI
+   這些都是研究員實際打開、確認存在的頁面。
+
+2) 自動更新（你選的：只有研究快訊自動、照護內容你審過才上）
+   首頁有一區「Latest research & clinical trials」，
+   會自動從 PubMed 和 ClinicalTrials.gov 抓「最新的異膚論文與臨床試驗」。
+   → 這一區由 scripts/update_research.py 產生，已實測可跑、抓到真實資料。
+   → 核心照護內容（12 個情境）放在 data/content.js，是「你審核、你修改」的檔案，
+     不會被程式亂改——符合醫療內容的安全原則。
+
+
+▍資料夾結構
+ad-navigator/
+├── index.html                 網站頁面
+├── assets/
+│   ├── styles.css             版型（沿用裸玫瑰粉配色）
+│   └── app.js                 情境渲染、路徑面板、搜尋、研究快訊
+├── data/
+│   ├── content.js             ★ 照護內容（你審核／可編輯）
+│   └── research.js            ☆ 研究快訊（程式自動產生，勿手改）
+├── scripts/
+│   └── update_research.py     抓 PubMed + ClinicalTrials.gov，改寫 research.js
+├── .github/workflows/
+│   └── update.yml             每天自動跑上面的腳本並 commit
+└── README.md                  英文說明（給 GitHub 上的人看）
+
+
+▍怎麼手動更新研究快訊（需要 Python 3，只用內建套件、免安裝）
+在資料夾內執行：
+    python scripts/update_research.py
+（想更禮貌、提高 NCBI 速率限制，可先設 NCBI_EMAIL 環境變數為你的信箱。）
+
+
+▍怎麼上線給全球看（免費，GitHub Pages）
+1. 開一個新的 GitHub repo，把這個資料夾整包 push 上去。
+2. repo → Settings → Pages → Source 選「Deploy from a branch」，
+   branch 選 main、資料夾選 /(root)。
+   幾分鐘後網站會在 https://<你的帳號>.github.io/<repo名>/ 上線。
+3. 自動更新已經接好了：.github/workflows/update.yml 每天自動跑，
+   更新 research.js 並 commit，Pages 就會自動重新部署。
+   （也可以到 Actions 分頁手動按「Run workflow」立即更新。）
+4. （選用）在 Settings → Secrets and variables → Actions 新增一個
+   叫 NCBI_EMAIL 的 secret，填你的信箱。
+
+※ 我沒有你的 GitHub 帳號，所以「push、開 Pages」這兩步要你自己做（或授權後我教你逐步做）。
+
+
+▍怎麼改照護內容
+用 VS Code / 記事本打開 data/content.js：
+- 每個情境是 AD_CONTENT.scenarios 裡的一個物件，
+  含 title / sub / intro / steps / faq / flags / guide{text, sources} / story / next。
+- 要新增情境：複製一個 { } 區塊、改 id、改內容，
+  再把新 id 加進其他情境的 next[] 就會互相導航。
+- 配色在 assets/styles.css 最上面的 :root。
+
+
+▍還沒做（等你決定）
+- 實際 push 上 GitHub、開 Pages（需要你的帳號）
+- 醫師掛名／審閱標章（目前病友心聲已明確標為「示意」）
+- 更多情境、多語系（例如同時保留一個中文版）
+- 把舊的中文版 AD Journey / AD Navigator 和這個站互相連結
+
+有任何要調整的（情境、文案、配色、要不要我陪你一步步 push 上 GitHub），跟我說。
