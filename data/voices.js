@@ -2,25 +2,34 @@
    AD Navigator — "You're not alone" curated patient voices
    ------------------------------------------------------------
    NOT copied posts. We read real experiences that patients
-   shared PUBLICLY online, group them into a few shared
-   situations (in OUR OWN words), and link back to the
-   original articles and patient communities. This respects the
-   original authors' copyright and lets readers see full stories.
+   shared PUBLICLY — in news features, patient-organization
+   stories, personal essays, AND peer-reviewed research that
+   interviewed patients — then group them into a few shared
+   situations (in OUR OWN words) and link back to the originals.
+   This respects the authors' copyright and lets readers see the
+   full source.
 
    Every URL below was checked to be a live, on-topic page
-   (2026-07). No invented stories, no copied text, no quotes
-   attributed to named individuals.
+   (2026-07). Dead / access-blocked links were dropped. No
+   invented studies, no copied text, no quotes attributed to
+   named individuals.
 
-   Shape: each theme = { id, ic, scn (a scenario id to link to),
-   title{en,zh}, voice{en,zh} (our synthesis of the common
-   experience), stories:[{title{en,zh}, org{en,zh}, url, lang}] }.
+   Source types (rendered as a small icon):
+     paper   📄  peer-reviewed research / patient-reported study
+     article ✍️  a named individual's personal essay
+     story   💬  a first-person story hosted by an organization
+     media   📰  a news / magazine feature
+     org     🤝  a patient organization hub
+   Shape: each theme = { id, ic, scn (a scenario id to link to
+   or null), title{en,zh}, voice{en,zh} (our synthesis),
+   stories:[{title{en,zh}, org{en,zh}, url, lang, type}] }.
    ============================================================ */
 window.AD_VOICES = {
   reviewedOn: "2026-07-11",
 
   note: {
-    en: "This section doesn't copy anyone's posts. We gather experiences that people shared publicly online, sort them into a few situations many of us share — in our own words — and link back to the originals and patient communities, so the authors are credited and you can read the full story.",
-    zh: "這一區不是複製別人的貼文。我們把網路上「公開分享」的真實經驗，整理成幾個大家共同的處境（用我們自己的話），再把連結指回原文與病友社群——尊重原作者，也讓你能讀到完整故事。"
+    en: "This section doesn't copy anyone's posts. We gather experiences shared publicly online — in news features, patient-organization stories, personal essays, and research that interviewed patients — sort them into situations many of us share (in our own words), and link back to each source so authors are credited and you can read the full story.",
+    zh: "這一區不是複製別人的貼文。我們把網路上「公開分享」的真實經驗——包含媒體報導、病友組織故事、個人文章，以及有訪談病人的研究——整理成幾個大家共同的處境（用我們自己的話），再把連結指回每個來源，尊重原作者，也讓你能讀到完整內容。"
   },
 
   themes: [
@@ -34,10 +43,10 @@ window.AD_VOICES = {
       stories: [
         { title: { en: "Living with atopic dermatitis for 38 years — just wanting one good night's sleep", zh: "與異位性皮膚炎共存 38 年，只求一夜好眠" },
           org: { en: "Health GVM · patient story", zh: "健康遠見·病友故事" },
-          url: "https://health.gvm.com.tw/article/86330", lang: "zh" },
+          url: "https://health.gvm.com.tw/article/86330", lang: "zh", type: "media" },
         { title: { en: "Why people with eczema have a hard time sleeping", zh: "為什麼異膚的人特別難睡" },
           org: { en: "National Eczema Association", zh: "美國國家濕疹協會（NEA）" },
-          url: "https://nationaleczema.org/blog/eczema-leads-to-problems-sleeping/", lang: "en" }
+          url: "https://nationaleczema.org/blog/eczema-leads-to-problems-sleeping/", lang: "en", type: "org" }
       ]
     },
     {
@@ -50,10 +59,10 @@ window.AD_VOICES = {
       stories: [
         { title: { en: "Topical Steroid Withdrawal (TSW) — what it is", zh: "認識「類固醇戒斷（TSW）」" },
           org: { en: "National Eczema Association", zh: "美國國家濕疹協會（NEA）" },
-          url: "https://nationaleczema.org/treatments/topical-steroid-withdrawal/", lang: "en" },
+          url: "https://nationaleczema.org/treatments/topical-steroid-withdrawal/", lang: "en", type: "org" },
         { title: { en: "Your Stories — what it's really like", zh: "病友真實故事（Sophie、Ruth 等）" },
           org: { en: "National Eczema Society (UK)", zh: "英國國家濕疹協會" },
-          url: "https://www.eczema.org.uk/your-stories/", lang: "en" }
+          url: "https://www.eczema.org.uk/your-stories/", lang: "en", type: "org" }
       ]
     },
     {
@@ -66,10 +75,13 @@ window.AD_VOICES = {
       stories: [
         { title: { en: "Irene's story — a lifetime with atopic dermatitis", zh: "Irene 的故事——與異膚共處一生" },
           org: { en: "UNION Therapeutics", zh: "UNION Therapeutics" },
-          url: "https://uniontherapeutics.com/patient-story-irene/", lang: "en" },
+          url: "https://uniontherapeutics.com/patient-story-irene/", lang: "en", type: "story" },
         { title: { en: "How Karina managed her eczema", zh: "Karina 如何面對她的濕疹" },
           org: { en: "National Eczema Association", zh: "美國國家濕疹協會（NEA）" },
-          url: "https://nationaleczema.org/blog/confessions-of-an-eczema-warrior/", lang: "en" }
+          url: "https://nationaleczema.org/blog/confessions-of-an-eczema-warrior/", lang: "en", type: "story" },
+        { title: { en: "My skin talks to me — 40 years living with eczema", zh: "我的皮膚會跟我說話——與濕疹共處 40 年" },
+          org: { en: "Catie Coman · personal essay", zh: "Catie Coman・個人文章" },
+          url: "https://nationaleczema.org/blog/my-skin-talks-to-me/", lang: "en", type: "article" }
       ]
     },
     {
@@ -82,10 +94,29 @@ window.AD_VOICES = {
       stories: [
         { title: { en: "Patients who fought for biologic coverage", zh: "爭取生物製劑健保給付的病友故事" },
           org: { en: "Atopic Dermatitis Patient Association (Taiwan)", zh: "異位性皮膚炎病友協會" },
-          url: "https://adpa.org.tw/", lang: "zh" },
+          url: "https://adpa.org.tw/", lang: "zh", type: "org" },
         { title: { en: "Finding success with moderate-to-severe AD", zh: "中重度異膚如何找到有效的治療" },
           org: { en: "WebMD", zh: "WebMD" },
-          url: "https://www.webmd.com/skin-problems-and-treatments/eczema/features/relief-atopic-dermatitis", lang: "en" }
+          url: "https://www.webmd.com/skin-problems-and-treatments/eczema/features/relief-atopic-dermatitis", lang: "en", type: "media" }
+      ]
+    },
+    {
+      id: "v-research", ic: "📄", scn: null,
+      title: { en: "What the research says about the patient experience", zh: "研究怎麼說病人的真實經驗" },
+      voice: {
+        en: "Studies that actually sat down and interviewed patients keep finding the same things: the itch is relentless and hard to stop, scratching damages skin, sleep and mood take a real hit, and many people quietly pull back from social life. If your experience ever feels “too much,” the evidence says it's real — and shared by many.",
+        zh: "真的坐下來訪談病人的研究，反覆得到同樣的發現：癢是無止盡又難停下、抓會傷皮膚、睡眠與情緒都被明顯拖累，很多人默默地減少社交。如果你曾覺得自己「反應太over」，證據告訴你：這些都是真實的，而且很多人和你一樣。"
+      },
+      stories: [
+        { title: { en: "Patient-reported burden in adults with AD — international qualitative study (88 patients, 15 countries)", zh: "成人異膚的病人自述負擔——跨 15 國、88 位病人的質性研究" },
+          org: { en: "Archives of Dermatological Research · open access", zh: "Archives of Dermatological Research・開放取用" },
+          url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11162389/", lang: "en", type: "paper" },
+        { title: { en: "The burdens of living with itchiness — a qualitative study", zh: "與「癢」共處的負擔——質性研究" },
+          org: { en: "J Clinical & Aesthetic Dermatology (PubMed)", zh: "臨床與美容皮膚科期刊（PubMed）" },
+          url: "https://pubmed.ncbi.nlm.nih.gov/37560503/", lang: "en", type: "paper" },
+        { title: { en: "How adults & teens experience AD: skin pain, sleep, fatigue (qualitative interviews)", zh: "成人與青少年如何經歷異膚：皮膚痛、睡眠、疲憊（質性訪談）" },
+          org: { en: "J Patient-Reported Outcomes · open access", zh: "Journal of Patient-Reported Outcomes・開放取用" },
+          url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11985738/", lang: "en", type: "paper" }
       ]
     },
     {
@@ -98,13 +129,13 @@ window.AD_VOICES = {
       stories: [
         { title: { en: "Atopic Dermatitis Patient Association", zh: "異位性皮膚炎病友協會（台灣）" },
           org: { en: "Taiwan", zh: "台灣" },
-          url: "https://adpa.org.tw/", lang: "zh" },
+          url: "https://adpa.org.tw/", lang: "zh", type: "org" },
         { title: { en: "Share your eczema story", zh: "分享你的濕疹故事" },
           org: { en: "National Eczema Association", zh: "美國國家濕疹協會（NEA）" },
-          url: "https://nationaleczema.org/community-storytelling/", lang: "en" },
+          url: "https://nationaleczema.org/community-storytelling/", lang: "en", type: "org" },
         { title: { en: "Your Stories", zh: "病友故事集" },
           org: { en: "National Eczema Society (UK)", zh: "英國國家濕疹協會" },
-          url: "https://www.eczema.org.uk/your-stories/", lang: "en" }
+          url: "https://www.eczema.org.uk/your-stories/", lang: "en", type: "org" }
       ]
     }
   ]
