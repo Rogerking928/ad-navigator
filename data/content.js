@@ -31,7 +31,7 @@ window.AD_CONTENT = {
       plain: { en: "Itch usually means the inflammation is not under control yet. The fix is to calm the inflammation and repair the skin — not just chase the itch.", zh: "會一直癢，通常代表發炎還沒被壓下來——重點是「壓發炎＋修皮膚」，而不是只跟癢對抗。" },
       keywords: ["itch","itchy","scratch","flare","red","rash","癢","抓","發作","惡化","紅"],
       intro: {
-        en: "The itch–scratch cycle drives flares: scratching feels good for a second but damages the skin barrier and releases inflammatory chemicals, which makes the skin even itchier. Getting a flare under control is less about anti-itch pills and more about doing two things together — calming the inflammation and repairing the barrier.",
+        en: "The itch–scratch cycle drives flares. Scratching feels good for a second, but it harms the skin barrier and releases chemicals that make the skin even itchier. So calming a flare is less about anti-itch pills. It is about doing two things at once: calm the inflammation, and repair the skin barrier.",
         zh: "「癢—抓—更癢」是異膚的惡性循環：抓一下很爽，但會破壞皮膚屏障、釋放發炎物質，讓皮膚更癢。要讓這一波好起來，重點不是止癢藥，而是同時做兩件事——把發炎壓下來、把皮膚屏障修回來。"
       },
       steps: [
@@ -74,7 +74,7 @@ window.AD_CONTENT = {
       plain: { en: "Sleep gets better when you control the eczema in the day. At night, keep the bedroom cool and moisturize before bed.", zh: "想睡好，關鍵是白天把異膚控制好，晚上再加上「臥室涼一點、睡前厚厚保濕」。" },
       keywords: ["sleep","night","insomnia","awake","tired","睡","失眠","半夜","睡不著","累"],
       intro: {
-        en: "Night is the hardest time: skin gets warmer near bedtime and loses more water overnight, and with fewer daytime distractions the itch feels more intense. The most effective fix is getting the eczema itself under control — then layering on a few bedtime and bedroom habits.",
+        en: "Night is the hardest time. Skin gets warmer near bedtime and loses more water overnight, and with fewer daytime distractions the itch feels stronger. The best fix is to get the eczema itself under control. Then add a few bedtime and bedroom habits.",
         zh: "晚上最難熬：睡前體溫升高、夜裡皮膚更容易流失水分，加上沒有其他事分心，癢感被放大。最有效的辦法是先把異膚本身控制好，再搭配幾個睡前與臥室的小習慣。"
       },
       steps: [
@@ -117,7 +117,7 @@ window.AD_CONTENT = {
       plain: { en: "Eczema is a common, long-term skin problem. It is not contagious, and it can be controlled. The goal is not a cure — it is steady control, so it does not run your life.", zh: "異膚是常見、可控制、不會傳染的慢性皮膚病——目標不是根治，而是穩定控制，讓它不影響你的生活。" },
       keywords: ["diagnosed","new","start","basics","what is","確診","剛診斷","新手","怎麼開始"],
       intro: {
-        en: "Feeling overwhelmed at diagnosis is normal. Atopic dermatitis (eczema) is a common, chronic, non-contagious inflammatory skin condition with a weakened skin barrier. It flares and settles over time, it isn't caused by poor hygiene, and it is very manageable. The goal isn't a cure — it's steady control that lets you live normally.",
+        en: "Feeling overwhelmed at diagnosis is normal. Atopic dermatitis (eczema) is a common, long-term skin condition with a weakened skin barrier. It is not contagious, and it is not caused by poor hygiene. It flares and calms over time, and it can be managed well. The goal is not a cure. It is steady control that lets you live normally.",
         zh: "剛確診覺得慌很正常。異位性皮膚炎（異膚/濕疹）是一種常見、慢性、不會傳染的皮膚發炎，和皮膚屏障較脆弱有關。它會反覆發作又平息，不是因為你不夠乾淨，而且很能被控制。目標不是「斷根」，而是穩定控制、正常生活。"
       },
       steps: [
@@ -161,7 +161,7 @@ window.AD_CONTENT = {
       plain: { en: "Biologics are shots for moderate-to-severe eczema that creams cannot control. They are generally safe, but they work over weeks — not overnight.", zh: "生物製劑是打針，給外用藥控制不住的中重度異膚；整體算安全，但效果是幾週慢慢出來，不是打一針隔天就好。" },
       keywords: ["biologic","dupixent","dupilumab","injection","jak","生物製劑","打針","注射","標靶"],
       intro: {
-        en: "Biologics like dupilumab are lab-made antibody proteins for moderate-to-severe eczema that topical treatment alone isn't controlling. They calm the specific immune signals (IL-4/IL-13) that drive eczema, are given by injection under the skin, have a well-established safety profile, and work gradually over weeks — not overnight.",
+        en: "Biologics like dupilumab are lab-made antibody proteins. They are used for moderate-to-severe eczema that creams alone cannot control. They calm the specific immune signals (IL-4 and IL-13) that drive eczema. You take them as a shot under the skin. They have a well-studied safety record, and they work over weeks — not overnight.",
         zh: "像度普利尤單抗（Dupixent）這類生物製劑，是實驗室製造的抗體蛋白，用於外用藥控制不佳的中重度異膚。它精準地安撫驅動異膚的免疫訊號（IL-4/IL-13），以皮下注射給藥，安全性資料成熟，效果是幾週內慢慢出現，不是打一針就立刻好。"
       },
       steps: [
@@ -206,7 +206,7 @@ window.AD_CONTENT = {
       plain: { en: "Used at the right strength, on the right spot, for the right time, steroid creams are safe and they work. The real risk is being too scared to treat, so the eczema drags on.", zh: "只要用對強度、用對部位、用對療程，外用類固醇是安全又有效的——真正的風險反而是「因為怕而不敢擦」，讓發炎一直好不了。" },
       keywords: ["steroid","corticosteroid","afraid","thinning","tsw","withdrawal","類固醇","恐懼","變薄","戒斷","不敢擦"],
       intro: {
-        en: "Fear of topical steroids is common — but both extremes cause problems. Never using them leaves inflammation uncontrolled and you suffer longer; overusing strong ones on the wrong areas is where side effects come from. The key is using the right strength, on the right site, for the right time under medical guidance — done that way, topical corticosteroids are a safe, effective first-line treatment.",
+        en: "Fear of steroid creams is common, but both extremes cause problems. Never using them leaves the inflammation uncontrolled, so you suffer longer. Overusing strong ones on the wrong areas is where side effects come from. The key is the right strength, on the right area, for the right time, with your doctor's guidance. Used that way, steroid creams are a safe and effective first-line treatment.",
         zh: "怕類固醇很常見，但兩個極端都不好。完全不敢用，發炎壓不下來、只會更久受苦；把強效的長期亂擦在薄皮膚上，才是副作用的來源。關鍵是在醫師指示下，用對強度、對部位、對療程——這樣的外用類固醇是安全又有效的第一線治療。"
       },
       steps: [
@@ -250,7 +250,7 @@ window.AD_CONTENT = {
       plain: { en: "Do not stop everything at once. Step down slowly, keep moisturizing, and let your doctor guide any cut in pills or shots.", zh: "別突然全停——要一步步減、保濕繼續，口服藥或針劑要不要減由醫師帶著調。" },
       keywords: ["stop","quit","taper","reduce","relapse","停藥","停用","減量","好了","復發"],
       intro: {
-        en: "Wanting to stop once your skin is calm is completely natural — but eczema is chronic and relapsing, and stopping everything abruptly is a common cause of flares. The right move isn't all-or-nothing; it's working with your clinician to step down gradually and hold the gains with the least maintenance needed.",
+        en: "Wanting to stop once your skin is calm is natural. But eczema is long-term and comes back, and stopping everything at once is a common cause of flares. The answer is not all-or-nothing. Work with your doctor to step down slowly, and hold the gains with the least treatment you need.",
         zh: "皮膚穩定了想停藥很正常——但異膚是慢性、會反覆的，突然全停常常就是復發的原因。正確做法不是「用或不用」二選一，而是和醫師一起慢慢減量，用最少的維持治療守住成果。"
       },
       steps: [
@@ -294,7 +294,7 @@ window.AD_CONTENT = {
       plain: { en: "Moisturize a lot, bathe gently, and use steroid creams the way the doctor says. Do not cut out foods on your own. Most children get better as they grow.", zh: "大量保濕、溫和洗澡、照醫師指示擦類固醇、別自己亂忌口——多數孩子長大會改善。" },
       keywords: ["child","kid","baby","infant","toddler","parent","小孩","孩子","嬰兒","寶寶","家長"],
       intro: {
-        en: "Watching your child scratch until they bleed is hard — the anxiety is understandable. The reassuring news: childhood eczema is common, usually controllable with frequent moisturizing, correct medication use, and trigger avoidance, and many children improve as they grow. You don't need to become a dermatologist — just a few key principles.",
+        en: "Watching your child scratch until they bleed is hard, and the worry is understandable. The good news: childhood eczema is common and usually controllable. It responds to frequent moisturizing, correct use of medicine, and avoiding triggers, and many children improve as they grow. You do not need to become a dermatologist — just a few key habits.",
         zh: "看著孩子抓到流血很煎熬，焦慮是正常的。好消息是：兒童異膚很常見，通常靠頻繁保濕、正確用藥、避開誘因就能控制得不錯，而且很多孩子長大會改善。你不用變成皮膚科醫師，掌握幾個關鍵就好。"
       },
       steps: [
@@ -338,7 +338,7 @@ window.AD_CONTENT = {
       plain: { en: "Do not just suffer through it with no treatment. Moisturizers and (properly used) steroid creams are considered safe. A few pills must be avoided — so plan with your doctors.", zh: "別完全不擦硬撐——保濕和（適當使用的）類固醇藥膏被視為安全，但有些口服藥必須避免；請和醫師一起規劃。" },
       keywords: ["pregnant","pregnancy","planning","breastfeeding","懷孕","孕婦","備孕","哺乳","餵母乳"],
       intro: {
-        en: "Pregnancy hormones can make eczema better or worse — it varies. The key message: don't just white-knuckle it with no treatment, because uncontrolled inflammation and lost sleep aren't good for you either. Many treatments have reasonably safe options in pregnancy; the important thing is to plan ahead with your dermatologist and obstetrician together.",
+        en: "Pregnancy hormones can make eczema better or worse; it varies. The main message is simple: do not just suffer through it with no treatment. Uncontrolled inflammation and lost sleep are not good for you either. Many treatments have reasonably safe options in pregnancy. The key is to plan ahead with your skin doctor and your obstetrician together.",
         zh: "懷孕的荷爾蒙變化可能讓異膚變好或變壞，因人而異。重點是：不要什麼都不擦硬撐，因為失控的發炎和睡不好對你也不好。孕期很多治療都有相對安全的選擇，關鍵是提早和皮膚科與婦產科一起規劃。"
       },
       steps: [
@@ -381,7 +381,7 @@ window.AD_CONTENT = {
       plain: { en: "Stress and eczema feed each other. This is real, not 'in your head.' Caring for your mental health is part of treating the skin.", zh: "壓力和異膚會互相影響——這是真的，不是「你想太多」，照顧心理健康本來就是治療的一部分。" },
       keywords: ["stress","anxiety","mood","mental","depression","壓力","焦慮","情緒","心情","心理"],
       intro: {
-        en: "Skin and mind run both ways: stress can worsen eczema through nerve and immune pathways, and living with eczema — the itch, lost sleep, appearance — feeds stress right back. Breaking the loop means treating the skin and taking mental health seriously. This isn't 'overthinking it' — psychosocial support is part of eczema care.",
+        en: "Skin and mind affect each other both ways. Stress can worsen eczema through nerve and immune pathways. And living with eczema — the itch, lost sleep, how it looks — feeds stress right back. Breaking this loop means treating the skin and taking your mental health seriously. This is not 'overthinking it.' Emotional support is part of eczema care.",
         zh: "皮膚和情緒是雙向的：壓力會透過神經與免疫途徑讓異膚變差；而異膚帶來的癢、睡不好、外觀困擾，又反過來造成壓力。打破循環要同時治皮膚、也認真看待心理。這不是「想太多」——身心支持本就是異膚照護的一環。"
       },
       steps: [
@@ -423,7 +423,7 @@ window.AD_CONTENT = {
       plain: { en: "Eczema should not stop you traveling. Pack your medicines and moisturizer in your carry-on, keep biologics cool, and adjust for the weather.", zh: "異膚不該讓你不能旅行——把藥和保濕放隨身行李、生物製劑保冷、依當地氣候調整就好。" },
       keywords: ["travel","trip","flight","holiday","abroad","旅行","出國","旅遊","飛機","帶藥"],
       intro: {
-        en: "Eczema shouldn't stop you traveling — it just needs planning. The three big variables are climate (dry/humid/cold/hot), a disrupted routine, and carrying/storing medication. Sort those out in advance and you can travel with confidence.",
+        en: "Eczema should not stop you traveling; it just needs planning. Three things matter most: the climate (dry, humid, cold, or hot), a disrupted routine, and how you carry and store your medicine. Sort these out in advance, and you can travel with confidence.",
         zh: "異膚不該是你不能旅行的理由，只要事先準備。三大變數是：氣候（乾／濕／冷／熱）、生活節奏被打亂、以及藥物的攜帶與保存。先安排好就能玩得安心。"
       },
       steps: [
@@ -465,7 +465,7 @@ window.AD_CONTENT = {
       plain: { en: "Get ahead of it. Moisturize more — and use a richer cream — before the season that usually hits you. Keep indoor heat and humidity in check.", zh: "提前部署：在容易發作的季節「之前」就加強、換更滋潤的保濕，並控制室內溫濕度。" },
       keywords: ["season","weather","winter","summer","dry","sweat","humidity","換季","秋冬","乾燥","流汗","季節"],
       intro: {
-        en: "Season changes are among the most common flare triggers: cold, dry winter air and indoor heating strip water from the skin barrier, while summer heat and trapped sweat irritate it. Rather than waiting for the flare, get ahead of it — adjust your routine before the season that usually affects you.",
+        en: "Season changes are among the most common flare triggers. Cold, dry winter air and indoor heating pull water from the skin. Summer heat and trapped sweat irritate it. Rather than wait for a flare, get ahead of it — adjust your routine before the season that usually affects you.",
         zh: "換季是最常見的發作時機：秋冬乾冷與暖氣會抽走皮膚水分，夏天悶熱與汗水則刺激皮膚。與其等它爆發，不如提前部署——在容易影響你的季節「之前」就調整。"
       },
       steps: [
@@ -507,7 +507,7 @@ window.AD_CONTENT = {
       plain: { en: "A few habits do most of the work. Bathe gently and moisturize right after. Wear soft cotton, use fragrance-free products, and do not cut out foods on your own.", zh: "幾個習慣就能搞定大半：溫和洗澡後馬上保濕、穿柔軟純棉、用無香料產品、不要自己亂忌口。" },
       keywords: ["daily","clothing","bathing","diet","food","skincare","sunscreen","日常","衣服","洗澡","飲食","保養","防曬"],
       intro: {
-        en: "Controlling eczema is half medication, half daily habits. Many people assume they must 'give up' lots of things — but it really comes down to a few habits that genuinely help: gentle cleansing, smart clothing, generous moisturizing, and avoiding your personal triggers. Get these right and flares drop noticeably.",
+        en: "Controlling eczema is half medicine and half daily habits. Many people think they must give up lots of things. Really, it comes down to a few habits that truly help: gentle washing, smart clothing, plenty of moisturizer, and avoiding your own triggers. Get these right, and flares drop noticeably.",
         zh: "控制異膚一半靠藥、一半靠生活習慣。很多人以為要「戒掉很多東西」，其實重點是幾個真正有幫助的習慣：溫和清潔、聰明穿衣、足量保濕、避開你個人的誘因。做對這些，發作會明顯變少。"
       },
       steps: [
