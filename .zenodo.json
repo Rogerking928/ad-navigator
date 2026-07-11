@@ -3,7 +3,11 @@
   "upload_type": "software",
   "description": "<p>AD Navigator is a bilingual (English / Traditional Chinese), situation-based patient-education website for atopic dermatitis (eczema). Instead of an encyclopedia, users pick the situation they are actually in (severe itch, sleep loss, fear of topical steroids, starting a biologic, pregnancy, a newly diagnosed child, travel, and more) and receive one clear, source-cited care path.</p><p>It also includes a curated &quot;You're not alone&quot; section of real, publicly shared patient voices (news features, patient-organization stories, personal essays, and peer-reviewed qualitative research, each linked to its source), and an automatically updated feed of the latest PubMed papers and ClinicalTrials.gov trials. Care content is summarized from public guidelines and patient organizations and is clinician-reviewed; general education, not individual medical advice.</p>",
   "creators": [
-    { "name": "Wang, Yen-Hsiang" }
+    {
+      "name": "Wang, Yen-Hsiang",
+      "orcid": "0000-0003-0307-8447",
+      "affiliation": "Graduate Institute of Medical Sciences, College of Medicine, Taipei Medical University, Taipei, Taiwan"
+    }
   ],
   "license": "cc-by-4.0",
   "access_right": "open",

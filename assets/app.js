@@ -409,7 +409,7 @@
     } else { fallback(); }
   }
 
-  var CITE_DOI = "10.5281/zenodo.21308629";
+  var CITE_DOI = "10.5281/zenodo.21308628";  // concept DOI (always resolves to the latest version)
   function renderCite() {
     var box = $("#citeBox");
     if (!box) return;

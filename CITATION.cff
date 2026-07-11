@@ -1,6 +1,5 @@
 # Citation metadata for AD Navigator.
 # Read by GitHub ("Cite this repository") and by Zenodo when it archives a release.
-# TODO (optional): uncomment `orcid:` / `affiliation:` below and fill yours.
 cff-version: 1.2.0
 message: "If you use or refer to AD Navigator, please cite it as below."
 title: "AD Navigator: Atopic Dermatitis by Situation"
@@ -20,8 +19,9 @@ authors:
   - family-names: Wang
     given-names: Yen-Hsiang
     name-suffix: MD, MSc
-    # orcid: "https://orcid.org/0000-0000-0000-0000"
-    # affiliation: "Your institution"
+    email: rogerwang890928@gmail.com
+    orcid: "https://orcid.org/0000-0003-0307-8447"
+    affiliation: "Graduate Institute of Medical Sciences, College of Medicine, Taipei Medical University, Taipei, Taiwan"
 version: "1.0.0"
 date-released: "2026-07-11"
 url: "https://rogerking928.github.io/ad-navigator/"
@@ -34,8 +34,11 @@ keywords:
   - dermatology
   - health literacy
   - bilingual
-doi: "10.5281/zenodo.21308629"
+doi: "10.5281/zenodo.21308628"   # concept DOI (always latest version)
 identifiers:
   - type: doi
+    value: "10.5281/zenodo.21308628"
+    description: "Concept DOI (all versions)"
+  - type: doi
     value: "10.5281/zenodo.21308629"
-    description: "Concept/record DOI on Zenodo"
+    description: "Version DOI (v1.0.0)"

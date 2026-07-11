@@ -1,6 +1,6 @@
 # AD Navigator
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21308629.svg)](https://doi.org/10.5281/zenodo.21308629)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21308628.svg)](https://doi.org/10.5281/zenodo.21308628)
 
 **Atopic dermatitis (eczema), organized by your situation — not an encyclopedia, a navigator.**
 
@@ -83,8 +83,10 @@ To turn a release into a **permanent, citable DOI** you can add to Google Schola
 Once it has a DOI you can add it to your **Google Scholar** profile ("＋ Add → Add article
 manually") and your **ORCID** works list, and it becomes properly citable.
 
-> Metadata to complete first: add your **ORCID** and (optional) **affiliation** in
-> `CITATION.cff`. Author is set to *Wang, Yen-Hsiang, MD MSc*.
+**Published:** concept DOI [10.5281/zenodo.21308628](https://doi.org/10.5281/zenodo.21308628)
+(always the latest version) · v1.0.0 DOI `10.5281/zenodo.21308629`. Author *Wang, Yen-Hsiang,
+MD MSc* ([ORCID 0000-0003-0307-8447](https://orcid.org/0000-0003-0307-8447)), Taipei Medical
+University. Cite the **concept DOI** unless you need a specific version.
 
 ## License / disclaimer
 
