@@ -71,6 +71,9 @@
     how_3p:       { en: "Every path ends by pointing you to the related situations worth reading next.", zh: "每條路徑結尾都會導向值得接著看的相關情境。" },
     about_eye:    { en: "About", zh: "關於" },
     about_h2:     { en: "Why a navigator, not an encyclopedia", zh: "為什麼是導航，不是百科" },
+    cite_h:       { en: "How to cite this page", zh: "如何引用本站" },
+    cite_copy:    { en: "Copy citation", zh: "複製引用" },
+    cite_copied:  { en: "Copied ✓", zh: "已複製 ✓" },
     about_p:      { en: "When you're unwell, you usually don't want to study all of dermatology — you just want to gently sort out what's troubling you right now. That's what this is for. Care content is summarized from public treatment guidelines and government/patient organizations (AAD, National Eczema Association, NHS, NICE, DermNet, NIH/NIAMS, ACAAI and official agencies), and every path lists its sources. The research feed updates automatically from PubMed and ClinicalTrials.gov. We don't publish made-up patient stories — we link real communities instead. And nothing here replaces the care of your own doctor.", zh: "生病或不舒服的時候，多數人並不想從頭研究整個皮膚科，只想好好把眼前的困擾理清楚——這個網站就是為此而生。照護內容整理自公開治療指南與政府／病友組織（AAD、國家濕疹協會、NHS、NICE、DermNet、NIH/NIAMS、ACAAI 及官方機關），每一條路徑都會附上出處。研究快訊自動更新自 PubMed 與 ClinicalTrials.gov。我們不會刊登虛構的病友故事，而是連到真實的病友社群。當然，這裡的一切都不能取代你的醫師親自診斷與治療。" },
     foot_tag:     { en: "Starting from where you are, helping you find the next step. General education and community support — never a substitute for diagnosis and treatment.", zh: "從你此刻的處境出發，陪你找到下一步。一般衛教與社群支持，不能取代診斷與治療。" },
     foot_credit:  { en: 'Created &amp; curated by <b>Yen-Hsiang Wang, MD, MSc</b> · <a href="mailto:rogerwang890928@gmail.com">Contact</a>', zh: '製作・整理：<b>Yen-Hsiang Wang, MD, MSc</b> · <a href="mailto:rogerwang890928@gmail.com">聯絡</a>' },
@@ -385,6 +388,49 @@
     }).join("");
   }
 
+  /* ---------------------- cite this page -------------------- */
+  var citeText = "", citeBib = "";
+  function copyToClipboard(text, btn) {
+    var original = btn.textContent;
+    function done() {
+      btn.textContent = t(STR.cite_copied);
+      setTimeout(function () { btn.textContent = original; }, 1600);
+    }
+    function fallback() {
+      try {
+        var ta = document.createElement("textarea");
+        ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+        document.body.appendChild(ta); ta.focus(); ta.select();
+        document.execCommand("copy"); document.body.removeChild(ta); done();
+      } catch (e) {}
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, fallback);
+    } else { fallback(); }
+  }
+
+  function renderCite() {
+    var box = $("#citeBox");
+    if (!box) return;
+    var url = "https://rogerking928.github.io/ad-navigator/";
+    var today = new Date().toISOString().slice(0, 10);
+    citeText = "Wang Y-H. AD Navigator: Atopic Dermatitis by Situation. 2026. " +
+      "Available from: " + url + " (accessed " + today + ").";
+    citeBib = "@misc{wang2026adnavigator,\n" +
+      "  author       = {Wang, Yen-Hsiang},\n" +
+      "  title        = {{AD Navigator: Atopic Dermatitis by Situation}},\n" +
+      "  year         = {2026},\n" +
+      "  howpublished = {\\url{" + url + "}},\n" +
+      "  note         = {Accessed: " + today + "}\n}";
+    box.innerHTML =
+      '<div class="cite-label">📑 ' + t(STR.cite_h) + "</div>" +
+      '<div class="cite-text">' + esc(citeText) + "</div>" +
+      '<div class="cite-actions">' +
+        '<button class="cite-btn" data-cite="text">' + t(STR.cite_copy) + "</button>" +
+        '<button class="cite-btn cite-btn--ghost" data-cite="bib">BibTeX</button>' +
+      "</div>";
+  }
+
   /* ---------------------- chips + footer -------------------- */
   function renderChips() {
     $("#quickChips").innerHTML = QUICK.map(function (id) {
@@ -403,6 +449,7 @@
     renderVoices();
     renderResearch();
     renderRefs();
+    renderCite();
     if (currentPath) openPath(currentPath);
     observeReveals();
   }
@@ -436,6 +483,8 @@
   document.addEventListener("click", function (e) {
     if (e.target.closest("#langBtn")) { setLang(LANG === "zh" ? "en" : "zh"); return; }
     if (e.target.closest("#researchToggle")) { researchExpanded = !researchExpanded; renderResearch(); return; }
+    var cbtn = e.target.closest(".cite-btn");
+    if (cbtn) { copyToClipboard(cbtn.getAttribute("data-cite") === "bib" ? citeBib : citeText, cbtn); return; }
     var open = e.target.closest("[data-id]");
     if (open) { openPath(open.getAttribute("data-id")); return; }
     if (e.target.closest(".path-close")) { closePath(); return; }
