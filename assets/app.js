@@ -102,6 +102,10 @@
     r_more:       { en: "Show archived (older) ▾", zh: "看更多封存（較舊）▾" },
     r_less:       { en: "Show less ▴", zh: "收合 ▴" },
     r_archived:   { en: "Older items are archived, never deleted.", zh: "較舊的項目會封存保留、不會刪除。" },
+    r_changed:    { en: "What changed this month", zh: "本月新證據" },
+    r_changed_rec:{ en: "Recent high-quality evidence", zh: "最近的高品質證據" },
+    r_changed_p:  { en: "Newest guidelines, systematic reviews and randomized trials — the highest-quality evidence, flagged automatically.", zh: "最新的指南、系統性回顧與隨機試驗——自動標出品質最高的證據。" },
+    r_evidence:   { en: "Evidence level", zh: "證據等級" },
     // community
     c_label:      { en: "Real communities & support", zh: "真實社群與支持" },
     c_intro:      { en: "We don't publish made-up patient stories. For real experiences and peer support, visit these patient organizations:", zh: "我們不刊登虛構的病友故事。想看真實經驗與同儕支持，可到這些病友組織：" }
@@ -296,11 +300,20 @@
     var note = $("#researchNote");
     if (note) note.textContent = t(STR.latest_note);
 
+    function evBadge(x) {
+      var n = x.evidenceStars || 0;
+      if (!n || !x.evidence) return "";
+      var stars = "";
+      for (var i = 1; i <= 5; i++) stars += (i <= n) ? "★" : "☆";
+      return '<div class="ev-badge ev-' + n + '" title="' + t(STR.r_evidence) + '">' +
+        '<span class="ev-stars">' + stars + "</span> " + esc(x.evidence) + "</div>";
+    }
     function paperCard(p) {
       return '<a class="res-card" href="' + esc(p.url) + '" target="_blank" rel="noopener">' +
         '<div class="res-meta">' + esc(p.journal || "") + (p.date ? " · " + esc(p.date) : "") + "</div>" +
         '<div class="res-title">' + esc(p.title) + "</div>" +
         (p.authors ? '<div class="res-auth">' + esc(p.authors) + "</div>" : "") +
+        evBadge(p) +
         '<span class="res-go">' + t(STR.r_readpubmed) + "</span></a>";
     }
     function trialCard(x) {
@@ -310,6 +323,7 @@
           (x.date ? " " + esc(x.date) : "") + "</div>" +
         '<div class="res-title">' + esc(x.title) + "</div>" +
         (x.conditions ? '<div class="res-auth">' + esc(x.conditions) + "</div>" : "") +
+        evBadge(x) +
         '<span class="res-go">' + t(STR.r_viewtrial) + "</span></a>";
     }
     // Prefer the accumulated archive (older items preserved); fall back to the live lists.
@@ -326,7 +340,24 @@
         '</button><span class="res-archive-note">' + t(STR.r_archived) + "</span></div>";
     }
 
+    // "What changed this month" — highlighted high-evidence items.
+    var hl = RESEARCH.highlights || [];
+    var hlHtml = "";
+    if (hl.length) {
+      var hlTitle = RESEARCH.highlightsThisMonth
+        ? (t(STR.r_changed) + (RESEARCH.month ? " · " + esc(RESEARCH.month) : ""))
+        : t(STR.r_changed_rec);
+      hlHtml = '<div class="res-highlights"><div class="rh-head"><span class="rh-icon">🆕</span>' +
+        '<div><div class="rh-title">' + hlTitle + "</div>" +
+        '<div class="rh-sub">' + t(STR.r_changed_p) + "</div></div></div>" +
+        '<div class="rh-list">' + hl.map(function (p) {
+          return '<a class="rh-item" href="' + esc(p.url) + '" target="_blank" rel="noopener">' +
+            evBadge(p) + '<span class="rh-t">' + esc(p.title) + "</span></a>";
+        }).join("") + "</div></div>";
+    }
+
     box.innerHTML =
+      hlHtml +
       '<div class="res-col"><h3 class="res-col-title">' + t(STR.r_papers) + '</h3><div class="res-list">' +
         shownP.map(paperCard).join("") + "</div></div>" +
       '<div class="res-col"><h3 class="res-col-title">' + t(STR.r_trials) + '</h3><div class="res-list">' +

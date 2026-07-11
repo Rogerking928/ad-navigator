@@ -44,6 +44,37 @@ def _get_json(url):
         return json.loads(resp.read().decode("utf-8"))
 
 
+# --- evidence level (rule-based; no AI) -----------------------------------
+def classify_paper(title, pubtypes):
+    """Map PubMed publication types + title to an evidence level and 1-5 stars."""
+    t = (title or "").lower()
+    pt = " ".join(p.lower() for p in (pubtypes or []))
+    if "meta-analysis" in pt or "meta-analysis" in t or "systematic review" in pt or "systematic review" in t:
+        return ("Systematic review / meta-analysis", 5)
+    if "practice guideline" in pt or "guideline" in pt or "guideline" in t:
+        return ("Guideline", 5)
+    if "randomized controlled trial" in pt or "randomized" in t or "randomised" in t or "double-blind" in t or "placebo-controlled" in t:
+        return ("Randomized controlled trial", 5)
+    if "clinical trial" in pt:
+        return ("Clinical trial", 4)
+    if "cohort" in t or "observational" in t or "case-control" in t:
+        return ("Observational study", 3)
+    if "case reports" in pt or "case report" in t:
+        return ("Case report", 2)
+    if "review" in pt or "review" in t:
+        return ("Review", 3)
+    return ("Research article", 3)
+
+
+def classify_trial(study_type):
+    st = (study_type or "").lower()
+    if "interventional" in st:
+        return ("Interventional trial", 4)
+    if "observational" in st:
+        return ("Observational study", 3)
+    return ("Clinical trial", 4)
+
+
 # --- PubMed ---------------------------------------------------------------
 def fetch_papers():
     """esearch (most recent by pub_date, last RECENT_DAYS) -> esummary (JSON)."""
@@ -77,12 +108,16 @@ def fetch_papers():
         rec = result.get(pmid, {})
         authors = [a.get("name", "") for a in rec.get("authors", []) if a.get("name")]
         author_str = ", ".join(authors[:3]) + (" et al." if len(authors) > 3 else "")
+        title = rec.get("title", "").rstrip(".")
+        ev_label, ev_stars = classify_paper(title, rec.get("pubtype", []))
         papers.append({
-            "title": rec.get("title", "").rstrip("."),
+            "title": title,
             "journal": rec.get("fulljournalname") or rec.get("source", ""),
             "date": rec.get("pubdate", ""),
             "authors": author_str,
             "url": "https://pubmed.ncbi.nlm.nih.gov/%s/" % pmid,
+            "evidence": ev_label,
+            "evidenceStars": ev_stars,
         })
     return papers
 
@@ -93,7 +128,7 @@ def fetch_trials():
         "query.cond": TERM,
         "sort": "LastUpdatePostDate:desc",   # verified: most recently updated first
         "pageSize": str(N_TRIALS),
-        "fields": "NCTId,BriefTitle,OverallStatus,LastUpdatePostDate,Condition",
+        "fields": "NCTId,BriefTitle,OverallStatus,LastUpdatePostDate,Condition,StudyType",
     }
     data = _get_json(CT_API + "?" + urllib.parse.urlencode(params))
     trials = []
@@ -102,6 +137,8 @@ def fetch_trials():
         ident = ps.get("identificationModule", {})
         status = ps.get("statusModule", {})
         conds = ps.get("conditionsModule", {}).get("conditions", [])
+        study_type = ps.get("designModule", {}).get("studyType", "")
+        ev_label, ev_stars = classify_trial(study_type)
         nct = ident.get("nctId", "")
         trials.append({
             "title": ident.get("briefTitle", ""),
@@ -109,6 +146,8 @@ def fetch_trials():
             "date": status.get("lastUpdatePostDateStruct", {}).get("date", ""),
             "conditions": ", ".join(conds[:3]),
             "url": "https://clinicaltrials.gov/study/%s" % nct if nct else "",
+            "evidence": ev_label,
+            "evidenceStars": ev_stars,
         })
     return trials
 
@@ -186,9 +225,21 @@ def main():
     live_papers = papers if papers else archive_papers[:N_PAPERS]
     live_trials = trials if trials else archive_trials[:N_TRIALS]
 
+    # "What changed this month" = high-evidence papers published this calendar
+    # month (guideline / systematic review / RCT). Rule-based, no AI.
+    now = datetime.date.today()
+    cur_year, cur_mon = str(now.year), now.strftime("%b")   # e.g. "2026", "Jul"
+    high_ev = [p for p in archive_papers if p.get("evidenceStars", 0) >= 5]
+    this_month = [p for p in high_ev if cur_year in p.get("date", "") and cur_mon in p.get("date", "")]
+    highlights_this_month = bool(this_month)
+    highlights = (this_month or high_ev)[:6]   # fall back to recent high-evidence if none this month
+
     payload = {
         "generatedAt": today,
+        "month": now.strftime("%B %Y"),
         "source": "PubMed (NCBI E-utilities) + ClinicalTrials.gov API v2",
+        "highlights": highlights,
+        "highlightsThisMonth": highlights_this_month,
         "papers": live_papers,
         "trials": live_trials,
         "archivePapers": archive_papers,

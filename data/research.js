@@ -5,91 +5,164 @@
    ============================================================ */
 window.AD_RESEARCH = {
   "generatedAt": "2026-07-11",
+  "month": "July 2026",
   "source": "PubMed (NCBI E-utilities) + ClinicalTrials.gov API v2",
-  "papers": [
-    {
-      "title": "The enteric DNA virome differs in infants at risk for atopic disease",
-      "journal": "Gut microbes",
-      "date": "2026 Dec 31",
-      "authors": "Perdue TJ, Newkirk CE, Beblavy R et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41593042/"
-    },
+  "highlights": [
     {
       "title": "Stapokibart provides significant improvements in signs and symptoms of atopic dermatitis irrespective of prior systemic treatment: a post-hoc analysis of a phase 3 trial",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
       "authors": "Zhao Y, Zhang L, Wu L et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42403221/"
-    },
-    {
-      "title": "Seasonal variation in cytokine profiles in atopic dermatitis patients treated with dupilumab",
-      "journal": "Journal of immunotoxicology",
-      "date": "2026 Dec",
-      "authors": "Čelakovská J, Čermáková E, Boudkova P et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42360862/"
-    },
-    {
-      "title": "Predictors of optimal disease control in atopic dermatitis with abrocitinib: a real-world study",
-      "journal": "The Journal of dermatological treatment",
-      "date": "2026 Dec",
-      "authors": "Rodriguez-Sanna AI, Suárez-Pérez JA, Sanz-Cabanillas JL et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42328984/"
-    },
-    {
-      "title": "Molecular sensitization patterns in atopic dermatitis: linking food and airborne allergens using ISAC",
-      "journal": "Journal of immunotoxicology",
-      "date": "2026 Dec",
-      "authors": "J Č, J B, J K et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42281235/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42403221/",
+      "evidence": "Randomized controlled trial",
+      "evidenceStars": 5
     },
     {
       "title": "Benefit-risk profile comparison between dupilumab and upadacitinib: a structured benefit-risk assessment of the Heads Up trial",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
       "authors": "Blauvelt A, Simpson EL, Eyerich K et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42223292/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42223292/",
+      "evidence": "Randomized controlled trial",
+      "evidenceStars": 5
     },
     {
       "title": "Sustained on/off-treatment disease control with abrocitinib for moderate-to-severe atopic dermatitis",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
       "authors": "Guttman-Yassky E, Bieber T, Kabashima K et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42165315/"
-    },
-    {
-      "title": "Long-term benefits of upadacitinib for Atopic Dermatitis: deep responses in patient-reported outcomes over 140 weeks from the Measure Up 1 and Measure Up 2 clinical trials",
-      "journal": "The Journal of dermatological treatment",
-      "date": "2026 Dec",
-      "authors": "Simpson EL, Prajapati VH, Bunick CG et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42112622/"
-    },
-    {
-      "title": "Distinct ocular safety profiles of dupilumab and upadacitinib in atopic dermatitis: a real-world study with ophthalmological and microbiological assessment",
-      "journal": "The Journal of dermatological treatment",
-      "date": "2026 Dec",
-      "authors": "Stepinska P, Zawadzinska-Halat K, Pastuszczak M",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42100982/"
-    },
-    {
-      "title": "Influence of disease control and perceived risk on atopic dermatitis treatment decisions",
-      "journal": "The Journal of dermatological treatment",
-      "date": "2026 Dec",
-      "authors": "Loiselle AR, Johnson JK, Smith Begolka W",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42041182/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42165315/",
+      "evidence": "Randomized controlled trial",
+      "evidenceStars": 5
     },
     {
       "title": "Modulation of mu-opioid pathway for the treatment of pruritus: a systematic review of 1,146 patients",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
       "authors": "Ahmed KMA, Abu Suleiman A, Alnajdawi AI et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42037557/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42037557/",
+      "evidence": "Systematic review / meta-analysis",
+      "evidenceStars": 5
     },
     {
       "title": "Comparative efficacy of targeted systemic therapies for moderate-to-severe atopic dermatitis: a network meta-analysis of phase 3-4 randomized trials",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
       "authors": "Xiong M, Gao Q, Duan X",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41919337/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41919337/",
+      "evidence": "Systematic review / meta-analysis",
+      "evidenceStars": 5
+    }
+  ],
+  "highlightsThisMonth": false,
+  "papers": [
+    {
+      "title": "The enteric DNA virome differs in infants at risk for atopic disease",
+      "journal": "Gut microbes",
+      "date": "2026 Dec 31",
+      "authors": "Perdue TJ, Newkirk CE, Beblavy R et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41593042/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Stapokibart provides significant improvements in signs and symptoms of atopic dermatitis irrespective of prior systemic treatment: a post-hoc analysis of a phase 3 trial",
+      "journal": "The Journal of dermatological treatment",
+      "date": "2026 Dec",
+      "authors": "Zhao Y, Zhang L, Wu L et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42403221/",
+      "evidence": "Randomized controlled trial",
+      "evidenceStars": 5
+    },
+    {
+      "title": "Seasonal variation in cytokine profiles in atopic dermatitis patients treated with dupilumab",
+      "journal": "Journal of immunotoxicology",
+      "date": "2026 Dec",
+      "authors": "Čelakovská J, Čermáková E, Boudkova P et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42360862/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Predictors of optimal disease control in atopic dermatitis with abrocitinib: a real-world study",
+      "journal": "The Journal of dermatological treatment",
+      "date": "2026 Dec",
+      "authors": "Rodriguez-Sanna AI, Suárez-Pérez JA, Sanz-Cabanillas JL et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42328984/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Molecular sensitization patterns in atopic dermatitis: linking food and airborne allergens using ISAC",
+      "journal": "Journal of immunotoxicology",
+      "date": "2026 Dec",
+      "authors": "J Č, J B, J K et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42281235/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Benefit-risk profile comparison between dupilumab and upadacitinib: a structured benefit-risk assessment of the Heads Up trial",
+      "journal": "The Journal of dermatological treatment",
+      "date": "2026 Dec",
+      "authors": "Blauvelt A, Simpson EL, Eyerich K et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42223292/",
+      "evidence": "Randomized controlled trial",
+      "evidenceStars": 5
+    },
+    {
+      "title": "Sustained on/off-treatment disease control with abrocitinib for moderate-to-severe atopic dermatitis",
+      "journal": "The Journal of dermatological treatment",
+      "date": "2026 Dec",
+      "authors": "Guttman-Yassky E, Bieber T, Kabashima K et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42165315/",
+      "evidence": "Randomized controlled trial",
+      "evidenceStars": 5
+    },
+    {
+      "title": "Long-term benefits of upadacitinib for Atopic Dermatitis: deep responses in patient-reported outcomes over 140 weeks from the Measure Up 1 and Measure Up 2 clinical trials",
+      "journal": "The Journal of dermatological treatment",
+      "date": "2026 Dec",
+      "authors": "Simpson EL, Prajapati VH, Bunick CG et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42112622/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Distinct ocular safety profiles of dupilumab and upadacitinib in atopic dermatitis: a real-world study with ophthalmological and microbiological assessment",
+      "journal": "The Journal of dermatological treatment",
+      "date": "2026 Dec",
+      "authors": "Stepinska P, Zawadzinska-Halat K, Pastuszczak M",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42100982/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Influence of disease control and perceived risk on atopic dermatitis treatment decisions",
+      "journal": "The Journal of dermatological treatment",
+      "date": "2026 Dec",
+      "authors": "Loiselle AR, Johnson JK, Smith Begolka W",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42041182/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Modulation of mu-opioid pathway for the treatment of pruritus: a systematic review of 1,146 patients",
+      "journal": "The Journal of dermatological treatment",
+      "date": "2026 Dec",
+      "authors": "Ahmed KMA, Abu Suleiman A, Alnajdawi AI et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42037557/",
+      "evidence": "Systematic review / meta-analysis",
+      "evidenceStars": 5
+    },
+    {
+      "title": "Comparative efficacy of targeted systemic therapies for moderate-to-severe atopic dermatitis: a network meta-analysis of phase 3-4 randomized trials",
+      "journal": "The Journal of dermatological treatment",
+      "date": "2026 Dec",
+      "authors": "Xiong M, Gao Q, Duan X",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41919337/",
+      "evidence": "Systematic review / meta-analysis",
+      "evidenceStars": 5
     }
   ],
   "trials": [
@@ -98,84 +171,108 @@ window.AD_RESEARCH = {
       "status": "Recruiting",
       "date": "2026-07-10",
       "conditions": "Hyper IgE Syndrome From STAT3 Mutation, Job s Syndrome, HIES",
-      "url": "https://clinicaltrials.gov/study/NCT07262983"
+      "url": "https://clinicaltrials.gov/study/NCT07262983",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "A Phase I Study of SSGJ-716 in Healthy Adults and Participants With Moderate-to-Severe Atopic Dermatitis",
       "status": "Recruiting",
       "date": "2026-07-10",
       "conditions": "AD",
-      "url": "https://clinicaltrials.gov/study/NCT07693738"
+      "url": "https://clinicaltrials.gov/study/NCT07693738",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "A Study to Evaluate the Treatment Response and Safety of Two Dose Regimens of Subcutaneous Amlitelimab Compared With Treatment Withdrawal in Participants Aged 12 Years and Older With Moderate-to-severe Atopic Dermatitis",
       "status": "Active Not Recruiting",
       "date": "2026-07-10",
       "conditions": "Dermatitis Atopic",
-      "url": "https://clinicaltrials.gov/study/NCT06407934"
+      "url": "https://clinicaltrials.gov/study/NCT06407934",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "Topical Chinese Medicine and Exosome Mechanisms for Atopic Dermatitis",
       "status": "Active Not Recruiting",
       "date": "2026-07-09",
       "conditions": "Atopic Dermatitis (AD)",
-      "url": "https://clinicaltrials.gov/study/NCT07693400"
+      "url": "https://clinicaltrials.gov/study/NCT07693400",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "A Study of BBT001 in Healthy Volunteers (HVs) and in Adult Patients With Atopic Dermatitis (AD)",
       "status": "Recruiting",
       "date": "2026-07-09",
       "conditions": "Atopic Dermatitis",
-      "url": "https://clinicaltrials.gov/study/NCT06808477"
+      "url": "https://clinicaltrials.gov/study/NCT06808477",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "A Long-term Safety and Efficacy Study Evaluating APG777 in Atopic Dermatitis",
       "status": "Recruiting",
       "date": "2026-07-09",
       "conditions": "Atopic Dermatitis",
-      "url": "https://clinicaltrials.gov/study/NCT07003425"
+      "url": "https://clinicaltrials.gov/study/NCT07003425",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "Studies of Skin Microbes in Healthy People and in People With Skin Conditions",
       "status": "Recruiting",
       "date": "2026-07-08",
       "conditions": "Eczema, Atopic Dermatitis",
-      "url": "https://clinicaltrials.gov/study/NCT00605878"
+      "url": "https://clinicaltrials.gov/study/NCT00605878",
+      "evidence": "Observational study",
+      "evidenceStars": 3
     },
     {
       "title": "Effects of Treatments on Atopic Dermatitis",
       "status": "Recruiting",
       "date": "2026-07-08",
       "conditions": "Eczema, Dermatitis, Skin Diseases, Genetic",
-      "url": "https://clinicaltrials.gov/study/NCT01631617"
+      "url": "https://clinicaltrials.gov/study/NCT01631617",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "A Phase 3 Study of Rezpegaldesleukin (NKTR-358) for Patients ≥ 12 Years of Age With Moderate-to-Severe Atopic Dermatitis",
       "status": "Recruiting",
       "date": "2026-07-08",
       "conditions": "Moderate-to-Severe Atopic Dermatitis",
-      "url": "https://clinicaltrials.gov/study/NCT07690371"
+      "url": "https://clinicaltrials.gov/study/NCT07690371",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "Natural History of Severe Allergic Inflammation and Reactions",
       "status": "Completed",
       "date": "2026-07-08",
       "conditions": "PGM3 Deficiency, Eosinophilic and/or Atopic Dermatitis, OSMR Deficiency",
-      "url": "https://clinicaltrials.gov/study/NCT01164241"
+      "url": "https://clinicaltrials.gov/study/NCT01164241",
+      "evidence": "Observational study",
+      "evidenceStars": 3
     },
     {
       "title": "A Study to Learn About Abrocitinib in Adult Patients With Moderate to Severe Atopic Dermatitis.",
       "status": "Recruiting",
       "date": "2026-07-07",
       "conditions": "Atopic Dermatitis, Eczema",
-      "url": "https://clinicaltrials.gov/study/NCT05689151"
+      "url": "https://clinicaltrials.gov/study/NCT05689151",
+      "evidence": "Observational study",
+      "evidenceStars": 3
     },
     {
       "title": "A Long Term Extension Study to Evaluate the Safety and Efficacy of Afimkibart (RO7790121) in Participants With Atopic Dermatitis",
       "status": "Recruiting",
       "date": "2026-07-07",
       "conditions": "Atopic Dermatitis",
-      "url": "https://clinicaltrials.gov/study/NCT07223697"
+      "url": "https://clinicaltrials.gov/study/NCT07223697",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     }
   ],
   "archivePapers": [
@@ -184,84 +281,108 @@ window.AD_RESEARCH = {
       "journal": "Gut microbes",
       "date": "2026 Dec 31",
       "authors": "Perdue TJ, Newkirk CE, Beblavy R et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41593042/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41593042/",
+      "evidence": "Research article",
+      "evidenceStars": 3
     },
     {
       "title": "Stapokibart provides significant improvements in signs and symptoms of atopic dermatitis irrespective of prior systemic treatment: a post-hoc analysis of a phase 3 trial",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
       "authors": "Zhao Y, Zhang L, Wu L et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42403221/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42403221/",
+      "evidence": "Randomized controlled trial",
+      "evidenceStars": 5
     },
     {
       "title": "Seasonal variation in cytokine profiles in atopic dermatitis patients treated with dupilumab",
       "journal": "Journal of immunotoxicology",
       "date": "2026 Dec",
       "authors": "Čelakovská J, Čermáková E, Boudkova P et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42360862/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42360862/",
+      "evidence": "Research article",
+      "evidenceStars": 3
     },
     {
       "title": "Predictors of optimal disease control in atopic dermatitis with abrocitinib: a real-world study",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
       "authors": "Rodriguez-Sanna AI, Suárez-Pérez JA, Sanz-Cabanillas JL et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42328984/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42328984/",
+      "evidence": "Research article",
+      "evidenceStars": 3
     },
     {
       "title": "Molecular sensitization patterns in atopic dermatitis: linking food and airborne allergens using ISAC",
       "journal": "Journal of immunotoxicology",
       "date": "2026 Dec",
       "authors": "J Č, J B, J K et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42281235/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42281235/",
+      "evidence": "Research article",
+      "evidenceStars": 3
     },
     {
       "title": "Benefit-risk profile comparison between dupilumab and upadacitinib: a structured benefit-risk assessment of the Heads Up trial",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
       "authors": "Blauvelt A, Simpson EL, Eyerich K et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42223292/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42223292/",
+      "evidence": "Randomized controlled trial",
+      "evidenceStars": 5
     },
     {
       "title": "Sustained on/off-treatment disease control with abrocitinib for moderate-to-severe atopic dermatitis",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
       "authors": "Guttman-Yassky E, Bieber T, Kabashima K et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42165315/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42165315/",
+      "evidence": "Randomized controlled trial",
+      "evidenceStars": 5
     },
     {
       "title": "Long-term benefits of upadacitinib for Atopic Dermatitis: deep responses in patient-reported outcomes over 140 weeks from the Measure Up 1 and Measure Up 2 clinical trials",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
       "authors": "Simpson EL, Prajapati VH, Bunick CG et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42112622/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42112622/",
+      "evidence": "Research article",
+      "evidenceStars": 3
     },
     {
       "title": "Distinct ocular safety profiles of dupilumab and upadacitinib in atopic dermatitis: a real-world study with ophthalmological and microbiological assessment",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
       "authors": "Stepinska P, Zawadzinska-Halat K, Pastuszczak M",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42100982/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42100982/",
+      "evidence": "Research article",
+      "evidenceStars": 3
     },
     {
       "title": "Influence of disease control and perceived risk on atopic dermatitis treatment decisions",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
       "authors": "Loiselle AR, Johnson JK, Smith Begolka W",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42041182/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42041182/",
+      "evidence": "Research article",
+      "evidenceStars": 3
     },
     {
       "title": "Modulation of mu-opioid pathway for the treatment of pruritus: a systematic review of 1,146 patients",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
       "authors": "Ahmed KMA, Abu Suleiman A, Alnajdawi AI et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42037557/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42037557/",
+      "evidence": "Systematic review / meta-analysis",
+      "evidenceStars": 5
     },
     {
       "title": "Comparative efficacy of targeted systemic therapies for moderate-to-severe atopic dermatitis: a network meta-analysis of phase 3-4 randomized trials",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
       "authors": "Xiong M, Gao Q, Duan X",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41919337/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41919337/",
+      "evidence": "Systematic review / meta-analysis",
+      "evidenceStars": 5
     }
   ],
   "archiveTrials": [
@@ -270,84 +391,108 @@ window.AD_RESEARCH = {
       "status": "Recruiting",
       "date": "2026-07-10",
       "conditions": "Hyper IgE Syndrome From STAT3 Mutation, Job s Syndrome, HIES",
-      "url": "https://clinicaltrials.gov/study/NCT07262983"
+      "url": "https://clinicaltrials.gov/study/NCT07262983",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "A Phase I Study of SSGJ-716 in Healthy Adults and Participants With Moderate-to-Severe Atopic Dermatitis",
       "status": "Recruiting",
       "date": "2026-07-10",
       "conditions": "AD",
-      "url": "https://clinicaltrials.gov/study/NCT07693738"
+      "url": "https://clinicaltrials.gov/study/NCT07693738",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "A Study to Evaluate the Treatment Response and Safety of Two Dose Regimens of Subcutaneous Amlitelimab Compared With Treatment Withdrawal in Participants Aged 12 Years and Older With Moderate-to-severe Atopic Dermatitis",
       "status": "Active Not Recruiting",
       "date": "2026-07-10",
       "conditions": "Dermatitis Atopic",
-      "url": "https://clinicaltrials.gov/study/NCT06407934"
+      "url": "https://clinicaltrials.gov/study/NCT06407934",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "Topical Chinese Medicine and Exosome Mechanisms for Atopic Dermatitis",
       "status": "Active Not Recruiting",
       "date": "2026-07-09",
       "conditions": "Atopic Dermatitis (AD)",
-      "url": "https://clinicaltrials.gov/study/NCT07693400"
+      "url": "https://clinicaltrials.gov/study/NCT07693400",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "A Study of BBT001 in Healthy Volunteers (HVs) and in Adult Patients With Atopic Dermatitis (AD)",
       "status": "Recruiting",
       "date": "2026-07-09",
       "conditions": "Atopic Dermatitis",
-      "url": "https://clinicaltrials.gov/study/NCT06808477"
+      "url": "https://clinicaltrials.gov/study/NCT06808477",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "A Long-term Safety and Efficacy Study Evaluating APG777 in Atopic Dermatitis",
       "status": "Recruiting",
       "date": "2026-07-09",
       "conditions": "Atopic Dermatitis",
-      "url": "https://clinicaltrials.gov/study/NCT07003425"
+      "url": "https://clinicaltrials.gov/study/NCT07003425",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "Studies of Skin Microbes in Healthy People and in People With Skin Conditions",
       "status": "Recruiting",
       "date": "2026-07-08",
       "conditions": "Eczema, Atopic Dermatitis",
-      "url": "https://clinicaltrials.gov/study/NCT00605878"
+      "url": "https://clinicaltrials.gov/study/NCT00605878",
+      "evidence": "Observational study",
+      "evidenceStars": 3
     },
     {
       "title": "Effects of Treatments on Atopic Dermatitis",
       "status": "Recruiting",
       "date": "2026-07-08",
       "conditions": "Eczema, Dermatitis, Skin Diseases, Genetic",
-      "url": "https://clinicaltrials.gov/study/NCT01631617"
+      "url": "https://clinicaltrials.gov/study/NCT01631617",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "A Phase 3 Study of Rezpegaldesleukin (NKTR-358) for Patients ≥ 12 Years of Age With Moderate-to-Severe Atopic Dermatitis",
       "status": "Recruiting",
       "date": "2026-07-08",
       "conditions": "Moderate-to-Severe Atopic Dermatitis",
-      "url": "https://clinicaltrials.gov/study/NCT07690371"
+      "url": "https://clinicaltrials.gov/study/NCT07690371",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     },
     {
       "title": "Natural History of Severe Allergic Inflammation and Reactions",
       "status": "Completed",
       "date": "2026-07-08",
       "conditions": "PGM3 Deficiency, Eosinophilic and/or Atopic Dermatitis, OSMR Deficiency",
-      "url": "https://clinicaltrials.gov/study/NCT01164241"
+      "url": "https://clinicaltrials.gov/study/NCT01164241",
+      "evidence": "Observational study",
+      "evidenceStars": 3
     },
     {
       "title": "A Study to Learn About Abrocitinib in Adult Patients With Moderate to Severe Atopic Dermatitis.",
       "status": "Recruiting",
       "date": "2026-07-07",
       "conditions": "Atopic Dermatitis, Eczema",
-      "url": "https://clinicaltrials.gov/study/NCT05689151"
+      "url": "https://clinicaltrials.gov/study/NCT05689151",
+      "evidence": "Observational study",
+      "evidenceStars": 3
     },
     {
       "title": "A Long Term Extension Study to Evaluate the Safety and Efficacy of Afimkibart (RO7790121) in Participants With Atopic Dermatitis",
       "status": "Recruiting",
       "date": "2026-07-07",
       "conditions": "Atopic Dermatitis",
-      "url": "https://clinicaltrials.gov/study/NCT07223697"
+      "url": "https://clinicaltrials.gov/study/NCT07223697",
+      "evidence": "Interventional trial",
+      "evidenceStars": 4
     }
   ]
 };

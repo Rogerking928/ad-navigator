@@ -166,6 +166,23 @@ a:hover{color:var(--brass-deep);}
 .res-card:hover .res-title{color:var(--pine);}
 .res-auth{font-size:12.5px;color:var(--ink-soft);margin-top:5px;}
 .res-go{display:inline-block;margin-top:8px;font-size:12.5px;font-weight:600;color:var(--brass-deep);}
+/* evidence-level badges */
+.ev-badge{display:inline-flex;align-items:center;gap:6px;margin-top:8px;font-size:11.5px;font-weight:600;color:#5a4a2a;background:#f3ecdd;border:1px solid var(--line-dark);border-radius:12px;padding:2px 9px;}
+.ev-stars{letter-spacing:1px;color:var(--brass-deep);}
+.ev-5{background:#e9f0ea;border-color:#cfe0d3;color:#2f5540;} .ev-5 .ev-stars{color:#3a7d54;}
+.ev-4{background:#eef3ea;border-color:#d8e2cf;color:#4a5a2a;} .ev-4 .ev-stars{color:#6a8a2a;}
+.ev-3{background:#f3ecdd;} .ev-2{background:#faf0e6;color:#8a6a3a;} .ev-1{background:#f6efe8;color:#9a7a6a;}
+/* what changed this month */
+.res-highlights{grid-column:1/-1;background:linear-gradient(120deg,#fbf3ea,#f2f6f0);border:1px solid var(--line-dark);border-left:3px solid #3a7d54;border-radius:var(--radius);padding:16px 20px;margin-bottom:24px;}
+.rh-head{display:flex;align-items:flex-start;gap:12px;margin-bottom:12px;}
+.rh-icon{font-size:20px;line-height:1.1;}
+.rh-title{font-family:var(--serif);font-size:17px;font-weight:700;color:var(--pine);}
+.rh-sub{font-size:12.5px;color:var(--ink-soft);margin-top:2px;}
+.rh-list{display:flex;flex-direction:column;gap:8px;}
+.rh-item{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:9px 12px;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);transition:all .2s;}
+.rh-item:hover{border-color:var(--brass);box-shadow:var(--shadow);}
+.rh-item .ev-badge{margin-top:0;flex-shrink:0;}
+.rh-t{font-size:13.5px;color:var(--ink);font-weight:500;flex:1;min-width:180px;}
 .res-toggle-wrap{grid-column:1/-1;display:flex;flex-direction:column;align-items:center;gap:8px;margin-top:22px;}
 .res-toggle{font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--brass-deep);background:var(--paper);border:1px solid var(--line-dark);border-radius:24px;padding:9px 22px;cursor:pointer;transition:all .2s;}
 .res-toggle:hover{background:var(--brass);color:#fff;border-color:var(--brass);}
