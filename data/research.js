@@ -15,7 +15,7 @@ window.AD_RESEARCH = {
       "authors": "Zhao Y, Zhang L, Wu L et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42403221/",
       "evidence": "Randomized controlled trial",
-      "evidenceStars": 5
+      "evidenceStars": 4
     },
     {
       "title": "Benefit-risk profile comparison between dupilumab and upadacitinib: a structured benefit-risk assessment of the Heads Up trial",
@@ -24,7 +24,7 @@ window.AD_RESEARCH = {
       "authors": "Blauvelt A, Simpson EL, Eyerich K et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42223292/",
       "evidence": "Randomized controlled trial",
-      "evidenceStars": 5
+      "evidenceStars": 4
     },
     {
       "title": "Sustained on/off-treatment disease control with abrocitinib for moderate-to-severe atopic dermatitis",
@@ -33,7 +33,7 @@ window.AD_RESEARCH = {
       "authors": "Guttman-Yassky E, Bieber T, Kabashima K et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42165315/",
       "evidence": "Randomized controlled trial",
-      "evidenceStars": 5
+      "evidenceStars": 4
     },
     {
       "title": "Modulation of mu-opioid pathway for the treatment of pruritus: a systematic review of 1,146 patients",
@@ -72,7 +72,7 @@ window.AD_RESEARCH = {
       "authors": "Zhao Y, Zhang L, Wu L et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42403221/",
       "evidence": "Randomized controlled trial",
-      "evidenceStars": 5
+      "evidenceStars": 4
     },
     {
       "title": "Seasonal variation in cytokine profiles in atopic dermatitis patients treated with dupilumab",
@@ -108,7 +108,7 @@ window.AD_RESEARCH = {
       "authors": "Blauvelt A, Simpson EL, Eyerich K et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42223292/",
       "evidence": "Randomized controlled trial",
-      "evidenceStars": 5
+      "evidenceStars": 4
     },
     {
       "title": "Sustained on/off-treatment disease control with abrocitinib for moderate-to-severe atopic dermatitis",
@@ -117,7 +117,7 @@ window.AD_RESEARCH = {
       "authors": "Guttman-Yassky E, Bieber T, Kabashima K et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42165315/",
       "evidence": "Randomized controlled trial",
-      "evidenceStars": 5
+      "evidenceStars": 4
     },
     {
       "title": "Long-term benefits of upadacitinib for Atopic Dermatitis: deep responses in patient-reported outcomes over 140 weeks from the Measure Up 1 and Measure Up 2 clinical trials",
@@ -292,7 +292,7 @@ window.AD_RESEARCH = {
       "authors": "Zhao Y, Zhang L, Wu L et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42403221/",
       "evidence": "Randomized controlled trial",
-      "evidenceStars": 5
+      "evidenceStars": 4
     },
     {
       "title": "Seasonal variation in cytokine profiles in atopic dermatitis patients treated with dupilumab",
@@ -328,7 +328,7 @@ window.AD_RESEARCH = {
       "authors": "Blauvelt A, Simpson EL, Eyerich K et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42223292/",
       "evidence": "Randomized controlled trial",
-      "evidenceStars": 5
+      "evidenceStars": 4
     },
     {
       "title": "Sustained on/off-treatment disease control with abrocitinib for moderate-to-severe atopic dermatitis",
@@ -337,7 +337,7 @@ window.AD_RESEARCH = {
       "authors": "Guttman-Yassky E, Bieber T, Kabashima K et al.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42165315/",
       "evidence": "Randomized controlled trial",
-      "evidenceStars": 5
+      "evidenceStars": 4
     },
     {
       "title": "Long-term benefits of upadacitinib for Atopic Dermatitis: deep responses in patient-reported outcomes over 140 weeks from the Measure Up 1 and Measure Up 2 clinical trials",

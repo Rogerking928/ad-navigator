@@ -54,7 +54,7 @@ def classify_paper(title, pubtypes):
     if "practice guideline" in pt or "guideline" in pt or "guideline" in t:
         return ("Guideline", 5)
     if "randomized controlled trial" in pt or "randomized" in t or "randomised" in t or "double-blind" in t or "placebo-controlled" in t:
-        return ("Randomized controlled trial", 5)
+        return ("Randomized controlled trial", 4)
     if "clinical trial" in pt:
         return ("Clinical trial", 4)
     if "cohort" in t or "observational" in t or "case-control" in t:
@@ -229,7 +229,7 @@ def main():
     # month (guideline / systematic review / RCT). Rule-based, no AI.
     now = datetime.date.today()
     cur_year, cur_mon = str(now.year), now.strftime("%b")   # e.g. "2026", "Jul"
-    high_ev = [p for p in archive_papers if p.get("evidenceStars", 0) >= 5]
+    high_ev = [p for p in archive_papers if p.get("evidenceStars", 0) >= 4]
     this_month = [p for p in high_ev if cur_year in p.get("date", "") and cur_mon in p.get("date", "")]
     highlights_this_month = bool(this_month)
     highlights = (this_month or high_ev)[:6]   # fall back to recent high-evidence if none this month
