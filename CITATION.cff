@@ -1,0 +1,40 @@
+# Citation metadata for AD Navigator.
+# Read by GitHub ("Cite this repository") and by Zenodo when it archives a release.
+# TODO before/after your first Zenodo release:
+#   - uncomment `orcid:` and add yours
+#   - uncomment `affiliation:` if you want it shown
+#   - after Zenodo mints a DOI, uncomment the `doi:` line and paste it
+cff-version: 1.2.0
+message: "If you use or refer to AD Navigator, please cite it as below."
+title: "AD Navigator: Atopic Dermatitis by Situation"
+abstract: >-
+  AD Navigator is a bilingual (English / Traditional Chinese),
+  situation-based patient-education website for atopic dermatitis
+  (eczema). Instead of an encyclopedia, users pick the situation they
+  are actually in (e.g. severe itch, sleep loss, fear of topical
+  steroids, starting a biologic, pregnancy, a newly diagnosed child)
+  and receive one clear, source-cited care path together with a
+  curated "you're not alone" section of real patient voices and an
+  automatically updated feed of the latest PubMed papers and
+  ClinicalTrials.gov trials. Care content is summarized from public
+  guidelines and patient organizations and is clinician-reviewed.
+type: software
+authors:
+  - family-names: Wang
+    given-names: Yen-Hsiang
+    name-suffix: MD, MSc
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    # affiliation: "Your institution"
+version: "1.0.0"
+date-released: "2026-07-11"
+url: "https://rogerking928.github.io/ad-navigator/"
+repository-code: "https://github.com/Rogerking928/ad-navigator"
+license: CC-BY-4.0
+keywords:
+  - atopic dermatitis
+  - eczema
+  - patient education
+  - dermatology
+  - health literacy
+  - bilingual
+# doi: "10.5281/zenodo.XXXXXXX"

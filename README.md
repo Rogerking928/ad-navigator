@@ -62,6 +62,30 @@ NCBI_EMAIL="you@example.com" python scripts/update_research.py
 
 Open `data/content.js`. Each situation is one object in `AD_CONTENT.scenarios` with: `title`, `sub`, `intro`, `steps[]`, `faq[]`, `flags[]`, `guide{text, sources[]}`, `story`, and `next[]` (the "where to go next" links). To add a new situation, copy a block, give it a new `id`, and add that `id` to other scenarios' `next` arrays so they link to it.
 
+## Cite this work / get a DOI (Zenodo)
+
+The site has a built-in **"How to cite this page"** block (in the About section) and a
+machine-readable `CITATION.cff`, so GitHub shows a **"Cite this repository"** button.
+
+To turn a release into a **permanent, citable DOI** you can add to Google Scholar / ORCID:
+
+1. Go to **https://zenodo.org**, log in **with GitHub**, and authorize it.
+2. **Zenodo → Account → GitHub**, find `Rogerking928/ad-navigator`, and flip the switch **ON**.
+   *(Do this **before** step 3 — Zenodo only archives releases created after the switch is on.)*
+3. On GitHub, **Releases → Draft a new release**, tag `v1.0.0`, title it, and **Publish**.
+4. Zenodo automatically archives that release and mints a **DOI** (it reads `.zenodo.json` /
+   `CITATION.cff` for the metadata). You'll see it under **Zenodo → Upload**.
+5. Send the DOI back — it then gets added to the on-page citation block, `CITATION.cff`
+   (`doi:` line), a DOI badge here, and `citation_*` `<meta>` tags for indexing.
+
+Once it has a DOI you can add it to your **Google Scholar** profile ("＋ Add → Add article
+manually") and your **ORCID** works list, and it becomes properly citable.
+
+> Metadata to complete first: add your **ORCID** and (optional) **affiliation** in
+> `CITATION.cff`. Author is set to *Wang, Yen-Hsiang, MD MSc*.
+
 ## License / disclaimer
 
-Educational project. Content is summarized third-party guidance with sources linked; it is not a substitute for professional medical care.
+Content license: **CC BY 4.0** (declared in `CITATION.cff` / `.zenodo.json`) — reuse with
+attribution. Care content is summarized third-party guidance with sources linked; it is
+**general education, not a substitute for professional medical care**.
