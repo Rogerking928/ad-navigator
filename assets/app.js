@@ -10,6 +10,7 @@
   var DATA = window.AD_CONTENT || { groups: {}, scenarios: [] };
   var RESEARCH = window.AD_RESEARCH || null;
   var REFS = window.AD_REFERENCES || null;
+  var VOICES = window.AD_VOICES || null;
   var GROUPS = DATA.groups;
   var SCENARIOS = DATA.scenarios;
   var byId = {};
@@ -34,6 +35,7 @@
     tagline:      { en: "Atopic Dermatitis · by situation", zh: "異位性皮膚炎・情境導航" },
     topbar:       { en: "AD Navigator — you don't need to figure out all of dermatology. Let's start with what you're facing right now.", zh: "AD Navigator — 別擔心，你不需要先讀懂整本皮膚科；我們從你眼前的狀況開始，陪你慢慢來。" },
     nav_scen:     { en: "Situations", zh: "情境" },
+    nav_voices:   { en: "You're not alone", zh: "你不孤單" },
     nav_latest:   { en: "Latest research", zh: "最新研究" },
     nav_refs:     { en: "References", zh: "參考資料庫" },
     nav_how:      { en: "How it works", zh: "怎麼用" },
@@ -48,6 +50,10 @@
     scen_h2:      { en: "Pick what's closest to where you are", zh: "選一個最像你現在的處境" },
     scen_p:       { en: "Click a card to open the full path. Can't find yours? Type a few keywords above.", zh: "點一張卡片就會展開完整路徑。找不到？在上面打幾個關鍵字。" },
     no_result:    { en: "No matching situation. Try a shorter keyword, or browse the groups above.", zh: "找不到符合的情境。試試更短的關鍵字，或瀏覽上面的分類。" },
+    voices_eye:   { en: "You're not alone", zh: "你不孤單" },
+    voices_h2:    { en: "Voices from others living with eczema", zh: "其他病友的真實心聲" },
+    voices_p:     { en: "Real, publicly shared experiences — grouped by the situations many of us share, and linked back to the source so you can read the full story.", zh: "真實、公開分享的經驗——依大家共同的處境整理，並連回原始出處，讓你能讀到完整故事。" },
+    v_stories:    { en: "Real stories & sources", zh: "真實故事與出處" },
     latest_eye:   { en: "Today in AD", zh: "每日新知" },
     latest_h2:    { en: "Latest research & clinical trials", zh: "最新研究與臨床試驗" },
     latest_p:     { en: "Pulled automatically from PubMed and ClinicalTrials.gov so you always see what's new — while the care paths above stay clinician-reviewed.", zh: "自動從 PubMed 與 ClinicalTrials.gov 抓取，讓你隨時看到最新進展——上面的照護內容則維持醫師審閱。" },
@@ -301,6 +307,43 @@
         (RESEARCH.trials || []).slice(0, 12).map(trialCard).join("") + "</div></div>";
   }
 
+  /* ---------------------- patient voices -------------------- */
+  function renderVoices() {
+    var grid = $("#voiceGrid");
+    if (!grid) return;
+    var sec = $("#voices");
+    if (!VOICES || !VOICES.themes || !VOICES.themes.length) {
+      if (sec) sec.style.display = "none";
+      return;
+    }
+    var note = $("#voiceNote");
+    if (note) note.textContent = t(VOICES.note);
+
+    grid.innerHTML = VOICES.themes.map(function (v) {
+      var stories = (v.stories || []).map(function (st) {
+        var badge = (st.lang === "zh") ? "中文" : "EN";
+        return '<a class="voice-src" href="' + esc(st.url) + '" target="_blank" rel="noopener">' +
+          '<span class="vs-badge vs-' + esc(st.lang) + '">' + badge + "</span>" +
+          '<span class="vs-text"><span class="vs-title">' + esc(t(st.title)) + "</span>" +
+          '<span class="vs-org">' + esc(t(st.org)) + "</span></span>" +
+          '<span class="vs-go">↗</span></a>';
+      }).join("");
+
+      var pathBtn = (v.scn && byId[v.scn])
+        ? '<button class="voice-path" data-id="' + esc(v.scn) + '">' + t(STR.p_see) + "</button>"
+        : "";
+
+      return '<article class="voice-card reveal">' +
+          '<div class="voice-top"><span class="v-ic">' + v.ic + "</span>" +
+            "<h3>" + esc(t(v.title)) + "</h3></div>" +
+          '<p class="voice-say">' + esc(t(v.voice)) + "</p>" +
+          '<div class="voice-stories"><span class="v-lbl">' + t(STR.v_stories) + "</span>" +
+            stories + "</div>" +
+          pathBtn +
+        "</article>";
+    }).join("");
+  }
+
   /* ---------------------- reference library ----------------- */
   function renderRefs() {
     var box = $("#refsList");
@@ -331,9 +374,11 @@
     applyI18n();
     renderScenarios(SCENARIOS);
     renderChips();
+    renderVoices();
     renderResearch();
     renderRefs();
     if (currentPath) openPath(currentPath);
+    observeReveals();
   }
 
   function setLang(lang) {
@@ -345,12 +390,20 @@
   }
 
   /* ---------------------- reveal --------------------------- */
-  function initReveal() {
-    if (!("IntersectionObserver" in window)) return;
-    var io = new IntersectionObserver(function (es) {
-      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
-    }, { threshold: 0.12 });
-    document.querySelectorAll(".reveal").forEach(function (el) { io.observe(el); });
+  var revealObserver = null;
+  function observeReveals() {
+    if (!("IntersectionObserver" in window)) {
+      // No observer support: just show everything.
+      document.querySelectorAll(".reveal").forEach(function (el) { el.classList.add("in"); });
+      return;
+    }
+    if (!revealObserver) {
+      revealObserver = new IntersectionObserver(function (es) {
+        es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); revealObserver.unobserve(e.target); } });
+      }, { threshold: 0.12 });
+    }
+    // Observe any reveal element not yet shown (covers re-rendered cards after a language switch).
+    document.querySelectorAll(".reveal:not(.in)").forEach(function (el) { revealObserver.observe(el); });
   }
 
   /* ---------------------- events --------------------------- */
@@ -370,6 +423,5 @@
 
   /* ---------------------- boot ----------------------------- */
   renderAll();
-  initReveal();
   if (window.location.hash.indexOf("#/") === 0) openPath(window.location.hash.slice(2));
 })();
