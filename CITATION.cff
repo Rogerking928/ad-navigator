@@ -1,9 +1,6 @@
 # Citation metadata for AD Navigator.
 # Read by GitHub ("Cite this repository") and by Zenodo when it archives a release.
-# TODO before/after your first Zenodo release:
-#   - uncomment `orcid:` and add yours
-#   - uncomment `affiliation:` if you want it shown
-#   - after Zenodo mints a DOI, uncomment the `doi:` line and paste it
+# TODO (optional): uncomment `orcid:` / `affiliation:` below and fill yours.
 cff-version: 1.2.0
 message: "If you use or refer to AD Navigator, please cite it as below."
 title: "AD Navigator: Atopic Dermatitis by Situation"
@@ -37,4 +34,8 @@ keywords:
   - dermatology
   - health literacy
   - bilingual
-# doi: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.21308629"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21308629"
+    description: "Concept/record DOI on Zenodo"

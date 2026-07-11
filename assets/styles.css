@@ -258,6 +258,8 @@ a:hover{color:var(--brass-deep);}
 .cite-box{max-width:720px;margin:26px auto 0;background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--brass);border-radius:var(--radius);padding:18px 22px;text-align:left;}
 .cite-label{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--brass-deep);margin-bottom:10px;}
 .cite-text{font-family:"Source Serif 4",Georgia,serif;font-size:14px;color:var(--ink);line-height:1.6;background:var(--cream-2);border-radius:var(--radius);padding:12px 14px;word-break:break-word;}
+.cite-doi{margin-top:8px;font-size:13px;color:var(--ink-soft);}
+.cite-doi a{color:var(--brass-deep);font-weight:600;text-decoration:underline;}
 .cite-actions{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap;}
 .cite-btn{font-family:var(--sans);font-size:13px;font-weight:600;color:#fff;background:var(--brass);border:1px solid var(--brass);border-radius:20px;padding:7px 18px;cursor:pointer;transition:all .2s;}
 .cite-btn:hover{background:var(--brass-deep);border-color:var(--brass-deep);}

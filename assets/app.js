@@ -409,22 +409,24 @@
     } else { fallback(); }
   }
 
+  var CITE_DOI = "10.5281/zenodo.21308629";
   function renderCite() {
     var box = $("#citeBox");
     if (!box) return;
-    var url = "https://rogerking928.github.io/ad-navigator/";
-    var today = new Date().toISOString().slice(0, 10);
-    citeText = "Wang Y-H. AD Navigator: Atopic Dermatitis by Situation. 2026. " +
-      "Available from: " + url + " (accessed " + today + ").";
+    var doiUrl = "https://doi.org/" + CITE_DOI;
+    citeText = "Wang Y-H. AD Navigator: Atopic Dermatitis by Situation. Zenodo; 2026. " +
+      "doi:" + CITE_DOI;
     citeBib = "@misc{wang2026adnavigator,\n" +
-      "  author       = {Wang, Yen-Hsiang},\n" +
-      "  title        = {{AD Navigator: Atopic Dermatitis by Situation}},\n" +
-      "  year         = {2026},\n" +
-      "  howpublished = {\\url{" + url + "}},\n" +
-      "  note         = {Accessed: " + today + "}\n}";
+      "  author    = {Wang, Yen-Hsiang},\n" +
+      "  title     = {{AD Navigator: Atopic Dermatitis by Situation}},\n" +
+      "  year      = {2026},\n" +
+      "  publisher = {Zenodo},\n" +
+      "  doi       = {" + CITE_DOI + "},\n" +
+      "  url       = {" + doiUrl + "}\n}";
     box.innerHTML =
       '<div class="cite-label">📑 ' + t(STR.cite_h) + "</div>" +
       '<div class="cite-text">' + esc(citeText) + "</div>" +
+      '<div class="cite-doi">DOI: <a href="' + esc(doiUrl) + '" target="_blank" rel="noopener">' + esc(CITE_DOI) + "</a></div>" +
       '<div class="cite-actions">' +
         '<button class="cite-btn" data-cite="text">' + t(STR.cite_copy) + "</button>" +
         '<button class="cite-btn cite-btn--ghost" data-cite="bib">BibTeX</button>' +

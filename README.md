@@ -1,5 +1,7 @@
 # AD Navigator
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21308629.svg)](https://doi.org/10.5281/zenodo.21308629)
+
 **Atopic dermatitis (eczema), organized by your situation — not an encyclopedia, a navigator.**
 
 Instead of browsing topics, you pick the situation you're actually in ("I'm really itchy", "I can't sleep", "I'm about to start a biologic", "I'm pregnant", "my child was just diagnosed", "I want to travel"…) and get one clear **path**: what's going on → what to do now → common questions → guideline sources → community voice → where to go next.
