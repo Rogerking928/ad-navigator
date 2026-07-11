@@ -26,6 +26,7 @@ TERM         = "atopic dermatitis"
 RECENT_DAYS  = 365          # only papers from the last N days
 N_PAPERS     = 12
 N_TRIALS     = 12
+ARCHIVE_MAX  = 500          # cap the accumulated archive so the file can't grow forever
 NCBI_EMAIL   = os.environ.get("NCBI_EMAIL", "")   # optional but recommended
 TOOL_NAME    = "ad-navigator"
 TIMEOUT      = 30
@@ -112,6 +113,33 @@ def fetch_trials():
     return trials
 
 
+# --- archive (preserve older items, never drop) ---------------------------
+def load_existing():
+    """Read the previous research.js so we can keep its archived items."""
+    try:
+        with open(os.path.abspath(OUT_PATH), encoding="utf-8") as f:
+            txt = f.read()
+        start = txt.index("window.AD_RESEARCH")
+        brace = txt.index("{", start)
+        end = txt.rindex("}")
+        return json.loads(txt[brace:end + 1])
+    except Exception as e:
+        print("Note: no reusable previous research.js (%s)" % e, file=sys.stderr)
+        return {}
+
+
+def merge_archive(new_items, old_items):
+    """Newest fetch first, then older archived items, deduped by url. Nothing is lost."""
+    seen, merged = set(), []
+    for it in list(new_items) + list(old_items):
+        key = it.get("url", "")
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        merged.append(it)
+    return merged[:ARCHIVE_MAX]
+
+
 # --- write ----------------------------------------------------------------
 def write_js(payload):
     header = (
@@ -148,14 +176,27 @@ def main():
               file=sys.stderr)
         return 1
 
+    # Accumulate into an archive that keeps older items instead of overwriting them.
+    existing = load_existing()
+    archive_papers = merge_archive(papers, existing.get("archivePapers", []))
+    archive_trials = merge_archive(trials, existing.get("archiveTrials", []))
+
+    # Live feed = newest N; fall back to the archive if a source failed today so
+    # a transient outage never blanks the feed.
+    live_papers = papers if papers else archive_papers[:N_PAPERS]
+    live_trials = trials if trials else archive_trials[:N_TRIALS]
+
     payload = {
         "generatedAt": today,
         "source": "PubMed (NCBI E-utilities) + ClinicalTrials.gov API v2",
-        "papers": papers,
-        "trials": trials,
+        "papers": live_papers,
+        "trials": live_trials,
+        "archivePapers": archive_papers,
+        "archiveTrials": archive_trials,
     }
     out = write_js(payload)
-    print("Wrote %s" % out)
+    print("Wrote %s (archive: %d papers, %d trials)"
+          % (out, len(archive_papers), len(archive_trials)))
     return 0
 
 

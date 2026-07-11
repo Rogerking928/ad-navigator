@@ -96,6 +96,9 @@
     r_readpubmed: { en: "Read on PubMed →", zh: "到 PubMed 看 →" },
     r_viewtrial:  { en: "View trial →", zh: "看試驗 →" },
     r_updated:    { en: "Auto-updated", zh: "自動更新於" },
+    r_more:       { en: "Show archived (older) ▾", zh: "看更多封存（較舊）▾" },
+    r_less:       { en: "Show less ▴", zh: "收合 ▴" },
+    r_archived:   { en: "Older items are archived, never deleted.", zh: "較舊的項目會封存保留、不會刪除。" },
     // community
     c_label:      { en: "Real communities & support", zh: "真實社群與支持" },
     c_intro:      { en: "We don't publish made-up patient stories. For real experiences and peer support, visit these patient organizations:", zh: "我們不刊登虛構的病友故事。想看真實經驗與同儕支持，可到這些病友組織：" }
@@ -279,6 +282,8 @@
   function hideSuggest() { var b = $("#scnSuggest"); if (b) b.classList.remove("open"); }
 
   /* ---------------------- research feed --------------------- */
+  var researchExpanded = false;
+  var RESEARCH_LIMIT = 12;
   function renderResearch() {
     var box = $("#researchFeed");
     if (!box) return;
@@ -304,11 +309,26 @@
         (x.conditions ? '<div class="res-auth">' + esc(x.conditions) + "</div>" : "") +
         '<span class="res-go">' + t(STR.r_viewtrial) + "</span></a>";
     }
+    // Prefer the accumulated archive (older items preserved); fall back to the live lists.
+    var allP = RESEARCH.archivePapers || RESEARCH.papers || [];
+    var allT = RESEARCH.archiveTrials || RESEARCH.trials || [];
+    var shownP = researchExpanded ? allP : allP.slice(0, RESEARCH_LIMIT);
+    var shownT = researchExpanded ? allT : allT.slice(0, RESEARCH_LIMIT);
+    var hidden = Math.max(0, allP.length - RESEARCH_LIMIT) + Math.max(0, allT.length - RESEARCH_LIMIT);
+
+    var toggle = "";
+    if (hidden > 0) {
+      var lbl = researchExpanded ? t(STR.r_less) : (t(STR.r_more) + " (" + hidden + ")");
+      toggle = '<div class="res-toggle-wrap"><button id="researchToggle" class="res-toggle">' + lbl +
+        '</button><span class="res-archive-note">' + t(STR.r_archived) + "</span></div>";
+    }
+
     box.innerHTML =
       '<div class="res-col"><h3 class="res-col-title">' + t(STR.r_papers) + '</h3><div class="res-list">' +
-        (RESEARCH.papers || []).slice(0, 12).map(paperCard).join("") + "</div></div>" +
+        shownP.map(paperCard).join("") + "</div></div>" +
       '<div class="res-col"><h3 class="res-col-title">' + t(STR.r_trials) + '</h3><div class="res-list">' +
-        (RESEARCH.trials || []).slice(0, 12).map(trialCard).join("") + "</div></div>";
+        shownT.map(trialCard).join("") + "</div></div>" +
+      toggle;
   }
 
   /* ---------------------- patient voices -------------------- */
@@ -415,6 +435,7 @@
   /* ---------------------- events --------------------------- */
   document.addEventListener("click", function (e) {
     if (e.target.closest("#langBtn")) { setLang(LANG === "zh" ? "en" : "zh"); return; }
+    if (e.target.closest("#researchToggle")) { researchExpanded = !researchExpanded; renderResearch(); return; }
     var open = e.target.closest("[data-id]");
     if (open) { openPath(open.getAttribute("data-id")); return; }
     if (e.target.closest(".path-close")) { closePath(); return; }

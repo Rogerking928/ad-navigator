@@ -166,6 +166,10 @@ a:hover{color:var(--brass-deep);}
 .res-card:hover .res-title{color:var(--pine);}
 .res-auth{font-size:12.5px;color:var(--ink-soft);margin-top:5px;}
 .res-go{display:inline-block;margin-top:8px;font-size:12.5px;font-weight:600;color:var(--brass-deep);}
+.res-toggle-wrap{grid-column:1/-1;display:flex;flex-direction:column;align-items:center;gap:8px;margin-top:22px;}
+.res-toggle{font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--brass-deep);background:var(--paper);border:1px solid var(--line-dark);border-radius:24px;padding:9px 22px;cursor:pointer;transition:all .2s;}
+.res-toggle:hover{background:var(--brass);color:#fff;border-color:var(--brass);}
+.res-archive-note{font-size:12px;color:var(--ink-soft);}
 
 /* how it works */
 .how-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
