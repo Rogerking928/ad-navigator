@@ -13,7 +13,7 @@ abstract: >-
   curated "you're not alone" section of real patient voices and an
   automatically updated feed of the latest PubMed papers and
   ClinicalTrials.gov trials. Care content is summarized from public
-  guidelines and patient organizations and is clinician-reviewed.
+  guidelines and patient organizations, with every path citing its sources.
 type: software
 authors:
   - family-names: Wang

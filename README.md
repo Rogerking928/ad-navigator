@@ -6,7 +6,7 @@
 
 Instead of browsing topics, you pick the situation you're actually in ("I'm really itchy", "I can't sleep", "I'm about to start a biologic", "I'm pregnant", "my child was just diagnosed", "I want to travel"…) and get one clear **path**: what's going on → what to do now → common questions → guideline sources → community voice → where to go next.
 
-A separate **Latest research & trials** feed updates automatically from PubMed and ClinicalTrials.gov, so what's new stays fresh while the care advice stays clinician-reviewed.
+A separate **Latest research & trials** feed updates automatically from PubMed and ClinicalTrials.gov, so what's new stays fresh while the care advice stays hand-written and source-cited.
 
 > ⚕️ General education summarized from public guidelines and patient organizations — **not individual medical advice**. Discuss medication, dosage, and stopping treatment with your own doctor.
 
@@ -23,7 +23,7 @@ ad-navigator/
 │   ├── styles.css             # design system (nude-rose palette)
 │   └── app.js                 # renders scenarios, the path panel, search, research feed
 ├── data/
-│   ├── content.js             # CURATED care paths (clinician-reviewed) — window.AD_CONTENT
+│   ├── content.js             # CURATED care paths (hand-written, source-cited) — window.AD_CONTENT
 │   └── research.js            # AUTO-GENERATED research feed        — window.AD_RESEARCH
 ├── scripts/
 │   └── update_research.py     # fetches PubMed + ClinicalTrials.gov, rewrites data/research.js
@@ -31,7 +31,7 @@ ad-navigator/
     └── update.yml             # daily cron → runs the script → commits → Pages redeploys
 ```
 
-**Why two data files?** Medical advice shouldn't be rewritten by a script with no human in the loop, so `content.js` is edited and reviewed by a clinician. Only `research.js` (new papers/trials, which is safe to surface automatically) is machine-generated.
+**Why two data files?** Medical advice shouldn't be rewritten by a script with no human in the loop, so `content.js` is written and edited by hand, with every path citing its sources. Only `research.js` (new papers/trials, which is safe to surface automatically) is machine-generated.
 
 ## Content sources
 

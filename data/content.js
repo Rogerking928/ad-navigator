@@ -1,7 +1,7 @@
 /* ============================================================
    AD Navigator — curated care-path content (bilingual EN / 繁中)
    ------------------------------------------------------------
-   CLINICIAN-REVIEWED, not auto-generated.
+   Written by hand, not auto-generated.
    Summarized from PUBLIC guidelines & patient organizations
    (AAD, National Eczema Association, National Eczema Society UK,
    NHS, DermNet, NIH/NIAMS, ACAAI). Every path carries its real

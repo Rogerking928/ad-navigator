@@ -56,7 +56,7 @@
     v_stories:    { en: "Real stories & sources", zh: "真實故事與出處" },
     latest_eye:   { en: "Today in AD", zh: "每日新知" },
     latest_h2:    { en: "Latest research & clinical trials", zh: "最新研究與臨床試驗" },
-    latest_p:     { en: "Pulled automatically from PubMed and ClinicalTrials.gov so you always see what's new — while the care paths above stay clinician-reviewed.", zh: "自動從 PubMed 與 ClinicalTrials.gov 抓取，讓你隨時看到最新進展——上面的照護內容則維持醫師審閱。" },
+    latest_p:     { en: "Pulled automatically from PubMed and ClinicalTrials.gov so you always see what's new — while the care paths above are written by hand from public guidelines, each with its sources, and are never rewritten by a script.", zh: "自動從 PubMed 與 ClinicalTrials.gov 抓取，讓你隨時看到最新進展——上面的照護內容則是依公開指南人工整理、附上出處，不會被程式自動改寫。" },
     latest_note:  { en: "How to read this: below are the newest research papers and clinical trials, listed automatically. Titles are in the original English and are technical — we don't rewrite them into summaries, to avoid errors. These are NOT treatment advice; if something looks relevant, click through to read it or bring it to your doctor.", zh: "怎麼看這一區：以下是自動整理的「最新研究論文與臨床試驗」，標題是原文英文、屬專業內容。為避免出錯，我們不會自行改寫成摘要。這些不是治療建議——如果覺得跟你有關，點進去看原文，或截圖拿去問醫師。" },
     refs_eye:     { en: "Reference library", zh: "參考資料庫" },
     refs_h2:      { en: "Official & guideline sources", zh: "官方與指南來源" },
