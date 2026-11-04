@@ -150,7 +150,7 @@ window.AD_CONTENT = {
           { title: "Atopic dermatitis — Medical Encyclopedia", org: "NIH / MedlinePlus", url: "https://medlineplus.gov/ency/article/000853.htm" }
         ]
       },
-      next: ["itch","steroid","daily","child"]
+      next: ["itch","steroid","daily","child","pregnancy"]
     },
 
     /* ---------------------------------------------------- biologics */
@@ -239,7 +239,7 @@ window.AD_CONTENT = {
           { title: "Topical anti-inflammatory treatments for eczema (network meta-analysis)", org: "Cochrane", url: "https://doi.org/10.1002/14651858.CD015064.pub2" }
         ]
       },
-      next: ["itch","biologics","newly","stopping"]
+      next: ["itch","biologics","newly","stopping","pregnancy"]
     },
 
     /* ---------------------------------------------------- stopping */
@@ -283,7 +283,7 @@ window.AD_CONTENT = {
           { title: "AAD guideline: topical therapies — proactive maintenance (2023)", org: "American Academy of Dermatology · JAAD", url: "https://doi.org/10.1016/j.jaad.2022.12.029" }
         ]
       },
-      next: ["steroid","biologics","seasonal","itch"]
+      next: ["steroid","biologics","seasonal","itch","pregnancy"]
     },
 
     /* ---------------------------------------------------- child */

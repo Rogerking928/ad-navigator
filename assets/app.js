@@ -302,7 +302,8 @@
 
     function evBadge(x) {
       var n = x.evidenceStars || 0;
-      if (!n || !x.evidence) return "";
+      if (!x.evidence) return "";
+      if (!n) return '<div class="ev-badge ev-0">' + esc(x.evidence) + "</div>";
       var stars = "";
       for (var i = 1; i <= 5; i++) stars += (i <= n) ? "★" : "☆";
       return '<div class="ev-badge ev-' + n + '" title="' + t(STR.r_evidence) + '">' +

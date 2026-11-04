@@ -23,7 +23,7 @@ import urllib.request
 
 # --- config ---------------------------------------------------------------
 TERM         = "atopic dermatitis"
-RECENT_DAYS  = 365          # only papers from the last N days
+RECENT_DAYS  = 30           # papers added to PubMed in the last N days (Entrez date)
 N_PAPERS     = 12
 N_TRIALS     = 12
 ARCHIVE_MAX  = 500          # cap the accumulated archive so the file can't grow forever
@@ -67,12 +67,23 @@ def classify_paper(title, pubtypes):
 
 
 def classify_trial(study_type):
+    """Registry records have no results yet, so they get a label but no evidence stars."""
     st = (study_type or "").lower()
     if "interventional" in st:
-        return ("Interventional trial", 4)
+        return ("Registered interventional study (no results yet)", 0)
     if "observational" in st:
-        return ("Observational study", 3)
-    return ("Clinical trial", 4)
+        return ("Registered observational study (no results yet)", 0)
+    return ("Registered study (no results yet)", 0)
+
+
+OLD_TRIAL_LABELS = {"Interventional trial": "interventional", "Observational study": "observational", "Clinical trial": ""}
+
+
+def regrade_trial(item):
+    """Bring trials archived under the old rule (which gave them stars) in line with classify_trial."""
+    if item.get("evidence") in OLD_TRIAL_LABELS:
+        item["evidence"], item["evidenceStars"] = classify_trial(OLD_TRIAL_LABELS[item["evidence"]])
+    return item
 
 
 # --- PubMed ---------------------------------------------------------------
@@ -84,10 +95,13 @@ def fetch_papers():
 
     search_params = dict(common)
     search_params.update({
-        # humans[Filter] keeps out veterinary/animal-only papers
-        "term": TERM + " AND humans[Filter]",
-        "sort": "pub_date",          # verified: most-recent-first (sort=date is invalid)
-        "datetype": "pdat",
+        # Exclude animal-only papers without dropping new, not-yet-indexed ones
+        # (humans[Filter] needs MeSH indexing, which new records lack).
+        "term": TERM + " NOT (animals[mh] NOT humans[mh])",
+        # Newest by the date PubMed added the record (Entrez date). Sorting by
+        # publication date kept returning the same ahead-of-print papers with
+        # future dates, so few genuinely new papers ever reached the feed.
+        "datetype": "edat",
         "reldate": str(RECENT_DAYS),
         "retmax": str(N_PAPERS),
     })
@@ -218,7 +232,7 @@ def main():
     # Accumulate into an archive that keeps older items instead of overwriting them.
     existing = load_existing()
     archive_papers = merge_archive(papers, existing.get("archivePapers", []))
-    archive_trials = merge_archive(trials, existing.get("archiveTrials", []))
+    archive_trials = [regrade_trial(t) for t in merge_archive(trials, existing.get("archiveTrials", []))]
 
     # Live feed = newest N; fall back to the archive if a source failed today so
     # a transient outage never blanks the feed.
