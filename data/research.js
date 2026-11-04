@@ -9,167 +9,131 @@ window.AD_RESEARCH = {
   "source": "PubMed (NCBI E-utilities) + ClinicalTrials.gov API v2",
   "highlights": [
     {
-      "title": "Long-term efficacy of lebrikizumab in treating head, neck and face involvement in patients with moderate-to-severe atopic dermatitis",
-      "journal": "The Journal of dermatological treatment",
-      "date": "2026 Dec",
-      "authors": "Chovatiya R, de Bruin-Weller M, Alexis A et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42895209/",
+      "title": "Five-year outcomes of the STOP-AD randomised controlled trial: Long-term effects of early emollient therapy in high-risk infants",
+      "journal": "Pediatric allergy and immunology : official publication of the European Society of Pediatric Allergy and Immunology",
+      "date": "2026 Nov",
+      "authors": "Cremin ML, Hurley S, O'Halloran C et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42973282/",
       "evidence": "Randomized controlled trial",
       "evidenceStars": 4
     },
     {
-      "title": "Janus kinase inhibitors in the management of lichen planus: a systematic review",
-      "journal": "Annals of medicine",
-      "date": "2026 Dec",
-      "authors": "Almutairi AG, Aloraini LI, Almutairi AG et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42841678/",
+      "title": "Dupilumab-Associated Vitiligo: Clinical Characteristics and Outcomes from a Systematic Review",
+      "journal": "The Australasian journal of dermatology",
+      "date": "2026 Nov 2",
+      "authors": "de Oliveira LML, da Silva ABN, Kreuz M et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42973098/",
       "evidence": "Systematic review / meta-analysis",
       "evidenceStars": 5
-    },
-    {
-      "title": "Stapokibart reduces blood eosinophil counts in patients with moderate-to-severe atopic dermatitis: a post-hoc analysis from phase II and phase III clinical trials",
-      "journal": "The Journal of dermatological treatment",
-      "date": "2026 Dec",
-      "authors": "Zhao Y, Zhang F, Yang B et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42454692/",
-      "evidence": "Randomized controlled trial",
-      "evidenceStars": 4
-    },
-    {
-      "title": "Early response to ivarmacitinib and its impact on long-term efficacy in patients with moderate-to-severe atopic dermatitis: a post hoc analysis of a phase-III trial",
-      "journal": "The Journal of dermatological treatment",
-      "date": "2026 Dec",
-      "authors": "Chen J, Hu F, Zhang P et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42454646/",
-      "evidence": "Randomized controlled trial",
-      "evidenceStars": 4
-    },
-    {
-      "title": "Stapokibart provides significant improvements in signs and symptoms of atopic dermatitis irrespective of prior systemic treatment: a post-hoc analysis of a phase 3 trial",
-      "journal": "The Journal of dermatological treatment",
-      "date": "2026 Dec",
-      "authors": "Zhao Y, Zhang L, Wu L et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42403221/",
-      "evidence": "Randomized controlled trial",
-      "evidenceStars": 4
-    },
-    {
-      "title": "Sustained on/off-treatment disease control with abrocitinib for moderate-to-severe atopic dermatitis",
-      "journal": "The Journal of dermatological treatment",
-      "date": "2026 Dec",
-      "authors": "Guttman-Yassky E, Bieber T, Kabashima K et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42165315/",
-      "evidence": "Randomized controlled trial",
-      "evidenceStars": 4
     }
   ],
-  "highlightsThisMonth": false,
+  "highlightsThisMonth": true,
   "papers": [
     {
-      "title": "Ursolic acid-loaded bioactive nanoagents alleviate DNCB-induced atopic dermatitis symptoms by facilitating autophagy and antioxidant defenses",
-      "journal": "Biomaterials advances",
-      "date": "2027 Feb",
-      "authors": "Liu Z, Wu X, Mei Y et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42815076/",
+      "title": "Editorial: Molecular and cellular mechanisms of type 2 immunity-related disorders: allergic diseases and beyond",
+      "journal": "Frontiers in immunology",
+      "date": "2026",
+      "authors": "Potaczek DP, Acevedo N",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42978706/",
       "evidence": "Research article",
       "evidenceStars": 3
     },
     {
-      "title": "Jiu-Wei-Yong-An decoction alleviates atopic dermatitis by suppressing TLR4/MyD88/NF-κB signaling pathway",
-      "journal": "Journal of ethnopharmacology",
-      "date": "2027 Jan 30",
-      "authors": "Zhang H, Gu Q, Meng Y et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42642003/",
-      "evidence": "Research article",
-      "evidenceStars": 3
-    },
-    {
-      "title": "Metabolomic signatures associated with probiotic use in atopic dermatitis: An exploratory study",
-      "journal": "Journal of pharmaceutical and biomedical analysis",
-      "date": "2027 Jan 15",
-      "authors": "Salvatore MM, Maione A, Di Brizzi EV et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42800464/",
-      "evidence": "Research article",
-      "evidenceStars": 3
-    },
-    {
-      "title": "Chebulinic acid suppresses NF-κB/TSLP signaling axis via ACLY-mediated lipid metabolism reprogramming to ameliorate atopic dermatitis",
-      "journal": "Journal of ethnopharmacology",
-      "date": "2027 Jan 10",
-      "authors": "Wang M, Bai Y, Guo Y et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42462920/",
-      "evidence": "Research article",
-      "evidenceStars": 3
-    },
-    {
-      "title": "Cationic bakuchiol-loaded lipid nanoparticles enhance skin permeation and modulate neuro-immune inflammation and itch pathways in atopic dermatitis",
-      "journal": "Biomaterials",
-      "date": "2027 Jan",
-      "authors": "Kim HG, Shin YH, Kim JH et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42475905/",
-      "evidence": "Research article",
-      "evidenceStars": 3
-    },
-    {
-      "title": "Biosensors for allergic diseases: Biomarker detection and monitoring",
-      "journal": "Clinica chimica acta; international journal of clinical chemistry",
-      "date": "2027 Jan 1",
-      "authors": "Oriquat G, Fezea AA, Dhiaa AM et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42342057/",
-      "evidence": "Review",
-      "evidenceStars": 3
-    },
-    {
-      "title": "Functionally declining microbiota in chronic disease: beyond taxonomic loss",
-      "journal": "Gut microbes",
-      "date": "2026 Dec 31",
-      "authors": "Kim HS",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42876361/",
-      "evidence": "Review",
-      "evidenceStars": 3
-    },
-    {
-      "title": "The enteric DNA virome differs in infants at risk for atopic disease",
-      "journal": "Gut microbes",
-      "date": "2026 Dec 31",
-      "authors": "Perdue TJ, Newkirk CE, Beblavy R et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41593042/",
-      "evidence": "Research article",
-      "evidenceStars": 3
-    },
-    {
-      "title": "Long-term efficacy of lebrikizumab in treating head, neck and face involvement in patients with moderate-to-severe atopic dermatitis",
+      "title": "Prescription coverage barriers persist for atopic dermatitis patients despite an expanding treatment landscape: findings from a 2025 national survey",
       "journal": "The Journal of dermatological treatment",
       "date": "2026 Dec",
-      "authors": "Chovatiya R, de Bruin-Weller M, Alexis A et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42895209/",
+      "authors": "Loiselle AR, Johnson JK, Smith Begolka W",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42978245/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Treatment-Associated Type 2/22 Helper T-Cell States in Dupilumab-Treated Atopic Dermatitis",
+      "journal": "Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology",
+      "date": "2026 Nov 3",
+      "authors": "Nishimura M, Nakamura-Sakashita C, Imai Y et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42978194/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Oncostatin M inhibits filaggrin and desmoglein-1 expression in human epidermal keratinocytes",
+      "journal": "Journal of dermatological science",
+      "date": "2026 Oct 28",
+      "authors": "Yanagida N, Saito R, Suehiro M et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42977656/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Evaluating the impact of tonsillectomy on pediatric atopic dermatitis: A retrospective analysis across three postoperative intervals",
+      "journal": "International journal of pediatric otorhinolaryngology",
+      "date": "2026 Oct 25",
+      "authors": "Archer T, Archer S, Piperno S et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42976433/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Correction: Hyperoxygenation Attenuated a Murine Model of Atopic Dermatitis through Raising Skin Level of ROS",
+      "journal": "PloS one",
+      "date": "2026",
+      "authors": "PLOS One Editors",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42976112/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "\"Fatal venous thromboembolism and divergent phenotypes in DOCK8 deficiency: a three-sibling case series\"",
+      "journal": "Immunologic research",
+      "date": "2026 Nov 3",
+      "authors": "Köse Özcan Ş, Yırgın K, Sert A et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42975729/",
+      "evidence": "Case report",
+      "evidenceStars": 2
+    },
+    {
+      "title": "Dupilumab and alopecia areata: direct effect, indirect effect, or endotype-specific response?",
+      "journal": "Expert review of clinical pharmacology",
+      "date": "2026 Nov 3",
+      "authors": "Tang A, Mo L, Ungar B",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42975024/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Innate lymphoid cells as central regulators of tissue homeostasis: implications for allergic diseases",
+      "journal": "Frontiers in allergy",
+      "date": "2026",
+      "authors": "Sirohi K, Yadav S",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42974098/",
+      "evidence": "Review",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Five-year outcomes of the STOP-AD randomised controlled trial: Long-term effects of early emollient therapy in high-risk infants",
+      "journal": "Pediatric allergy and immunology : official publication of the European Society of Pediatric Allergy and Immunology",
+      "date": "2026 Nov",
+      "authors": "Cremin ML, Hurley S, O'Halloran C et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42973282/",
       "evidence": "Randomized controlled trial",
       "evidenceStars": 4
     },
     {
-      "title": "Rational selection of lipid nanocarriers for topical corticosteroid delivery",
-      "journal": "European journal of pharmaceutics and biopharmaceutics : official journal of Arbeitsgemeinschaft fur Pharmazeutische Verfahrenstechnik e.V",
-      "date": "2026 Dec",
-      "authors": "Adekola P, Conway BR, Adebisi AO",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42858946/",
-      "evidence": "Review",
-      "evidenceStars": 3
-    },
-    {
-      "title": "Janus kinase inhibitors in the management of lichen planus: a systematic review",
-      "journal": "Annals of medicine",
-      "date": "2026 Dec",
-      "authors": "Almutairi AG, Aloraini LI, Almutairi AG et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42841678/",
+      "title": "Dupilumab-Associated Vitiligo: Clinical Characteristics and Outcomes from a Systematic Review",
+      "journal": "The Australasian journal of dermatology",
+      "date": "2026 Nov 2",
+      "authors": "de Oliveira LML, da Silva ABN, Kreuz M et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42973098/",
       "evidence": "Systematic review / meta-analysis",
       "evidenceStars": 5
     },
     {
-      "title": "Use of topical treatment among Swedish children with eczema during the first 18 months of life",
-      "journal": "The Journal of dermatological treatment",
-      "date": "2026 Dec",
-      "authors": "Af Klinteberg M, Glas B, Lundberg-Ulfsdotter R et al.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42720189/",
+      "title": "In atopic dermatitis, H1 antihistamines do not provide a clinically important reduction in itch or disease severity",
+      "journal": "Annals of internal medicine",
+      "date": "2026 Nov 3",
+      "authors": "Aung K, Htay T, ACP Journal Club Editorial Team at McMaster University",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42970795/",
       "evidence": "Research article",
       "evidenceStars": 3
     }
@@ -181,8 +145,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06058156",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Long-term Safety and Efficacy Study Evaluating APG777 in Atopic Dermatitis",
@@ -190,8 +154,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07003425",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of JNJ-95597528 in Participants With Moderate to Severe Atopic Dermatitis",
@@ -199,8 +163,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Dermatitis, Atopic",
       "url": "https://clinicaltrials.gov/study/NCT07230860",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Studies of Skin Microbes in Healthy People and in People With Skin Conditions",
@@ -208,8 +172,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Eczema, Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT00605878",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase III Study of Jaktinib in Adults With Moderate and Severe Atopic Dermatitis",
@@ -217,8 +181,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05526222",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Study to Assess the Long-term Safety of Dupilumab Administered in Participants ≥6 Months to <18 Years of Age With Atopic Dermatitis (AD)",
@@ -226,8 +190,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT02612454",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase III Extended Clinical Trial of Jaktinib Hydrochloride Tablets in the Treatment of Moderate and Severe Atopic Dermatitis",
@@ -235,8 +199,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05676242",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study for AR100DP1 in Mild to Moderate Atopic Dermatitis",
@@ -244,8 +208,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Dermatitis Atopic",
       "url": "https://clinicaltrials.gov/study/NCT07914088",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study Evaluating APG777 in Atopic Dermatitis",
@@ -253,8 +217,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06395948",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Metabolic Profiling of Immune Responses in Immune-mediated Diseases",
@@ -262,8 +226,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Primary Immunodeficiency, Psoriasis, Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT04864886",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Dupilumab De-escalation in Pediatric Atopic Dermatitis",
@@ -271,8 +235,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06116526",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Evaluating the Safety and Tolerability of Baricitinib in Patients With Job Syndrome With Lupus-Like Disease and/or Atopic Dermatitis",
@@ -280,11 +244,119 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Hyper IgE Syndrome From STAT3 Mutation, Job s Syndrome, HIES",
       "url": "https://clinicaltrials.gov/study/NCT07262983",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     }
   ],
   "archivePapers": [
+    {
+      "title": "Editorial: Molecular and cellular mechanisms of type 2 immunity-related disorders: allergic diseases and beyond",
+      "journal": "Frontiers in immunology",
+      "date": "2026",
+      "authors": "Potaczek DP, Acevedo N",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42978706/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Prescription coverage barriers persist for atopic dermatitis patients despite an expanding treatment landscape: findings from a 2025 national survey",
+      "journal": "The Journal of dermatological treatment",
+      "date": "2026 Dec",
+      "authors": "Loiselle AR, Johnson JK, Smith Begolka W",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42978245/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Treatment-Associated Type 2/22 Helper T-Cell States in Dupilumab-Treated Atopic Dermatitis",
+      "journal": "Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology",
+      "date": "2026 Nov 3",
+      "authors": "Nishimura M, Nakamura-Sakashita C, Imai Y et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42978194/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Oncostatin M inhibits filaggrin and desmoglein-1 expression in human epidermal keratinocytes",
+      "journal": "Journal of dermatological science",
+      "date": "2026 Oct 28",
+      "authors": "Yanagida N, Saito R, Suehiro M et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42977656/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Evaluating the impact of tonsillectomy on pediatric atopic dermatitis: A retrospective analysis across three postoperative intervals",
+      "journal": "International journal of pediatric otorhinolaryngology",
+      "date": "2026 Oct 25",
+      "authors": "Archer T, Archer S, Piperno S et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42976433/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Correction: Hyperoxygenation Attenuated a Murine Model of Atopic Dermatitis through Raising Skin Level of ROS",
+      "journal": "PloS one",
+      "date": "2026",
+      "authors": "PLOS One Editors",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42976112/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "\"Fatal venous thromboembolism and divergent phenotypes in DOCK8 deficiency: a three-sibling case series\"",
+      "journal": "Immunologic research",
+      "date": "2026 Nov 3",
+      "authors": "Köse Özcan Ş, Yırgın K, Sert A et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42975729/",
+      "evidence": "Case report",
+      "evidenceStars": 2
+    },
+    {
+      "title": "Dupilumab and alopecia areata: direct effect, indirect effect, or endotype-specific response?",
+      "journal": "Expert review of clinical pharmacology",
+      "date": "2026 Nov 3",
+      "authors": "Tang A, Mo L, Ungar B",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42975024/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Innate lymphoid cells as central regulators of tissue homeostasis: implications for allergic diseases",
+      "journal": "Frontiers in allergy",
+      "date": "2026",
+      "authors": "Sirohi K, Yadav S",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42974098/",
+      "evidence": "Review",
+      "evidenceStars": 3
+    },
+    {
+      "title": "Five-year outcomes of the STOP-AD randomised controlled trial: Long-term effects of early emollient therapy in high-risk infants",
+      "journal": "Pediatric allergy and immunology : official publication of the European Society of Pediatric Allergy and Immunology",
+      "date": "2026 Nov",
+      "authors": "Cremin ML, Hurley S, O'Halloran C et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42973282/",
+      "evidence": "Randomized controlled trial",
+      "evidenceStars": 4
+    },
+    {
+      "title": "Dupilumab-Associated Vitiligo: Clinical Characteristics and Outcomes from a Systematic Review",
+      "journal": "The Australasian journal of dermatology",
+      "date": "2026 Nov 2",
+      "authors": "de Oliveira LML, da Silva ABN, Kreuz M et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42973098/",
+      "evidence": "Systematic review / meta-analysis",
+      "evidenceStars": 5
+    },
+    {
+      "title": "In atopic dermatitis, H1 antihistamines do not provide a clinically important reduction in itch or disease severity",
+      "journal": "Annals of internal medicine",
+      "date": "2026 Nov 3",
+      "authors": "Aung K, Htay T, ACP Journal Club Editorial Team at McMaster University",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42970795/",
+      "evidence": "Research article",
+      "evidenceStars": 3
+    },
     {
       "title": "Ursolic acid-loaded bioactive nanoagents alleviate DNCB-induced atopic dermatitis symptoms by facilitating autophagy and antioxidant defenses",
       "journal": "Biomaterials advances",
@@ -572,8 +644,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06058156",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Long-term Safety and Efficacy Study Evaluating APG777 in Atopic Dermatitis",
@@ -581,8 +653,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07003425",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of JNJ-95597528 in Participants With Moderate to Severe Atopic Dermatitis",
@@ -590,8 +662,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Dermatitis, Atopic",
       "url": "https://clinicaltrials.gov/study/NCT07230860",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Studies of Skin Microbes in Healthy People and in People With Skin Conditions",
@@ -599,8 +671,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Eczema, Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT00605878",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase III Study of Jaktinib in Adults With Moderate and Severe Atopic Dermatitis",
@@ -608,8 +680,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05526222",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Study to Assess the Long-term Safety of Dupilumab Administered in Participants ≥6 Months to <18 Years of Age With Atopic Dermatitis (AD)",
@@ -617,8 +689,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT02612454",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase III Extended Clinical Trial of Jaktinib Hydrochloride Tablets in the Treatment of Moderate and Severe Atopic Dermatitis",
@@ -626,8 +698,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05676242",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study for AR100DP1 in Mild to Moderate Atopic Dermatitis",
@@ -635,8 +707,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Dermatitis Atopic",
       "url": "https://clinicaltrials.gov/study/NCT07914088",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study Evaluating APG777 in Atopic Dermatitis",
@@ -644,8 +716,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06395948",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Metabolic Profiling of Immune Responses in Immune-mediated Diseases",
@@ -653,8 +725,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Primary Immunodeficiency, Psoriasis, Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT04864886",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Dupilumab De-escalation in Pediatric Atopic Dermatitis",
@@ -662,8 +734,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06116526",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Evaluating the Safety and Tolerability of Baricitinib in Patients With Job Syndrome With Lupus-Like Disease and/or Atopic Dermatitis",
@@ -671,8 +743,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-03",
       "conditions": "Hyper IgE Syndrome From STAT3 Mutation, Job s Syndrome, HIES",
       "url": "https://clinicaltrials.gov/study/NCT07262983",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Observational Analytical Validation Study of the Replior ScratchSense",
@@ -680,8 +752,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-02",
       "conditions": "Atopic Dermatitis, Other Pruritic Dermatological, Chronic Pruritus of Unknown Origin",
       "url": "https://clinicaltrials.gov/study/NCT07909967",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "This Study is a Non-interventional Disease Registry of Adolescent and Adult Patients With Atopic Dermatitis Who Initiate or Switch Any Systemic Treatment",
@@ -689,8 +761,8 @@ window.AD_RESEARCH = {
       "date": "2026-11-02",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07290803",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Cardamom and Topical Roseomonas in Atopic Dermatitis",
@@ -698,8 +770,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-30",
       "conditions": "Atopic Dermatitis, Eczema",
       "url": "https://clinicaltrials.gov/study/NCT06096857",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Comparative Clinical Trial Evaluating the Effect and Safety of Tacrolimus Versus Hydrocortisone",
@@ -707,8 +779,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-30",
       "conditions": "Dermatologic Disease",
       "url": "https://clinicaltrials.gov/study/NCT05607901",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of NOR-101 in Healthy Adults and Adults With Moderate-to-Severe Atopic Dermatitis",
@@ -716,8 +788,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-29",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07904689",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Investigate Dupixent/ Dupilumab in Adult Indian Participants With Moderate-to-severe Atopic Dermatitis",
@@ -725,8 +797,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-29",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07905547",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Natural History and Genetics of Food Allergy and Related Conditions",
@@ -734,8 +806,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-29",
       "conditions": "Food Allergy, Loeys-Dietz Syndrome, Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT02504853",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Effects of Treatments on Atopic Dermatitis",
@@ -743,8 +815,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-29",
       "conditions": "Eczema, Dermatitis, Skin Diseases, Genetic",
       "url": "https://clinicaltrials.gov/study/NCT01631617",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "DUPIlumab Dose REDUCtion in Patients With Controlled Atopic Eczema",
@@ -752,8 +824,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-29",
       "conditions": "Atopic Dermatitis, Atopic Dermatitis Eczema",
       "url": "https://clinicaltrials.gov/study/NCT06004986",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "ADBest TREAT Registry",
@@ -761,8 +833,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-29",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07904546",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study Evaluating TRIV-573 in Atopic Dermatitis",
@@ -770,8 +842,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-28",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07782333",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "PRA-216 Atopic Dermatitis Safety and Efficacy Study",
@@ -779,8 +851,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-28",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07810777",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Collection of Samples From Subjects With Various Skin Conditions and Healthy Volunteers",
@@ -788,8 +860,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-28",
       "conditions": "Acne, Atopic Dermatitis, Chronic Hand Eczema",
       "url": "https://clinicaltrials.gov/study/NCT05994976",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Phase 1a/1b Study of TRB-061 in Healthy Participants & Patients With Atopic Dermatitis",
@@ -797,8 +869,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-28",
       "conditions": "Moderate-to-severe Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06934252",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Evaluate Efficacy and Safety of IBI356 in Participants With Moderate to Severe Atopic Dermatitis",
@@ -806,8 +878,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-27",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07330934",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Allergy, Asthma, and Atopic Eczema in Finland",
@@ -815,8 +887,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-27",
       "conditions": "Asthma, Asthma in Children, Allergy",
       "url": "https://clinicaltrials.gov/study/NCT06330974",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Long Term Extension Study to Evaluate the Safety and Efficacy of Afimkibart (RO7790121) in Participants With Atopic Dermatitis",
@@ -824,8 +896,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-26",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07223697",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Assess the Long-Term Safety and Efficacy of Lebrikizumab (LY3650150) in Participants 6 Months to <18 Years of Age With Moderate-to-Severe Atopic Dermatitis",
@@ -833,8 +905,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-26",
       "conditions": "Atopic Dermatitis, Eczema",
       "url": "https://clinicaltrials.gov/study/NCT05735483",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Phase II Clinical Study to Evaluate the Efficacy and Safety of LT-002-158 Tablets in Adult Patients With Moderate-to-Severe Atopic Dermatitis",
@@ -842,8 +914,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-26",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07895615",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Ph 1a/1b Single Ascending Dose and Multiple Ascending Dose Study of ARQ-234",
@@ -851,8 +923,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-23",
       "conditions": "Atopic Dermatitis (AD), Eczema",
       "url": "https://clinicaltrials.gov/study/NCT07453602",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Digital Mindfulness Meditation in Adolescents With Atopic Dermatitis",
@@ -860,8 +932,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-23",
       "conditions": "Atopic Dermatitis, Eczema",
       "url": "https://clinicaltrials.gov/study/NCT07746427",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study To Learn About Two Study Medicines (PF-07275315 And PF-07264660) In People Who Have Moderate To Severe Atopic Dermatitis",
@@ -869,8 +941,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-23",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05995964",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Assess Bioavailability of Rocatinlimab (AMG 451) Vial and Prefilled Syringe in Healthy Participants",
@@ -878,8 +950,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-23",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06268860",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Extrinsic and Intrinsic Factors in Atopic Dermatitis Upon Systemic Immune Modulation",
@@ -887,8 +959,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-22",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05098821",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Microbiome in Atopic Dermatitis Under Systemic Therapy",
@@ -896,8 +968,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-22",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05099315",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Toxicity and Outcome of Whole Breast Hypofractionated Radiotherapy: a Single Institution Experience",
@@ -905,8 +977,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-22",
       "conditions": "Breast Cancer, Quality of Life, Radiotherapy; Adverse Effect, Dermatitis or Eczema",
       "url": "https://clinicaltrials.gov/study/NCT03077191",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Learn About the Study Medicine Called Tilrekimig in People With Moderate-to Severe Eczema",
@@ -914,8 +986,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-22",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07783425",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A 32-week Trial to Evaluate the Efficacy and Safety of Tralokinumab in Subjects With Moderate-to-severe Atopic Hand Eczema Who Are Candidates for Systemic Therapy",
@@ -923,8 +995,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-22",
       "conditions": "Atopic Dermatitis, Atopic Hand Eczema",
       "url": "https://clinicaltrials.gov/study/NCT05958407",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Learn About the Study Medicine Abrocitinib in People With Severe Atopic Dermatitis Who Have Switched From Other Therapies",
@@ -932,8 +1004,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-21",
       "conditions": "Dermatitis, Atopic",
       "url": "https://clinicaltrials.gov/study/NCT07887867",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase 3 Study of Rezpegaldesleukin (NKTR-358) for Patients ≥ 12 Years of Age With Moderate-to-Severe Atopic Dermatitis",
@@ -941,8 +1013,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-21",
       "conditions": "Moderate-to-Severe Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07690371",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Evaluation of a Non-Invasive Device for Early Detection of Atopic Dermatitis Flares",
@@ -950,8 +1022,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-20",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07645820",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Long-term Safety and Efficacy of Nemolizumab With Moderate-to-severe Atopic Dermatitis",
@@ -959,8 +1031,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-20",
       "conditions": "Moderate-to-Severe Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT03989206",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Educational Eczema Video Intervention",
@@ -968,8 +1040,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-19",
       "conditions": "Eczema",
       "url": "https://clinicaltrials.gov/study/NCT03664271",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Randomized, Double-blind, Placebo-controlled Study of Nemolizumab in Chinese Subjects With Moderate-to-severe Atopic Dermatitis",
@@ -977,8 +1049,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-16",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07762833",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Treatment of Atopic Dermatitis and Alopecia Areata With Abrocitinib in Individuals With Down Syndrome",
@@ -986,8 +1058,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-16",
       "conditions": "Atopic Dermatitis, Alopecia Areata",
       "url": "https://clinicaltrials.gov/study/NCT07242638",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Efficacy Evaluation and Cutaneous Acceptibility of a Dermocosmetic Product on Subjects Suffering of Atopic Dermatisis.",
@@ -995,8 +1067,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-16",
       "conditions": "Atopic Dermatitis, Eczema",
       "url": "https://clinicaltrials.gov/study/NCT06756438",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Assess Adverse Events and Change in Disease Activity Comparing Oral Upadacitinib to Subcutaneous Dupilumab in Children From 2 to Less Than 12 Years of Age With Moderate to Severe Atopic Dermatitis",
@@ -1004,8 +1076,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-16",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06461897",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Assess Real-World Use, Safety, and Effectiveness of Oral Upadacitinib in Adult and Adolescent (>=12 Years Old) Participants With Atopic Dermatitis",
@@ -1013,8 +1085,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-16",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05081557",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Natural History of Severe Allergic Inflammation and Reactions",
@@ -1022,8 +1094,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-16",
       "conditions": "PGM3 Deficiency, Eosinophilic and/or Atopic Dermatitis, OSMR Deficiency",
       "url": "https://clinicaltrials.gov/study/NCT01164241",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of Upadacitinib in Adult Participants With Moderate-to-Severe Atopic Dermatitis and Inadequate Response to Dupilumab",
@@ -1031,8 +1103,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-16",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06389136",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "To Evaluate the Safety and Efficacy of Hemay5394 in Patients With Mild to Moderate Atopic Dermatitis",
@@ -1040,8 +1112,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-16",
       "conditions": "Safety, Efficiency",
       "url": "https://clinicaltrials.gov/study/NCT07877155",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of Lebrikizumab (LY3650150) With/Without Topical Corticosteroid Treatment in Participants With Moderate-to-Severe Atopic Dermatitis",
@@ -1049,8 +1121,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-16",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06280716",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Biorepository of Multiple Allergic Diseases (MADREP) With Longitudinal Follow-Up",
@@ -1058,8 +1130,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-15",
       "conditions": "Allergy, Sinus Disorders, Atopic Diseases, Asthma, Allergic Rhinitis, Atopic Dermatitis, EoE, Drug a",
       "url": "https://clinicaltrials.gov/study/NCT06732414",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase 1 Clinical Study Comparing GS101 and Dupixent® After Subcutaneous Injection",
@@ -1067,8 +1139,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-15",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07411755",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to See How Well Lebrikizumab Works in Adults and Adolescents With Moderate Atopic Dermatitis (Eczema) and High Itch Burden",
@@ -1076,8 +1148,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-15",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07006792",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Evaluate the Efficacy, and Safety Study of Ruxolitinib Cream in Adults With Moderate Atopic Dermatitis",
@@ -1085,8 +1157,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-15",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06238817",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Learn About the Study Medicine Called Tilrekimig in People With Moderate-to-Severe Eczema",
@@ -1094,8 +1166,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-15",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07765888",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Evaluate the Equivalence of IBI3027 and Dupilumab Injection in Participants With Moderate to Severe Atopic Dermatitis",
@@ -1103,8 +1175,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-15",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07754786",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase III Study of GS101 Injection to Dupixent®",
@@ -1112,8 +1184,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-15",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07386743",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of Lebrikizumab in Adults and Adolescents With Face and Neck Atopic Dermatitis",
@@ -1121,8 +1193,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-14",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07873801",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Long-Term Safety and Efficacy Evaluation of Amlitelimab in Participants of Previous Amlitelimab Moderate to Severe Atopic Dermatitis Clinical Trials",
@@ -1130,8 +1202,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-13",
       "conditions": "Dermatitis Atopic",
       "url": "https://clinicaltrials.gov/study/NCT05492578",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "An Active Comparator Safety Study Evaluating the Combination of APG777 + APG990 in Moderate-to-Severe Atopic Dermatitis",
@@ -1139,8 +1211,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-13",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07027527",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Learn About Study Medicine Called PF-08049820 in People With Eczema",
@@ -1148,8 +1220,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-13",
       "conditions": "Atopic Dermatitis, Eczema, Atopic",
       "url": "https://clinicaltrials.gov/study/NCT07216027",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of LY3844583 in Healthy Participants and Participants With Atopic Dermatitis",
@@ -1157,8 +1229,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-13",
       "conditions": "Healthy, Dermatitis, Atopic",
       "url": "https://clinicaltrials.gov/study/NCT05486208",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Clinical-Instrumental Study To Evaluate And Compare The Efficacy And Tolerability Of Two Emollients Products In Atopic Dermatitis",
@@ -1166,8 +1238,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-13",
       "conditions": "Atopic Dermatitis, Eczema",
       "url": "https://clinicaltrials.gov/study/NCT06930365",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Evaluate the Efficacy and Safety of Subcutaneous Amlitelimab on Background Topical Corticosteroids Therapy in Participants Aged 12 Years and Older With Moderate-to-severe AD Who Have Had an Inadequate Response to Prior Biologic Therapy or an Oral JAK Inhibitor",
@@ -1175,8 +1247,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-13",
       "conditions": "Dermatitis Atopic",
       "url": "https://clinicaltrials.gov/study/NCT06241118",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Long-term Study of the Medicine Called Abrocitinib in Children Aged 2 Years and Older With Moderate to Severe Eczema",
@@ -1184,8 +1256,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-13",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06807281",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Evaluation of 611 in Chinese Children With Moderate to Severe Atopic Dermatitis(AD)",
@@ -1193,8 +1265,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-09",
       "conditions": "Dermatitis, Atopic",
       "url": "https://clinicaltrials.gov/study/NCT07767253",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Study of Patients Receiving DUPIXENT® for Atopic Dermatitis (AD)",
@@ -1202,8 +1274,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-09",
       "conditions": "Dermatitis, Atopic",
       "url": "https://clinicaltrials.gov/study/NCT03428646",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Efficacy and Safety of Cream Containing Fig Extract in Subacute and Chronic Eczematous Dermatitis Volunteers",
@@ -1211,8 +1283,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-09",
       "conditions": "Subacute and Chronic Eczematous Dermatitis Volunteers",
       "url": "https://clinicaltrials.gov/study/NCT07867249",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Dermocosmetic Evaluation of Propolis Ointments in Atopic-Prone Dry Skin",
@@ -1220,8 +1292,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-08",
       "conditions": "Dry Skin, Atopic Dermatitis, Xerosis Due to Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07618234",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "First-in-Human Trial to Assess REGN20423 in Healthy Adult Participants and Adult Participants With Atopic Dermatitis",
@@ -1229,8 +1301,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-07",
       "conditions": "Healthy Volunteer, Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07527923",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of KT-621 Administered Orally to Participants With Moderate to Severe Atopic Dermatitis",
@@ -1238,8 +1310,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-06",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07217015",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "The Impact of Botox on Neuroimmune Interactions in Atopic Dermatitis",
@@ -1247,8 +1319,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-06",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT06928246",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Investigate Safety and Efficacy of Tapinarof Cream, 1% in Participants Ages 3 Months to < 24 Months With Atopic Dermatitis",
@@ -1256,8 +1328,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-05",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07265479",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Phase 2b Study of EVO756 in Adults With Atopic Dermatitis",
@@ -1265,8 +1337,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-05",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07150845",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Evaluate the Safety, Tolerability of BAT6026",
@@ -1274,8 +1346,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-02",
       "conditions": "Dermatitis, Atopic",
       "url": "https://clinicaltrials.gov/study/NCT06094179",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Phase 1 Study of QX-4533 in Healthy Volunteers and Patients With Moderate-to-Severe Atopic Dermatitis",
@@ -1283,8 +1355,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-02",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07800104",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "AD Treatment Optimization With Ebglyss in Real-World Practice: A Multicenter Study of Patient-Centered Outcomes",
@@ -1292,8 +1364,8 @@ window.AD_RESEARCH = {
       "date": "2026-10-02",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07856134",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Retention of Vernix Caseosa in Newborns for Primary Prevention of Atopic Dermatitis",
@@ -1301,8 +1373,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-30",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07333378",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of JYP0066 Cream in Mild-to-Moderate Atopic Dermatitis",
@@ -1310,8 +1382,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-30",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07843290",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of BYN-001 in Healthy Adults and in Adults With Moderate to Severe Atopic Dermatitis",
@@ -1319,8 +1391,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-30",
       "conditions": "Atopic Dermatitis, Healthy Participants",
       "url": "https://clinicaltrials.gov/study/NCT07746817",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Abrocitinib Dose Tapering in Patients With Atopic Dermatitis",
@@ -1328,8 +1400,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-29",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07848074",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "ATI-045 Versus Placebo in Patients With Moderate-to-Severe Atopic Dermatitis",
@@ -1337,8 +1409,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-29",
       "conditions": "Atopic Dermatitis, Atopic, Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07011706",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of BBT001 in Healthy Volunteers (HVs) and in Adult Patients With Atopic Dermatitis (AD)",
@@ -1346,8 +1418,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-29",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06808477",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Evidencing Vibroacoustic Sensing for Inflammatory Skin Disease Monitoring",
@@ -1355,8 +1427,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-29",
       "conditions": "Eczema, Psoriasis",
       "url": "https://clinicaltrials.gov/study/NCT07846813",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Platform Study to Evaluate the Efficacy and Safety of Investigational Compound(s) in Patients With Moderate to Severe Atopic Dermatitis",
@@ -1364,8 +1436,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-28",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06947993",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "An Observational Retrospective Cohort Study Being Conducted in Women With Atopic Dermatitis (AD)",
@@ -1373,8 +1445,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-28",
       "conditions": "Adverse Pregnancy Outcomes, Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT03936335",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Use of a Digital Psychotherapeutic App to Reduce Symptom Burden in Dermatology Patients",
@@ -1382,8 +1454,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-28",
       "conditions": "Eczema, Psoriasis, Urticaria",
       "url": "https://clinicaltrials.gov/study/NCT06702293",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "French Prospective Observational Study in Patients Eligible for Systemic Therapy for Atopic Dermatitis (AD)",
@@ -1391,8 +1463,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-28",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06837454",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of the Medicine Called Abrocitinib in Children 6 to Less Than 12 Years of Age With Moderate-to-Severe Eczema",
@@ -1400,8 +1472,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-25",
       "conditions": "Eczema",
       "url": "https://clinicaltrials.gov/study/NCT06807268",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Study of ENV-294 in Adults With Moderate-to-Severe Atopic Dermatitis",
@@ -1409,8 +1481,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-25",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07298395",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Dose-ranging Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Galvokimig in Adult Study Participants With Atopic Dermatitis",
@@ -1418,8 +1490,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-25",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07277660",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Oral Melatonin as Adjunctive Therapy in Adults With Atopic Dermatitis",
@@ -1427,8 +1499,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-25",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07842900",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Dupilumab Step-down Strategy to Maintain Remission in Adult and Adolescents Patients With Atopic Dermatitis",
@@ -1436,8 +1508,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-24",
       "conditions": "Atopic Dermatitis, Eczema, Atopic",
       "url": "https://clinicaltrials.gov/study/NCT05642208",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "HYPNOsis in the Management of Atopic Dermatitis in Children and Teenagers",
@@ -1445,8 +1517,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-24",
       "conditions": "Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05611346",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "EFFICACY AND TOLERANCE OF AN EMOLLIENT CREAM IN SKIN OF COLOR",
@@ -1454,8 +1526,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-24",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07839897",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Real-world Effectiveness Study of Long-term Treatment With Dupilumab in Participants ≥6 Years With Atopic Dermatitis",
@@ -1463,8 +1535,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-24",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06039241",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Effectiveness of Psychodermatologic Educational Modules on Atopic Dermatitis Patient Outcomes",
@@ -1472,8 +1544,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-23",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07009483",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Efficacy and Safety of HA35 Gel for Ultra-Rapid Skin Pruritus Relief",
@@ -1481,8 +1553,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-22",
       "conditions": "Skin Pruritus, Itch, Eczema Itch",
       "url": "https://clinicaltrials.gov/study/NCT07580911",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Non-Interventional Pilot Study to Explore the Role of Gut Flora in Disease",
@@ -1490,8 +1562,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-21",
       "conditions": "Gut Microbiome, Gastrointestinal Microbiome, Autism",
       "url": "https://clinicaltrials.gov/study/NCT04031469",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Evaluation of 611 in Combination With Topical Corticosteroid in Participants With Moderate to Severe Atopic Dermatitis",
@@ -1499,8 +1571,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-17",
       "conditions": "Dermatitis, Atopic, Eczema, Atopic",
       "url": "https://clinicaltrials.gov/study/NCT06554847",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Abrocitinib Treatment of Atopic Dermatitis in Children 2 to Less Than 6 Years of Age",
@@ -1508,8 +1580,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-16",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07823595",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "The Role of Confocal Microscopy in Estimating Dupilumab Treatment Response for Moderate/Severe Atopic Dermatitis",
@@ -1517,8 +1589,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-16",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07098000",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Secondary Bacterial Infections and Nasal Colonization in Scabies and Atopic Dermatitis",
@@ -1526,8 +1598,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-15",
       "conditions": "Atopic Dermatitis (AD), Scabies, Impetigo",
       "url": "https://clinicaltrials.gov/study/NCT07813611",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Lebrikizumab in Moderate-to-severe Atopic Dermatitis",
@@ -1535,8 +1607,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-15",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06906497",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Evaluate the Safety, Tolerability and Pharmacokinetic Properties of IN-A002 Ointment in Healthy Adult Male Volunteers and Mild to Moderate Atopic Dermatitis Patients",
@@ -1544,8 +1616,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-14",
       "conditions": "Mild to Moderate Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05729074",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "EFFICACY AND TOLERANCE OF AN EYELID BALM IN COMBINATION WITH TACROLIMUS 0.1% IN PATIENTS WITH EYELID ATOPIC DERMATITIS",
@@ -1553,8 +1625,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-14",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07819071",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Safety, Tolerability and PK of ATTO-3712 in Healthy Volunteers and Patients With Atopic Dermatitis",
@@ -1562,8 +1634,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-11",
       "conditions": "Normal Volunteers, Atopic Dermatitis (AD), Atopic Eczema",
       "url": "https://clinicaltrials.gov/study/NCT07205081",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Phase 2a Study of Efficacy and Safety of OpSCF in Moderate to Severe AD (Atopic Dermatitis)",
@@ -1571,8 +1643,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-11",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06101823",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Safety, Tolerability and PK of ATTO-1310 in Healthy Volunteers and Patients With Atopic Dermatitis and Patients With Chronic Pruritus",
@@ -1580,8 +1652,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-11",
       "conditions": "Normal Volunteers, Atopic Dermatitis (AD), Atopic Eczema",
       "url": "https://clinicaltrials.gov/study/NCT06787586",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "The Impact of Dietary Salt on the Severity of Eczema",
@@ -1589,8 +1661,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-10",
       "conditions": "Eczema, Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07447063",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "An Observational Study of Patients With Dermatologic Disease",
@@ -1598,8 +1670,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-10",
       "conditions": "Vitiligo, Atopic Dermatitis, Alopecia Areata",
       "url": "https://clinicaltrials.gov/study/NCT07748169",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Evaluate the Efficacy and Safety of IN-115314 Ointment in Mild to Moderate Atopic Dermatitis Adult Patients",
@@ -1607,8 +1679,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-09",
       "conditions": "Mild to Moderate Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07073677",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Learn If the Study Medicine Called PF-08049820 Changes How the Body Processes the Other Study Medicines Called Oral Contraceptives, Midazolam, and Dabigatran in Healthy Adult Female Participants",
@@ -1616,8 +1688,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-09",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07190430",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "The Impact of Salt Intake on Sodium in the Skin and Inflammatory Skin Disease",
@@ -1625,8 +1697,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-09",
       "conditions": "Atopic Dermatitis (Eczema), Psoriasis",
       "url": "https://clinicaltrials.gov/study/NCT07487831",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Learn if a Medicine That Reduces Stomach Acid Affects the Blood Level of Study Medicine PF-08049820 in Healthy Chinese Adults.",
@@ -1634,8 +1706,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-09",
       "conditions": "Healthy Adults",
       "url": "https://clinicaltrials.gov/study/NCT07284173",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Double-blind, Randomized, Non-inferiority Trial in Atopic Dermatitis: Comparison of Lipikar Balm and Relipid+ Balm in the Treatment of Mild to Moderate Atopic Dermatitis in Children and Adults",
@@ -1643,8 +1715,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-09",
       "conditions": "Atopic Dermatitis, Emollients",
       "url": "https://clinicaltrials.gov/study/NCT07358000",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Learn How Different Amounts of the Study Medicine Called PF-08049820 Are Tolerated and Act in the Body in Healthy Adults",
@@ -1652,8 +1724,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-08",
       "conditions": "Healthy",
       "url": "https://clinicaltrials.gov/study/NCT06686797",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase 3 Study of Rezpegaldesleukin (NKTR-358) for Patients ≥ 12 Years of Age With Moderate-to-Severe Atopic Dermatitis",
@@ -1661,8 +1733,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-08",
       "conditions": "Moderate-to-Severe Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07711418",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Changes in Skin Myco- and Microbiome After Lebrikizumab Treatment",
@@ -1670,8 +1742,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-08",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07807228",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of SHR-1819 Injection in Adolescents With Severe Atopic Dermatitis",
@@ -1679,8 +1751,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-08",
       "conditions": "Adolescents With Moderate-to-severe Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07309055",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Skin-in-Sight: a Longitudinal Cohort Infrastructure for Standardized Remote Monitoring and the Evaluation of Digital Care Innovations in Chronic Skin Diseases",
@@ -1688,8 +1760,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-04",
       "conditions": "Psoriasis, Eczema/Atopic Dermatitis, Hidradenitis Suppurativa (HS)",
       "url": "https://clinicaltrials.gov/study/NCT07804134",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Opzelura Experience Study",
@@ -1697,8 +1769,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-04",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07661979",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Double-Blind, Randomized, Vehicle-Controlled Phase 2 Study to Assess the Efficacy and Safety of GX-03 in Adult Subjects With Moderate to Severe Atopic Dermatitis (Eczema)",
@@ -1706,8 +1778,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-04",
       "conditions": "Eczema Atopic Dermatitis, Eczema, Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07355075",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Evaluation by Confocal Reflectance Microscopy of the Skin Structure of Patients With Atopic Dermatitis Treated With Tralokinumab Biotherapy.",
@@ -1715,8 +1787,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-03",
       "conditions": "Atopic Dermatitis (AD), Atopic Dermatitis (Eczema)",
       "url": "https://clinicaltrials.gov/study/NCT07568665",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase I Study of HXN5003 in Healthy Participants and Patients With Moderate-to-Severe Atopic Dermatitis",
@@ -1724,8 +1796,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-03",
       "conditions": "Health Adult Subjects, Moderate-to-Severe Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07801612",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Efficacy and Safety Study of SHR-1819 Injection in Adult Patients With Severe Atopic Dermatitis",
@@ -1733,8 +1805,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-03",
       "conditions": "Moderate to Severe Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06468956",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Probiotic Lactobacillus Rhamnosus GG for Pediatric Atopic Dermatitis",
@@ -1742,8 +1814,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-02",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT03863418",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "The Potential Role of Compounds Derived From Ultra-processed Foods in the Pathogenesis of Atopic Dermatitis in Pediatric Age",
@@ -1751,8 +1823,8 @@ window.AD_RESEARCH = {
       "date": "2026-09-01",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06996327",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Determine the Dose-dependent Efficacy and Safety of EC-18 in Patients With Moderate to Severe Atopic Dermatitis",
@@ -1760,8 +1832,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-28",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06487000",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Determinants of Chronic Inflammatory Skin Disease Trajectories",
@@ -1769,8 +1841,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-28",
       "conditions": "Atopic Dermatitis, Psoriasis, Lichen Planus",
       "url": "https://clinicaltrials.gov/study/NCT05928169",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase 2b Study of the Effects of Camoteskimab in Adults With Moderate-to-Severe Atopic Dermatitis",
@@ -1778,8 +1850,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-28",
       "conditions": "Atopic Dermatitis, Atopic, Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07599813",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Replication of the Heads Up Atopic Dermatitis Trial With Registry Data",
@@ -1787,8 +1859,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-28",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06937788",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Evaluate Rocatinlimab (AMG 451) in Adolescent Participants With Moderate-to-severe Atopic Dermatitis (AD)",
@@ -1796,8 +1868,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-28",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05704738",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Evaluation of the Efficacy and Safety of Oral LW402 Tablets for the Treatment of Patients With Moderate-to-Severe Atopic Dermatitis",
@@ -1805,8 +1877,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-27",
       "conditions": "Moderate to Severe Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07370909",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Explore the Safety, Tolerability, Efficacy, and Pharmacokinetics of LT-002-158 Tablets in Chinese Adult Subjects With Atopic Dermatitis",
@@ -1814,8 +1886,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-27",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT06931990",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Goat Infant Formula Feeding and Eczema (the GIraFFE Study)",
@@ -1823,8 +1895,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-27",
       "conditions": "Dermatitis, Atopic, Eczema, Infantile, Infant Development",
       "url": "https://clinicaltrials.gov/study/NCT04599946",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Single and Multiple Ascending Dose Trial of LT-002-158 Tablets in Healthy Adult Volunteers",
@@ -1832,8 +1904,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-27",
       "conditions": "Healthy Volunteer, Hidradenitis Suppurativa, Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06082323",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Evaluate the Efficacy, Safety, and Pharmacokinetic Profiles of TLL-018 in Patients With Moderate-to-Severe Atopic Dermatitis",
@@ -1841,8 +1913,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-25",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07784816",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Study of HXN6005 in Healthy Participants and Patients With Moderate-to-Severe Atopic Dermatitis",
@@ -1850,8 +1922,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-24",
       "conditions": "Health Adult Subjects, Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07782476",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study on the Bioavailability of SHR-1819 Injection Administered Subcutaneously Using Different Injection Devices in Healthy Subjects",
@@ -1859,8 +1931,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-24",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07264335",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Efficacy and Safety of Delgocitinib Cream in Adolescents 12-17 Years of Age With Moderate to Severe Chronic Hand Eczema",
@@ -1868,8 +1940,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-21",
       "conditions": "Chronic Hand Eczema",
       "url": "https://clinicaltrials.gov/study/NCT05355818",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase 2b Study to Evaluate Rezpegaldesleukin (Rezpeg) in the Treatment of Adult Patients With Moderate-to-Severe Atopic Dermatitis",
@@ -1877,8 +1949,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-21",
       "conditions": "Moderate to Severe Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06136741",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A STUDY TO EVALUATE THE SAFETY, TOLERABILITY, PHARMACOKINETICS, AND PHARMACODYNAMICS OF MULTIPLE SUBCUTANEOUS INJECTIONS OF SHR-1819 IN PATIENTS WITH MODERATE TO SEVERE ATOPIC DERMATITIS",
@@ -1886,8 +1958,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-21",
       "conditions": "Moderate to Severe Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05197023",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of CM310 in Subjects With Moderate-to-Severe Atopic Dermatitis",
@@ -1895,8 +1967,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-20",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06116565",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Expanded Access to Upadacitinib",
@@ -1904,8 +1976,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-20",
       "conditions": "Crohn Disease, Ulcerative Colitis, Idiopathic Arthritis (Including sJIA, pJIA, or JPsA)",
       "url": "https://clinicaltrials.gov/study/NCT04159597",
-      "evidence": "Clinical trial",
-      "evidenceStars": 4
+      "evidence": "Registered study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Investigate the Efficacy and Safety of Lebrikizumab in Participants With Moderate-to-Severe Atopic Hand and Foot Dermatitis",
@@ -1913,8 +1985,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-20",
       "conditions": "Atopic Hand and Foot Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06921759",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A First-in-human Study to Investigate Single Doses of DCY636 in Healthy Volunteers and Multiple Doses in Participants With Moderate to Severe Atopic Dermatitis",
@@ -1922,8 +1994,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-19",
       "conditions": "Dermatitis, Atopic",
       "url": "https://clinicaltrials.gov/study/NCT07604324",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Assess the Efficacy and Safety of Ruxolitinib Cream in Children and Adolescents (6 to <18 Years Old) With Moderate Atopic Dermatitis",
@@ -1931,8 +2003,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-19",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06832618",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Multi-Omic SignAtures of Inflammatory Cutaneous Diseases",
@@ -1940,8 +2012,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-18",
       "conditions": "Inflammatory Skin Conditions",
       "url": "https://clinicaltrials.gov/study/NCT07771673",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Abrocitinib Taiwan Treatment Pattern and Real World Study in ATopiC Dermatitis (ATTRACT Registry)",
@@ -1949,8 +2021,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-18",
       "conditions": "Dermatitis, Atopic, Dermatitis, Eczema",
       "url": "https://clinicaltrials.gov/study/NCT06353087",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of Lebrikizumab in Adults With Nummular Eczema",
@@ -1958,8 +2030,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-17",
       "conditions": "Nummular Eczema",
       "url": "https://clinicaltrials.gov/study/NCT07542483",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Real World Efficiency of Abrocitinib Treatment at Patients With Moderate to Severe Atopic Dermatitis Who Had Inadequate Response to Previous Biologic Therapies.",
@@ -1967,8 +2039,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-17",
       "conditions": "Atopic Dermatitis, Atopic Dermatitis, Unspecified, Dermatitis, Atopic",
       "url": "https://clinicaltrials.gov/study/NCT06899204",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Evaluate the Effectiveness and Safety of Treatments, Either Alone or in Combination, for the Treatment of Moderate to Severe Atopic Dermatitis",
@@ -1976,8 +2048,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-14",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06718101",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Pharmacokinetics, Safety and Efficacy of Nemolizumab in Participants Aged 6 to 23 Months With Moderate-to Severe Atopic Dermatitis",
@@ -1985,8 +2057,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-14",
       "conditions": "Moderate-to-Severe Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07660835",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "An Observational Study to Assess Real-World Use of Upadacitinib Tablets in Adolescent and Adult Participants With Moderate to Severe Atopic Dermatitis in China",
@@ -1994,8 +2066,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-14",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06421740",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Assess Disease Activity in Adolescent and Adult Participants With Atopic Dermatitis Who Receive Oral Upadacitinib Tablets in a Real-World Setting",
@@ -2003,8 +2075,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-14",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05139836",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Evaluate the Efficacy and Safety of Subcutaneous Amlitelimab Monotherapy Compared With Placebo in Participants Aged 12 Years and Older With Moderate-to-severe Atopic Dermatitis (COAST 2)",
@@ -2012,8 +2084,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-13",
       "conditions": "Dermatitis Atopic",
       "url": "https://clinicaltrials.gov/study/NCT06181435",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Evaluate the Efficacy and Safety of Subcutaneous Amlitelimab in Participants Aged 12 Years and Older With Moderate-to-severe Atopic Dermatitis on Background Topical Corticosteroids",
@@ -2021,8 +2093,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-13",
       "conditions": "Dermatitis Atopic",
       "url": "https://clinicaltrials.gov/study/NCT06224348",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Observe How Pediatric Patients With Severe Atopic Dermatitis Despite Less Extensive Skin Lesions Respond to Dupilumab Treatment",
@@ -2030,8 +2102,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-13",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06192563",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Obtaining Descriptive Classifications of Pruritus and Assessing Change in Pruritus Over Time in Atopic Dermatitis Patients Using Topical Roflumilast Cream.",
@@ -2039,8 +2111,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-13",
       "conditions": "ITCH, Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07560618",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Evaluate the Efficacy and Safety of IMG-007 in Adult Participants With Moderate-to-Severe Atopic Dermatitis",
@@ -2048,8 +2120,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-12",
       "conditions": "Atopic Dermatitis, Atopic Dermatitis Eczema, Eczema",
       "url": "https://clinicaltrials.gov/study/NCT07037901",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of Barzolvolimab in Patients With Atopic Dermatitis",
@@ -2057,8 +2129,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-11",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06727552",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Assess the Efficacy and Safety of Afimkibart (RO7790121) in Participants With Moderate to Severe Atopic Dermatitis",
@@ -2066,8 +2138,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-10",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06863961",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Clinical Study to Assess the Safety and Effectiveness of Test Products in Mild to Moderate Atopic Dermatitis (AD) Patients.",
@@ -2075,8 +2147,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-10",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06687512",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Use of Bifidobacterium Bifidum in Formula-Fed Infants With Colic, With or Without Atopic Dermatitis",
@@ -2084,8 +2156,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-10",
       "conditions": "Infant Colic, Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07754968",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Investigate Vaccine Responses in Subcutaneous Amlitelimab Treated Atopic Dermatitis Participants Aged 18 Years and Older Compared With Placebo",
@@ -2093,8 +2165,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-10",
       "conditions": "Dermatitis Atopic",
       "url": "https://clinicaltrials.gov/study/NCT06015308",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase 1/1b Study to Evaluate Safety, Tolerability and Pharmacokinetics of ZL-1503 in Healthy Volunteers and Participants With Moderate to Severe Atopic Dermatitis",
@@ -2102,8 +2174,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-07",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07235384",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase 2b Dose-Ranging Study to Evaluate the Efficacy and Safety of ENV-294 in Adults With Moderate-to-Severe Atopic Dermatitis",
@@ -2111,8 +2183,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-06",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07643766",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Treatment of Chronic Hand Eczema With Oral Roflumilast (HERO)",
@@ -2120,8 +2192,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-06",
       "conditions": "Chronic Hand Eczema",
       "url": "https://clinicaltrials.gov/study/NCT05682859",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study Assessing Rocatinlimab in Combination With Topical Corticosteroid and/or Topical Calcineurin Inhibitors in Adult Participants With Moderate-to-severe Atopic Dermatitis (AD)",
@@ -2129,8 +2201,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-06",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05724199",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Observational Study of Patients Receiving Dupixent® for Atopic Dermatitis (AD)",
@@ -2138,8 +2210,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-06",
       "conditions": "Dermatitis Atopic",
       "url": "https://clinicaltrials.gov/study/NCT03992417",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Exploratory Clinical Investigation on Neurosensory Responses Via EEG Headband in Adults With Mild to Moderate Atopic Dermatitis After Application of Marketed Product Compared With Placebo (Water Application).",
@@ -2147,8 +2219,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-05",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07333300",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Cutaneous Biomarkers in Atopic Eczema Using a Non-Invasive Micro-Suction Device in Babies",
@@ -2156,8 +2228,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-05",
       "conditions": "Eczema, Atopic Dermatitis, Atopic Eczema",
       "url": "https://clinicaltrials.gov/study/NCT07228962",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of Baricitinib (LY3009104) in Children and Adolescents With Atopic Dermatitis",
@@ -2165,8 +2237,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-05",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT03952559",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Aquacel Hypersensitivity Dressing in TJAs",
@@ -2174,8 +2246,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-04",
       "conditions": "Contact Allergic Dermatitis, Adverse Skin Reaction",
       "url": "https://clinicaltrials.gov/study/NCT06011629",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Clinical Trial to Evaluate the Efficacy and Safety of an Ozonated Oil in Atopic Dermatitis",
@@ -2183,8 +2255,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-04",
       "conditions": "Atopic Dermatitis (AD), Atopic Dermatitis (Eczema)",
       "url": "https://clinicaltrials.gov/study/NCT07744516",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Efficacy of Topical Cannabidiol for Eczema",
@@ -2192,8 +2264,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-04",
       "conditions": "Chronic Pruritus, Eczema, Nummular Eczema",
       "url": "https://clinicaltrials.gov/study/NCT06994520",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Topical Treatment for Atopic Dermatitis",
@@ -2201,8 +2273,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-04",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06244212",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Effectiveness of Upadacitinib and Biologics for the Achievement of Minimal Disease Activity in Adults With Moderate-to-Severe Atopic Dermatitis (RAMpUp)",
@@ -2210,8 +2282,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-03",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07741838",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Efficacy Study of a Repairing Cream in Atopic Dermatitis",
@@ -2219,8 +2291,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-03",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07742241",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of MG-K10 Humanized Monoclonal Antibody Injection in Subjects With Atopic Dermatitis",
@@ -2228,8 +2300,8 @@ window.AD_RESEARCH = {
       "date": "2026-08-03",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07103174",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Clinical Evaluation of a Soothing Moisturizing Lotion in Individuals With Atopic Eczema",
@@ -2237,8 +2309,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-31",
       "conditions": "Eczema",
       "url": "https://clinicaltrials.gov/study/NCT07463079",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of JNJ-95475939 in the Treatment of Participants With Moderate to Severe Atopic Dermatitis (AD)",
@@ -2246,8 +2318,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-31",
       "conditions": "Dermatitis, Atopic",
       "url": "https://clinicaltrials.gov/study/NCT06881251",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Evaluate the Efficacy of Using Modified Qing-Ying Decoction in Atopic Dermatitis Children",
@@ -2255,8 +2327,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-30",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT04419584",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of Lebrikizumab (LY3650150) in Participants 6 Months to <18 Years of Age With Moderate-to-Severe Atopic Dermatitis",
@@ -2264,8 +2336,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-30",
       "conditions": "Atopic Dermatitis, Eczema",
       "url": "https://clinicaltrials.gov/study/NCT05559359",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study Evaluating BFB759 in Moderate to Severe Atopic Dermatitis",
@@ -2273,8 +2345,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-30",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07105488",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Effect of Partially Hydrolyzed Formula With Synbiotics on Skin Barrier Function",
@@ -2282,8 +2354,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-30",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT06943469",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Long-term Safety and Efficacy Evaluation of IMG-007 in Participants With Moderate-to-Severe Atopic Dermatitis",
@@ -2291,8 +2363,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-29",
       "conditions": "Atopic Dermatitis, Atopic Dermatitis Eczema, Eczema",
       "url": "https://clinicaltrials.gov/study/NCT07734415",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Reflectance Confocal Microscopy Evaluation of Skin Structure of Patients With Atopic Dermatitis Under Nemolizumab",
@@ -2300,8 +2372,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-28",
       "conditions": "Atopic Dermatitis (AD), Atopic Dermatitis (Eczema)",
       "url": "https://clinicaltrials.gov/study/NCT07730788",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "The Impact of Dupilumab Treatment on Anxiety and Depression Symptoms in Patients With Moderate-to-Severe Atopic Dermatitis",
@@ -2309,8 +2381,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-28",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07467564",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Modified Huang-Lian-Jie-Du Decoction (MHLJDD) for Atopic Dermatitis in Children",
@@ -2318,8 +2390,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-27",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05613062",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Phase III Clinical Study of VC005 Tablets in Adult Patients With Moderate to Severe Atopic Dermatitis",
@@ -2327,8 +2399,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-27",
       "conditions": "Moderate to Severe Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06723080",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Assess the Safety, Tolerability, and Efficacy of Rocatinlimab in Adolescent Participants With Moderate-to-severe Atopic Dermatitis (AD)",
@@ -2336,8 +2408,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-24",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05633355",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study Assessing Rocatinlimab on Vaccine Antibody Response in Moderate-to-severe Atopic Dermatitis (AD) (ROCKET - VOYAGER)",
@@ -2345,8 +2417,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-23",
       "conditions": "Atopic Dermatitis, Moderate-to-severe Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05899816",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study Evaluating Rocatinlimab in Moderate-to-severe Atopic Dermatitis (ROCKET-IGNITE)",
@@ -2354,8 +2426,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-23",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05398445",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Evaluate the Efficacy and Safety of Subcutaneous Amlitelimab Monotherapy Compared With Placebo in Participants Aged 12 Years and Older With Moderate-to-severe Atopic Dermatitis",
@@ -2363,8 +2435,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-22",
       "conditions": "Dermatitis Atopic",
       "url": "https://clinicaltrials.gov/study/NCT06130566",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Single-ascending Dose (Part A) and Repeat-dose (Part B) Study to Investigate the Safety, Pharmacokinetics and Efficacy (Part B Only) of UCB1381 in Healthy Study Participants (Part A) and in Study Participants With Moderate to Severe Atopic Dermatitis (Part B)",
@@ -2372,8 +2444,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-22",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05277571",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase 1 Study of Cizutamig in IgE Mediated Diseases",
@@ -2381,8 +2453,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-22",
       "conditions": "IgE-Mediated Hypersensitivity, IgE Mediated Food Allergy, IgE-Mediated Cow Milk Allergy",
       "url": "https://clinicaltrials.gov/study/NCT07408869",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study of BBT001 in Healthy Volunteers (HVs) and in Adult Patients With Moderate to Severe Atopic Dermatitis (AD)",
@@ -2390,8 +2462,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-22",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07239947",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "FIH Study to Evaluate the Tolerability of PF-07832837 in Healthy Adults and Patients",
@@ -2399,8 +2471,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-22",
       "conditions": "Healthy Participants, Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06564389",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "BROadband vs Narrowband photoTherapy for Eczema Trial Nested in the CACTI Cohort",
@@ -2408,8 +2480,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-21",
       "conditions": "Atopic Dermatitis, Skin Diseases, Eczema",
       "url": "https://clinicaltrials.gov/study/NCT04818138",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Azithromycin in Atopic Dermatitis",
@@ -2417,8 +2489,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-20",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07713186",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Effectiveness and Safety of Lebrikizumab Treatment in Adults and Adolescents With Moderate-to-Severe Atopic Dermatitis",
@@ -2426,8 +2498,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-17",
       "conditions": "Atopic Dermatitis, Eczema",
       "url": "https://clinicaltrials.gov/study/NCT05990725",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Phase IIa Study of Pharmacokinetics, Safety and Efficacy of QY201 Tablets in Adolescent Subjects With Moderate to Severe Atopic Dermatitis",
@@ -2435,8 +2507,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-17",
       "conditions": "Adolescent Participants With Moderate to Severe Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07712536",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Assess Long-term Safety, Tolerability, and Efficacy of Rocatinlimab in Adult and Adolescent Participants With Moderate-to-severe Atopic Dermatitis (AD)",
@@ -2444,8 +2516,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-16",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05882877",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Efficacy and Tolerability of a Probiotic Ointment",
@@ -2453,8 +2525,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-15",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07701447",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Sodium in the Skin and Atopic Dermatitis",
@@ -2462,8 +2534,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-14",
       "conditions": "Eczema, Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT06998446",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "NPQ Plus Supplementation for Skin Health and Antioxidant Status",
@@ -2471,8 +2543,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-14",
       "conditions": "Eczema, Atopic Dermatitis, Skin Health",
       "url": "https://clinicaltrials.gov/study/NCT07703215",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Clinical Trial to Evaluate the Effects of Rejuvaskin Eczema Body Wash and Skin Recovery Cream in Adults With Eczema-Prone Skin",
@@ -2480,8 +2552,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-14",
       "conditions": "Eczema, Atopic Dermatitis, Eczema-Prone Skin",
       "url": "https://clinicaltrials.gov/study/NCT07700745",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Skin Microbial Ecology in Atopic Dermatitis",
@@ -2489,8 +2561,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-14",
       "conditions": "Atopic Dermatitis, Psoriasis, Healthy",
       "url": "https://clinicaltrials.gov/study/NCT04170244",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Clinical Study of HRS-8797 in Healthy Participants",
@@ -2498,8 +2570,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-13",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT07698756",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Proof of Concept Study of Rilzabrutinib in Adult Patients With Moderate-to-severe Atopic Dermatitis",
@@ -2507,8 +2579,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-13",
       "conditions": "Atopic Dermatitis",
       "url": "https://clinicaltrials.gov/study/NCT05018806",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Phase I Study of SSGJ-716 in Healthy Adults and Participants With Moderate-to-Severe Atopic Dermatitis",
@@ -2516,8 +2588,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-10",
       "conditions": "AD",
       "url": "https://clinicaltrials.gov/study/NCT07693738",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Evaluate the Treatment Response and Safety of Two Dose Regimens of Subcutaneous Amlitelimab Compared With Treatment Withdrawal in Participants Aged 12 Years and Older With Moderate-to-severe Atopic Dermatitis",
@@ -2525,8 +2597,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-10",
       "conditions": "Dermatitis Atopic",
       "url": "https://clinicaltrials.gov/study/NCT06407934",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "Topical Chinese Medicine and Exosome Mechanisms for Atopic Dermatitis",
@@ -2534,8 +2606,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-09",
       "conditions": "Atopic Dermatitis (AD)",
       "url": "https://clinicaltrials.gov/study/NCT07693400",
-      "evidence": "Interventional trial",
-      "evidenceStars": 4
+      "evidence": "Registered interventional study (no results yet)",
+      "evidenceStars": 0
     },
     {
       "title": "A Study to Learn About Abrocitinib in Adult Patients With Moderate to Severe Atopic Dermatitis.",
@@ -2543,8 +2615,8 @@ window.AD_RESEARCH = {
       "date": "2026-07-07",
       "conditions": "Atopic Dermatitis, Eczema",
       "url": "https://clinicaltrials.gov/study/NCT05689151",
-      "evidence": "Observational study",
-      "evidenceStars": 3
+      "evidence": "Registered observational study (no results yet)",
+      "evidenceStars": 0
     }
   ]
 };
