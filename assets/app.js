@@ -45,7 +45,7 @@
     hero_p:       { en: "This isn't an encyclopedia. You don't need to figure out all of dermatology first — just pick the situation closest to where you are, and we'll gather the care advice, common questions, public-guideline sources, and real community support into one clear path, then walk you toward what to look at next.", zh: "這裡不是厚厚的百科。你不需要先讀懂整本皮膚科——只要選一個最貼近你現在處境的狀況，我們會把照護建議、常見的疑問、公開指南出處和真實病友社群，整理成一條清楚好走的路，再陪你看看下一步可以往哪裡走。" },
     finder_label: { en: "🔎 What are you dealing with right now?", zh: "🔎 你現在遇到什麼狀況？" },
     finder_ph:    { en: "e.g. really itchy, can't sleep, biologics, pregnant, travel, my child…", zh: "例如：一直很癢、睡不好、生物製劑、懷孕、旅行、小孩…" },
-    disclaimer:   { en: "General education summarized from public guidelines & patient organizations — <b>not individual medical advice</b>. Discuss medication, dosage, and stopping treatment with your own doctor.", zh: "本站為公開指南與病友組織的一般衛教整理 — <b>非個別醫療建議</b>。用藥、劑量與停藥請與您的主治醫師討論。" },
+    disclaimer:   { en: "General education summarized from public guidelines & patient organizations — <b>not individual medical advice</b>. Discuss medication, dosage, and stopping treatment with your own doctor. Compiled by the author from public guidelines; not reviewed by a health professional.", zh: "本站為公開指南與病友組織的一般衛教整理 — <b>非個別醫療建議</b>。用藥、劑量與停藥請與您的主治醫師討論。本站內容由作者依公開指南整理，未經醫療專業人員審閱。" },
     scen_eyebrow: { en: "Situations", zh: "情境導航" },
     scen_h2:      { en: "Pick what's closest to where you are", zh: "選一個最像你現在的處境" },
     scen_p:       { en: "Click a card to open the full path. Can't find yours? Type a few keywords above.", zh: "點一張卡片就會展開完整路徑。找不到？在上面打幾個關鍵字。" },
@@ -91,7 +91,7 @@
     p_flags_lbl:  { en: "Red flags", zh: "紅旗警訊" },
     p_guide:      { en: "Guideline basis & sources", zh: "指南依據與出處" },
     p_next:       { en: "Where to go next", zh: "接下來你可能想看" },
-    p_foot:       { en: "⚕️ General education, not individual medical advice. Discuss any changes to medication with your own doctor.", zh: "⚕️ 一般衛教，非個別醫療建議。任何用藥調整請與您的主治醫師討論。" },
+    p_foot:       { en: "⚕️ General education, not individual medical advice. Discuss any changes to medication with your own doctor. Compiled by the author from public guidelines; not reviewed by a health professional.", zh: "⚕️ 一般衛教，非個別醫療建議。任何用藥調整請與您的主治醫師討論。本站內容由作者依公開指南整理，未經醫療專業人員審閱。" },
     p_see:        { en: "See this path", zh: "看這條路徑" },
     // research cards
     r_papers:     { en: "📄 Latest papers", zh: "📄 最新論文" },
