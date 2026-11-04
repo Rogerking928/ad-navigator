@@ -22,8 +22,8 @@ authors:
     email: rogerwang890928@gmail.com
     orcid: "https://orcid.org/0000-0003-0307-8447"
     affiliation: "Graduate Institute of Medical Sciences, College of Medicine, Taipei Medical University, Taipei, Taiwan"
-version: "1.0.0"
-date-released: "2026-07-11"
+version: "1.1.0"
+date-released: "2026-11-04"
 url: "https://rogerking928.github.io/ad-navigator/"
 repository-code: "https://github.com/Rogerking928/ad-navigator"
 license: CC-BY-4.0
