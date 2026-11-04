@@ -183,10 +183,11 @@
   }
 
   function communityHTML() {
-    return '<div class="community-card"><b>' + t(STR.c_label) + "</b><p>" + t(STR.c_intro) + "</p>" +
+    // the section heading above already says "Real communities & support", so the card does not repeat it
+    return '<div class="community-card"><p>' + t(STR.c_intro) + "</p>" +
       '<div class="community-links">' + COMMUNITY_LINKS.map(function (l) {
         return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(t(l.name)) + " ↗</a>";
-      }).join("") + "</div></div>";
+      }).join(" · ") + "</div></div>";
   }
 
   function openPath(id) {
